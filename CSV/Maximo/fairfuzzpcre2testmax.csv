@@ -1,0 +1,16 @@
+Code;Repetition;Time;Bugs
+pcre2test;1;80384;10
+pcre2test;2;49032;3
+pcre2test;3;73352;11
+pcre2test;4;63143;5
+pcre2test;5;41127;3
+pcre2test;6;37916;9
+pcre2test;7;85839;8
+pcre2test;8;59166;3
+pcre2test;9;72488;13
+pcre2test;10;81352;52
+pcre2test;11;79180;13
+pcre2test;12;0;0
+pcre2test;13;67740;3
+pcre2test;14;61310;7
+pcre2test;15;75707;16
