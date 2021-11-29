@@ -1,0 +1,27 @@
+start_time        : 1622278971
+last_update       : 1622365273
+fuzzer_pid        : 3565
+cycles_done       : 0
+execs_done        : 429511
+execs_per_sec     : 3.05
+paths_total       : 2216
+paths_favored     : 10
+paths_found       : 2206
+paths_imported    : 0
+max_depth         : 2
+cur_path          : 0
+pending_favs      : 10
+pending_total     : 2216
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 13.23%
+unique_crashes    : 22
+unique_hangs      : 0
+last_path         : 1622364713
+last_crash        : 1622349954
+last_hang         : 0
+execs_since_crash : 42075
+exec_timeout      : 5000
+afl_banner        : pdftotext
+afl_version       : 2.51b
+command_line      : ./afl-fuzz -t 5000+ -i inputseed/2 -o output ./code/xpdf/pdftotext @@
