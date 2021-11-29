@@ -1,0 +1,27 @@
+start_time        : 1622191948
+last_update       : 1622278051
+fuzzer_pid        : 7311
+cycles_done       : 0
+execs_done        : 1263855
+execs_per_sec     : 32.06
+paths_total       : 831
+paths_favored     : 189
+paths_found       : 764
+paths_imported    : 0
+max_depth         : 2
+cur_path          : 9
+pending_favs      : 189
+pending_total     : 828
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 11.18%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1622275164
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 1263855
+exec_timeout      : 5000
+afl_banner        : xmllint
+afl_version       : 2.51b
+command_line      : ./afl-fuzz -t 5000+ -i inputseed/1 -o output ./code/xmllint @@
