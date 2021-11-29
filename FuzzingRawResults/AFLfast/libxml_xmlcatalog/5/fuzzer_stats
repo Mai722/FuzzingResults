@@ -1,0 +1,27 @@
+start_time        : 1622196458
+last_update       : 1622282761
+fuzzer_pid        : 6803
+cycles_done       : 4
+execs_done        : 5663740
+execs_per_sec     : 66.24
+paths_total       : 364
+paths_favored     : 39
+paths_found       : 323
+paths_imported    : 0
+max_depth         : 12
+cur_path          : 360
+pending_favs      : 2
+pending_total     : 186
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 0.72%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1622282179
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 5663740
+exec_timeout      : 5000
+afl_banner        : xmlcatalog
+afl_version       : 2.51b
+command_line      : ./afl-fuzz -t 5000+ -i inputseed/5 -o output ./code/xmlcatalog @@
