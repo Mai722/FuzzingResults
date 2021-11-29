@@ -1,0 +1,27 @@
+start_time        : 1621958262
+last_update       : 1622044656
+fuzzer_pid        : 24
+cycles_done       : 0
+execs_done        : 4487680
+execs_per_sec     : 70.74
+paths_total       : 1040
+paths_favored     : 171
+paths_found       : 995
+paths_imported    : 0
+max_depth         : 4
+cur_path          : 816
+pending_favs      : 60
+pending_total     : 840
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 4.11%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1622044451
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 4487680
+exec_timeout      : 80
+afl_banner        : jpegtran
+afl_version       : 2.51b
+command_line      : ./afl-fuzz -i inputseed/4 -o output ./code/jpegtran @@
