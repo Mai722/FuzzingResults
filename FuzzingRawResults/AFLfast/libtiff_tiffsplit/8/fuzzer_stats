@@ -1,0 +1,27 @@
+start_time        : 1622184797
+last_update       : 1622271105
+fuzzer_pid        : 9671
+cycles_done       : 0
+execs_done        : 1977750
+execs_per_sec     : 16.68
+paths_total       : 883
+paths_favored     : 390
+paths_found       : 834
+paths_imported    : 0
+max_depth         : 2
+cur_path          : 31
+pending_favs      : 389
+pending_total     : 863
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 7.71%
+unique_crashes    : 91
+unique_hangs      : 0
+last_path         : 1622271075
+last_crash        : 1622269258
+last_hang         : 0
+execs_since_crash : 30242
+exec_timeout      : 100
+afl_banner        : tiffsplit
+afl_version       : 2.51b
+command_line      : ./afl-fuzz -i inputseed/8 -o output ./code/tools/tiffsplit @@
