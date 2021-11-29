@@ -1,0 +1,17 @@
+alg,SUT,rep,# unix_time, cycles_done, cur_path, paths_total, pending_total, pending_favs, map_size, unique_crashes, unique_hangs, max_depth, execs_per_sec
+AFLfast,pngtest,6,1622797417, 0, 0, 21, 21, 0, 0.00%, 0, 0, 1, 7.22
+AFLfast,pngtest,6,1622797766, 0, 1, 21, 20, 0, 0.00%, 0, 0, 1, 9.08
+AFLfast,pngtest,6,1622805151, 0, 1, 21, 20, 0, 0.00%, 0, 1, 1, 4.00
+AFLfast,pngtest,6,1622814949, 0, 1, 21, 20, 0, 0.00%, 0, 2, 1, 3.74
+AFLfast,pngtest,6,1622818237, 0, 1, 21, 20, 0, 0.00%, 0, 3, 1, 4.16
+AFLfast,pngtest,6,1622823105, 0, 2, 21, 19, 0, 0.00%, 0, 3, 1, 6.49
+AFLfast,pngtest,6,1622824321, 0, 2, 21, 19, 0, 0.00%, 0, 4, 1, 4.44
+AFLfast,pngtest,6,1622824668, 0, 2, 21, 19, 0, 0.00%, 0, 5, 1, 4.22
+AFLfast,pngtest,6,1622825524, 0, 2, 21, 19, 0, 0.00%, 0, 6, 1, 2.67
+AFLfast,pngtest,6,1622828744, 0, 2, 21, 19, 0, 0.00%, 0, 7, 1, 3.65
+AFLfast,pngtest,6,1622841396, 0, 3, 21, 18, 0, 0.00%, 0, 7, 1, 15.31
+AFLfast,pngtest,6,1622853106, 0, 4, 21, 17, 0, 0.00%, 0, 7, 1, 14.51
+AFLfast,pngtest,6,1622864476, 0, 5, 21, 16, 0, 0.00%, 0, 7, 1, 14.64
+AFLfast,pngtest,6,1622875720, 0, 6, 21, 15, 0, 0.00%, 0, 7, 1, 14.42
+AFLfast,pngtest,6,1622881375, 0, 7, 21, 14, 0, 0.00%, 0, 7, 1, 33.70
+AFLfast,pngtest,6,1622883048, 0, 8, 21, 13, 0, 0.00%, 0, 7, 1, 42.83

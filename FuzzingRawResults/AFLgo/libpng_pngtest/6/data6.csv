@@ -1,0 +1,17 @@
+alg,SUT,rep,# unix_time, unique_crashes, unique_hangs, execs_per_sec
+AFLfast,pngtest,6,1622797417, 0, 0, 7.22
+AFLfast,pngtest,6,1622797766, 0, 0, 9.08
+AFLfast,pngtest,6,1622805151, 0, 1, 4.00
+AFLfast,pngtest,6,1622814949, 0, 2, 3.74
+AFLfast,pngtest,6,1622818237, 0, 3, 4.16
+AFLfast,pngtest,6,1622823105, 0, 3, 6.49
+AFLfast,pngtest,6,1622824321, 0, 4, 4.44
+AFLfast,pngtest,6,1622824668, 0, 5, 4.22
+AFLfast,pngtest,6,1622825524, 0, 6, 2.67
+AFLfast,pngtest,6,1622828744, 0, 7, 3.65
+AFLfast,pngtest,6,1622841396, 0, 7, 15.31
+AFLfast,pngtest,6,1622853106, 0, 7, 14.51
+AFLfast,pngtest,6,1622864476, 0, 7, 14.64
+AFLfast,pngtest,6,1622875720, 0, 7, 14.42
+AFLfast,pngtest,6,1622881375, 0, 7, 33.70
+AFLfast,pngtest,6,1622883048, 0, 7, 42.83
