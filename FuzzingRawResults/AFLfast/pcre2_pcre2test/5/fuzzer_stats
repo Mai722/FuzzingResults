@@ -1,0 +1,27 @@
+start_time        : 1622106023
+last_update       : 1622192391
+fuzzer_pid        : 3653
+cycles_done       : 0
+execs_done        : 6729485
+execs_per_sec     : 62.82
+paths_total       : 2547
+paths_favored     : 347
+paths_found       : 2541
+paths_imported    : 0
+max_depth         : 6
+cur_path          : 1706
+pending_favs      : 306
+pending_total     : 2235
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 6.52%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1622192376
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 6729485
+exec_timeout      : 20
+afl_banner        : pcre2test
+afl_version       : 2.51b
+command_line      : ./afl-fuzz -i inputseed/5 -o output ./code/pcre2test @@
