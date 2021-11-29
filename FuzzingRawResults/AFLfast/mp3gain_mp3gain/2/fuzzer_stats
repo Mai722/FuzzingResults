@@ -1,0 +1,27 @@
+start_time        : 1622112528
+last_update       : 1622198892
+fuzzer_pid        : 72
+cycles_done       : 0
+execs_done        : 1303336
+execs_per_sec     : 10.64
+paths_total       : 773
+paths_favored     : 109
+paths_found       : 753
+paths_imported    : 0
+max_depth         : 2
+cur_path          : 2
+pending_favs      : 109
+pending_total     : 771
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 3.74%
+unique_crashes    : 17
+unique_hangs      : 0
+last_path         : 1622197145
+last_crash        : 1622188781
+last_hang         : 0
+execs_since_crash : 127106
+exec_timeout      : 220
+afl_banner        : mp3gain
+afl_version       : 2.51b
+command_line      : ./afl-fuzz -i inputseed/2 -o output ./code/mp3gain @@
