@@ -1,0 +1,6 @@
+alg,SUT,rep,# unix_time, cycles_done, cur_path, paths_total, pending_total, pending_favs, map_size, unique_crashes, unique_hangs, max_depth, execs_per_sec
+AFLfast,strings,0,1622326059, 0, 0, 6, 6, 2, 0.16%, 0, 0, 1, 2.18
+AFLfast,strings,0,1622326064, 0, 4, 6, 6, 2, 0.16%, 0, 0, 1, 1.87
+AFLfast,strings,0,1622339451, 0, 4, 7, 7, 2, 0.16%, 0, 0, 2, 0.42
+AFLfast,strings,0,1622339543, 0, 4, 8, 8, 2, 0.16%, 0, 0, 2, 0.42
+AFLfast,strings,0,1622340318, 0, 4, 8, 8, 2, 0.16%, 0, 1, 2, 0.39

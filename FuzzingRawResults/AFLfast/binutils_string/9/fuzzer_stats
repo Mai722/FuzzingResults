@@ -1,0 +1,27 @@
+start_time        : 1622326193
+last_update       : 1622411985
+fuzzer_pid        : 31172
+cycles_done       : 0
+execs_done        : 996785
+execs_per_sec     : 12.07
+paths_total       : 65
+paths_favored     : 3
+paths_found       : 59
+paths_imported    : 0
+max_depth         : 2
+cur_path          : 47
+pending_favs      : 3
+pending_total     : 63
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 0.16%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1622411411
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 996785
+exec_timeout      : 5000
+afl_banner        : strings
+afl_version       : 2.51b
+command_line      : ./afl-fuzz -t 5000+ -i inputseed/9 -o output ./code/binutils/strings @@
