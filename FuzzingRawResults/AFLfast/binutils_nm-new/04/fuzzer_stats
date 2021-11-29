@@ -1,0 +1,27 @@
+start_time        : 1622303868
+last_update       : 1622390058
+fuzzer_pid        : 31171
+cycles_done       : 0
+execs_done        : 2482051
+execs_per_sec     : 39.43
+paths_total       : 303
+paths_favored     : 7
+paths_found       : 296
+paths_imported    : 0
+max_depth         : 2
+cur_path          : 0
+pending_favs      : 7
+pending_total     : 303
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 3.52%
+unique_crashes    : 0
+unique_hangs      : 1
+last_path         : 1622385744
+last_crash        : 0
+last_hang         : 1622355676
+execs_since_crash : 2482051
+exec_timeout      : 5000
+afl_banner        : nm-new
+afl_version       : 2.51b
+command_line      : ./afl-fuzz -t 5000+ -i inputseed/14 -o output ./code/binutils/nm-new @@
