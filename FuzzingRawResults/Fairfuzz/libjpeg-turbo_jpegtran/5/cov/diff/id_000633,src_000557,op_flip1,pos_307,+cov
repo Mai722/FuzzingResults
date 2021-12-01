@@ -1,0 +1,19 @@
+diff id:000632,src:000557,op:flip1,pos:307,+cov -> id:000633,src:000557,op:flip1,pos:307,+cov
+Src file: /afl-rb/code1/jdphuff.c
+  New 'function' coverage: decode_mcu_DC_refine()
+  New 'line' coverage: 147
+  New 'line' coverage: 159
+  New 'line' coverage: 160
+  New 'line' coverage: 448
+  New 'line' coverage: 450
+  New 'line' coverage: 451
+  New 'line' coverage: 457
+  New 'line' coverage: 468
+  New 'line' coverage: 472
+  New 'line' coverage: 473
+  New 'line' coverage: 476
+  New 'line' coverage: 477
+  New 'line' coverage: 478
+  New 'line' coverage: 483
+  New 'line' coverage: 486
+  New 'line' coverage: 488

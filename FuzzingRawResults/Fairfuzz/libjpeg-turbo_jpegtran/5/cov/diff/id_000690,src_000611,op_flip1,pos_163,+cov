@@ -1,0 +1,6 @@
+diff id:000689,src:000580,op:havoc,rep:64,+cov -> id:000690,src:000611,op:flip1,pos:163,+cov
+Src file: /afl-rb/code1/jdarith.c
+  New 'line' coverage: 128
+  New 'line' coverage: 129
+  New 'line' coverage: 130
+  New 'line' coverage: 139

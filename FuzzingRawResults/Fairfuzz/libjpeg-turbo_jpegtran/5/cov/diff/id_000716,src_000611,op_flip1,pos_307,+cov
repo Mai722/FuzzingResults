@@ -1,0 +1,15 @@
+diff id:000715,src:000611,op:flip1,pos:307,+cov -> id:000716,src:000611,op:flip1,pos:307,+cov
+Src file: /afl-rb/code1/jdarith.c
+  New 'function' coverage: decode_mcu_DC_refine()
+  New 'line' coverage: 400
+  New 'line' coverage: 402
+  New 'line' coverage: 407
+  New 'line' coverage: 413
+  New 'line' coverage: 414
+  New 'line' coverage: 418
+  New 'line' coverage: 420
+  New 'line' coverage: 421
+  New 'line' coverage: 424
+  New 'line' coverage: 670
+  New 'line' coverage: 681
+  New 'line' coverage: 682

@@ -1,0 +1,6 @@
+diff id:000029,orig:id:001179,src:000528,op:havoc,rep:16.jpg -> id:000030,orig:id:001181,src:000528,op:havoc,rep:32.jpg
+Src file: /afl-rb/code1/jdmarker.c
+  New 'line' coverage: 654
+  New 'line' coverage: 664
+  New 'line' coverage: 665
+  New 'line' coverage: 667
