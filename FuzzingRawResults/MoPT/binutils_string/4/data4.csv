@@ -1,0 +1,5 @@
+alg,SUT,rep,# unix_time, unique_crashes, unique_hangs, execs_per_sec
+AFLfast,strings,4,1624139188, 0, 0, 3.00
+AFLfast,strings,4,1624139193, 0, 0, 7.07
+AFLfast,strings,4,1624139331, 0, 0, 7.68
+AFLfast,strings,4,1624139470, 0, 0, 7.50
