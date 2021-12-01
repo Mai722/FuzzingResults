@@ -1,0 +1,2898 @@
+
+*** Imported 6 new test cases from: /LearnAFL/output/queue
+
+[+] AFL test case: id:000000,orig:44.o (0 / 6), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (52 of 36352 branches)
+
+    Coverage diff (init) id:000000,orig:44.o
+diff (init) -> id:000000,orig:44.o
+New src file: /LearnAFL/code1/binutils/strings.c
+  New 'function' coverage: get_char()
+  New 'function' coverage: main()
+  New 'function' coverage: print_strings()
+  New 'line' coverage: 156
+  New 'line' coverage: 159
+  New 'line' coverage: 160
+  New 'line' coverage: 162
+  New 'line' coverage: 165
+  New 'line' coverage: 167
+  New 'line' coverage: 168
+  New 'line' coverage: 170
+  New 'line' coverage: 171
+  New 'line' coverage: 172
+  New 'line' coverage: 174
+  New 'line' coverage: 176
+  New 'line' coverage: 177
+  New 'line' coverage: 178
+  New 'line' coverage: 179
+  New 'line' coverage: 181
+  New 'line' coverage: 184
+  New 'line' coverage: 185
+  New 'line' coverage: 186
+  New 'line' coverage: 188
+  New 'line' coverage: 275
+  New 'line' coverage: 281
+  New 'line' coverage: 284
+  New 'line' coverage: 286
+  New 'line' coverage: 288
+  New 'line' coverage: 289
+  New 'line' coverage: 302
+  New 'line' coverage: 303
+  New 'line' coverage: 305
+  New 'line' coverage: 307
+  New 'line' coverage: 309
+  New 'line' coverage: 310
+  New 'line' coverage: 490
+  New 'line' coverage: 493
+  New 'line' coverage: 495
+  New 'line' coverage: 497
+  New 'line' coverage: 504
+  New 'line' coverage: 512
+  New 'line' coverage: 516
+  New 'line' coverage: 520
+  New 'line' coverage: 521
+  New 'line' coverage: 524
+  New 'line' coverage: 553
+  New 'line' coverage: 556
+  New 'line' coverage: 565
+  New 'line' coverage: 566
+  New 'line' coverage: 568
+  New 'line' coverage: 569
+  New 'line' coverage: 571
+  New 'line' coverage: 572
+  New 'line' coverage: 574
+  New 'line' coverage: 575
+  New 'line' coverage: 577
+  New 'line' coverage: 580
+  New 'line' coverage: 586
+  New 'line' coverage: 588
+  New 'line' coverage: 650
+  New 'line' coverage: 651
+  New 'line' coverage: 655
+  New 'line' coverage: 656
+  New 'line' coverage: 658
+  New 'line' coverage: 660
+  New 'line' coverage: 663
+New src file: /LearnAFL/code1/bfd/targets.c
+  New 'function' coverage: bfd_set_default_target()
+  New 'function' coverage: find_target()
+  New 'line' coverage: 1552
+  New 'line' coverage: 1557
+  New 'line' coverage: 1558
+  New 'line' coverage: 1564
+  New 'line' coverage: 1566
+  New 'line' coverage: 1568
+  New 'line' coverage: 1592
+  New 'line' coverage: 1596
+  New 'line' coverage: 1597
+  New 'line' coverage: 1600
+  New 'line' coverage: 1601
+  New 'line' coverage: 1604
+  New 'line' coverage: 1605
+New src file: /LearnAFL/code1/bfd/init.c
+  New 'function' coverage: bfd_init()
+  New 'line' coverage: 52
+  New 'line' coverage: 54
+New src file: /LearnAFL/code1/libiberty/xmalloc.c
+  New 'function' coverage: xmalloc()
+  New 'function' coverage: xmalloc_set_program_name()
+  New 'line' coverage: 108
+  New 'line' coverage: 110
+  New 'line' coverage: 113
+  New 'line' coverage: 114
+  New 'line' coverage: 116
+  New 'line' coverage: 142
+  New 'line' coverage: 146
+  New 'line' coverage: 148
+  New 'line' coverage: 149
+  New 'line' coverage: 152
+New src file: /LearnAFL/code1/bfd/bfd.c
+  New 'function' coverage: bfd_set_error_program_name()
+  New 'line' coverage: 845
+  New 'line' coverage: 847
+  New 'line' coverage: 848
+New src file: /LearnAFL/code1/binutils/bucomm.c
+  New 'function' coverage: set_default_bfd_target()
+  New 'line' coverage: 150
+  New 'line' coverage: 153
+  New 'line' coverage: 155
+  New 'line' coverage: 158
+New src file: /LearnAFL/code1/libiberty/argv.c
+  New 'function' coverage: expandargv()
+  New 'line' coverage: 366
+  New 'line' coverage: 369
+  New 'line' coverage: 371
+  New 'line' coverage: 374
+  New 'line' coverage: 377
+  New 'line' coverage: 481
+
+
+
+++++++ BEGIN - first exec output for CMD: cat /LearnAFL/output/queue/id:000000,orig:44.o | ./binutils/strings
+    UHH9
+    M H9
+    EHH9
+    ATUSH
+    UHH9
+    M H9
+    []A\
+    []A\
+    EHH9
+    ATUSH
+    UHH9
+    M H9
+    s(H9
+    []A\
+    EHH9
+    ATUI
+    []A\
+    AWAVAUATUSH
+    |$ dH
+    D$81
+    D$ H
+    UHL9
+    ] L9
+    L$8dH3
+    H[]A\A]A^A_
+    t$ L9
+    AWAVE
+    AUATI
+    SHH9
+    s H9
+    []A\A]A^A_
+    t H3
+    t$ L
+    D$(L
+    L$0L
+    T$8L
+    \$@f
+    D$`f
+    L$pf
+    t$ L
+    D$(L
+    L$0L
+    T$8L
+    ~D$`
+    ~L$p
+    t$ L
+    D$(L
+    L$0L
+    T$8L
+    ~D$`
+    ~L$p
+    __AFL_SHM_ID
+    basic_string::_M_construct null not valid
+    12ExifOpenFile
+    	std
+    #end
+    #end
+    .eof
+    6_Tp
+    6_Tp
+     'q.
+     Dq.
+    `"5#7
+    W__p
+    Y__s
+    Y__n
+    Y__d
+    Y__s
+    Y__n
+    Y__s
+    W__a
+    W__a
+    W__p
+    W__a
+    W__p
+    W__n
+    W__n
+    Y__p
+    Y__s
+    Y__a
+    0^-C
+    Y__s
+    /usr/include/c++/5/bits
+    /usr/include/c++/5/ext
+    /usr/include/x86_64-linux-gnu/bits
+    /usr/lib/gcc/x86_64-linux-gnu/5/include
+    /usr/include/c++/5
+    /usr/include/x86_64-linux-gnu/c++/5/bits
+    /usr/include/c++/5/debug
+    /usr/include
+    ExifOpenFile.cpp
+    ExifIO.h
+    basic_string.h
+    new_allocator.h
+    char_traits.h
+    basic_string.tcc
+    types.h
+    stddef.h
+    stringfwd.h
+    cstdio
+    cpp_type_traits.h
+    stl_iterator_base_types.h
+    cwchar
+    c++config.h
+    allocator.h
+    clocale
+    stl_iterator_base_funcs.h
+    debug.h
+    predefined_ops.h
+    numeric_traits.h
+    alloc_traits.h
+    stl_iterator.h
+    type_traits.h
+    stdio.h
+    libio.h
+    wchar.h
+    _G_config.h
+    <built-in>
+    stdio2.h
+    stdio.h
+    ExifErrorCodes.h
+    wchar2.h
+    time.h
+    locale.h
+    ExifTypeDefs.h
+    ExifOpenFile.h
+    functexcept.h
+    wcspbrk
+    lconv
+    mCMode
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7replaceEmmPKcm
+    EXIF_ERROR_WRITING_TO_AUDIO_STREAM
+    _ZNK9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEplEl
+    _unused2
+    _fileno
+    bytesWritten
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE8_M_eraseEmm
+    not_eof
+    reverse_iterator
+    tm_sec
+    allocate
+    fwide
+    _M_construct<char const*>
+    new_allocator
+    int_p_sep_by_space
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7replaceEN9__gnu_cxx17__normal_iteratorIPcS4_EES8_PKcSA_
+    char_type
+    __k2
+    getwc
+    __end
+    EXIF_OK
+    fpos_t
+    reverse_iterator<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >
+    __ops
+    _ZNK6ExifIO8isMappedEv
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5beginEv
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_S_copy_charsEPcS5_S5_
+    _ZNK6ExifIO6doSwabEv
+    _Value
+    _shortbuf
+    ioHandler
+    _Tp1
+    bigEndian
+    __gnu_cxx
+    _ZN9__gnu_cxx13new_allocatorIcE10deallocateEPcm
+    operator new
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5rfindERKS4_m
+    GNU C++98 5.4.0 20160609 -mtune=generic -march=x86-64 -g -O2 -O3 -ansi -funroll-loops -fstack-protector-strong
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC4ERKS3_
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6insertEmRKS4_
+    _ZN6ExifIO16swabArrayOfShortEPtj
+    iterator_traits<char const*>
+    capacity
+    __pad2
+    EXIF_FPXR_NO_EMBEDED_AUDIO
+    _ZN9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEmmEi
+    feof
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7replaceEN9__gnu_cxx17__normal_iteratorIPcS4_EES8_S7_S7_
+    initAfterOpen
+    _ZN9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEmmEv
+    _ZN6ExifIO4openER10ExifStatusPKcS3_
+    overflow_arg_area
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderC4EPcRKS3_
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC4ERKS4_
+    _ZNSt11char_traitsIcE4findEPKcmRS1_
+    _flags
+    _M_local_data
+    length
+    __last
+    reg_save_area
+    __off_t
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC4EPKcmRKS3_
+    mParent
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE8_M_limitEmm
+    const_pointer
+    __numeric_traits_integer<int>
+    __alloc_traits<std::allocator<char> >
+    _M_check_length
+    deallocate
+    EXIF_ERROR_WRITING_AUDIO_INFO
+    tm_isdst
+    ExifStatus
+    grouping
+    _lock
+    allocator
+    wcstoll
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv
+    max_size
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5eraseEmm
+    bool
+    EXIF_FILE_OPEN_ERROR
+    EXIF_NO_SECTION_IN_AUDIO_INFO
+    _ZNK9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE4baseEv
+    _M_p
+    wcsncpy
+    wcsspn
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6assignEPKc
+    _S_move
+    _ZN9__gnu_cxx13new_allocatorIcEC4ERKS1_
+    EXIF_FILE_READ_ERROR
+    __pos
+    __debug
+    _M_construct
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6assignEPKcm
+    ~ExifHandleIO
+    _ZNSaIcEC4ERKS_
+    ExifIO
+    iterator_category
+    setlocale
+    memcpy
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc
+    _Znwm
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7replaceEN9__gnu_cxx17__normal_iteratorIPcS4_EES8_PKcm
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderD4Ev
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6assignEmc
+    replace
+    _ZN6ExifIO10getFilePtrEv
+    EXIF_FPXR_NO_MANDATORY_TAG_TO_CONVERT
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC4EmcRKS3_
+    uint8
+    size
+    _ZdlPv
+    _IO_write_end
+    read
+    _ZN12ExifHandleIOC4ER6ExifIO
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7replaceEmmRKS4_
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6insertEmPKcm
+    _ZN9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC4ERKS1_
+    _ZN6ExifIO9bigEndianEb
+    _ZN6ExifIO13getFileHandleEv
+    _ZN6ExifIO10swabDoubleEPd
+    _ZNSt11char_traitsIcE11eq_int_typeERKiS2_
+    _S_local_capacity
+    _S_select_on_copy
+    __s1
+    __s2
+    _M_create
+    _ZN6ExifIOC4ER10ExifStatusPviPKci
+    rename
+    _IO_read_end
+    _ZNSt11char_traitsIcE4copyEPcPKcm
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7replaceEmmmc
+    _M_get_allocator
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6substrEmm
+    _Alloc_hider
+    wcsstr
+    fread
+    int_frac_digits
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEmmPKcm
+    _M_destroy
+    _ZN9__gnu_cxx13new_allocatorIcE7destroyEPc
+    EXIF_FILE_NOT_FOUND
+    fgetc
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6insertEmPKc
+    rfind
+    _ZNK9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEdeEv
+    fgets
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4copyEPcmm
+    wcstod
+    wcstof
+    wcstok
+    wcstol
+    freopen
+    EXIF_BAD_MAGIC_NUMBER
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEaSEPKc
+    __first
+    _S_copy
+    snprintf
+    __ptr
+    ferror
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEaSEc
+    bufSize
+    operator*
+    operator+
+    operator-
+    __gnu_debug
+    vsnprintf
+    wmemset
+    operator=
+    __beg
+    btowc
+    EXIF_NONEXISTENT_STORAGE
+    EXIF_INVALID_APP_ID
+    EXIF_TAG_IS_NOT_A_SUBIFD
+    putwchar
+    getFilePtr
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED4Ev
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16find_last_not_ofEPKcmm
+    currency_symbol
+    doSwab
+    _ZN9__gnu_cxx13new_allocatorIcED4Ev
+    _ZN9__gnu_cxx24__numeric_traits_integerIiE5__maxE
+    to_char_type
+    _ZN9__gnu_cxx14__alloc_traitsISaIcEE17_S_select_on_copyERKS1_
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13find_first_ofEcm
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE3endEv
+    rebind<char>
+    _chain
+    substr
+    _ZN9__gnu_cxx24__numeric_traits_integerIlE5__maxE
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13find_first_ofEPKcmm
+    localeconv
+    mBigEndian
+    wcstoul
+    11__mbstate_t
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16find_last_not_ofEPKcm
+    unsigned char
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendEPKcm
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12find_last_ofEPKcm
+    imgBuf
+    __dnew
+    EXIF_TAG_NOT_FOUND
+    random_access_iterator_tag
+    _ZN6ExifIO15swabArrayOfLongEPjj
+    wcsxfrm
+    _ZN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEpLEl
+    _IO_lock_t
+    wcslen
+    float
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEpLERKS4_
+    _ZNSt11char_traitsIcE2eqERKcS2_
+    _M_check
+    assign
+    int_type
+    _ZSt19__iterator_categoryIPKcENSt15iterator_traitsIT_E17iterator_categoryERKS3_
+    rend
+    EXIF_FPXR_ALREADY_EMBEDED_AUDIO_EXIST
+    _ZNK9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEmiEl
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16_M_get_allocatorEv
+    EXIF_INVALID_CREATED_EDITED_APP_CLSID
+    EXIF_AUDIO_STREAM_HAS_BAD_CLSID
+    tm_zone
+    EXIF_AUDIO_NOT_AVAILABLE
+    fwscanf
+    wcsftime
+    swap
+    setbuf
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6rbeginEv
+    _ZN6ExifIO9swabShortEPt
+    mbrlen
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE11_M_disjunctEPKc
+    EXIF_NONEXISTENT_AUDIO_INFO
+    EXIF_CANNOT_RATIONALIZE_NUMBER
+    _ZN9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC4Ev
+    size_type
+    rewind
+    _ZN12ExifHandleIO5writeEPvi
+    swabArrayOfShort
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_S_copy_charsEPcN9__gnu_cxx17__normal_iteratorIS5_S4_EES8_
+    _Unwind_Resume
+    iterator
+    _InputIterator
+    open
+    reverse_iterator<__gnu_cxx::__normal_iterator<char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >
+    mode
+    _ZNSt11char_traitsIcE7not_eofERKi
+    EXIF_NO_APP1_ERROR
+    __builtin_unwind_resume
+    negative_sign
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEPc
+    ~basic_string
+    wcscat
+    _ZN9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEpLEl
+    other
+    ftell
+    int_curr_symbol
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6lengthEv
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_destroyEm
+    ~ExifIO
+    close
+    _ZNK9__gnu_cxx13new_allocatorIcE7addressERc
+    fileHandle
+    __size
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6rbeginEv
+    mHandleIO
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEmmRKS4_mm
+    FILE
+    _ZN6ExifIO4seekEii
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7replaceEN9__gnu_cxx17__normal_iteratorIPcS4_EES8_RKS4_
+    clear
+    _ZNSt11char_traitsIcE2ltERKcS2_
+    mFileHandle
+    tmpfile
+    EXIF_FPXR_RELATED_SOUND_IN_APP1
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEPKcmm
+    size_t
+    __count
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_S_moveEPcPKcm
+    _ZNSaIcED4Ev
+    __const_iterator
+    destroy
+    __builtin_strlen
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_S_assignEPcmc
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendERKS4_
+    mExifio
+    perror
+    EXIF_NO_IFD0_ERROR
+    _M_current
+    swabDouble
+    _ZN12ExifOpenFile13initAfterOpenEPKc
+    _IO_save_base
+    EXIF_ERROR
+    _ZN6ExifIO4sizeEv
+    wctob
+    mon_thousands_sep
+    _ZN6ExifIO4readEPvi
+    fwprintf
+    _M_assign
+    _ZN9__gnu_cxx13new_allocatorIcE9constructEPcRKc
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendEPKc
+    __wchb
+    _ZN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEppEi
+    _IO_write_ptr
+    find_last_not_of
+    _ZN6ExifIO5writeEPvi
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7replaceEN9__gnu_cxx17__normal_iteratorIPcS4_EES8_S8_S8_
+    vfwscanf
+    wint_t
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE17find_first_not_ofERKS4_m
+    vfwprintf
+    __k1
+    __digits
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4sizeEv
+    rbegin
+    wcstoull
+    __vtbl_ptr_type
+    EXIF_AUDIO_STORGE_HAS_BAD_CLSID
+    convertMode
+    wmemmove
+    fputwc
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9push_backEc
+    __normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+    fputws
+    _ZN12ExifHandleIO4readEPvi
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE8capacityEv
+    EXIF_FILE_CLOSE_NO_IMAGE_ERROR
+    _ZNK9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEptEv
+    ExifOpenFile
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12find_last_ofEPKcmm
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7replaceEN9__gnu_cxx17__normal_iteratorIPcS4_EES8_NS6_IPKcS4_EESB_
+    _Container
+    wcschr
+    _ZNK9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEixEl
+    mIOwnExifIO
+    find
+    _next
+    get_allocator
+    _M_limit
+    decimal_point
+    address
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6insertEmRKS4_mm
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_M_set_lengthEm
+    _ZNK9__gnu_cxx13new_allocatorIcE8max_sizeEv
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_
+    this
+    EXIF_FPXR_INVALID_MODE
+    _ZNK9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE4baseEv
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6insertEN9__gnu_cxx17__normal_iteratorIPcS4_EEmc
+    fclose
+    _ZNSt11char_traitsIcE6lengthEPKc
+    _ZNSt11char_traitsIcE12to_char_typeERKi
+    frac_digits
+    iterator_traits<char*>
+    _M_construct_aux_2
+    operator[]
+    _ZNSt11char_traitsIcE3eofEv
+    allocator<char>
+    __distance<char const*>
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE14_M_replace_auxEmmmc
+    ungetc
+    _ZN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC4ERKS2_
+    _ZN6ExifIO11convertModeEPKcRj
+    wchar_t
+    thousands_sep
+    allocator_type
+    _ZN12ExifHandleIO4seekEii
+    __normal_iterator<char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+    exif_uint32
+    /home/wzc/openexif_AFL_jpg/openexif-2_1_4-src/src
+    swscanf
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16_M_get_allocatorEv
+    clearerr
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_S_copy_charsEPcPKcS7_
+    name
+    n_sep_by_space
+    _sbuf
+    _ZNSt11char_traitsIcE6assignERcRKc
+    _M_mutate
+    wprintf
+    tm_min
+    _M_is_local
+    char_traits<char>
+    __false_type
+    EXIF_FILE_CLOSE_ERROR
+    _ZN9__gnu_cxx14__alloc_traitsISaIcEE10deallocateERS1_Pcm
+    p_cs_precedes
+    wcscmp
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7replaceEmmRKS4_mm
+    stdout
+    fp_offset
+    EXIF_INVALID_FORMAT_ERROR
+    mbsrtowcs
+    mon_grouping
+    gp_offset
+    EXIF_INVALID_AUDIO_INFO_PSET_FORMAT
+    move
+    pointer
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcm
+    __length
+    __stack_chk_fail
+    EXIF_SUPPLIED_AUDIO_BUFFER_TOO_SMALL
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC4EPKcRKS3_
+    __throw_logic_error
+    tm_yday
+    mbsinit
+    find_first_not_of
+    sizetype
+    _ZSt8distanceIPKcENSt15iterator_traitsIT_E15difference_typeES3_S3_
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEaSERKS4_
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7reserveEm
+    short unsigned int
+    _ZN9__gnu_cxx13new_allocatorIcE8allocateEmPKv
+    mMode
+    _ZNK12ExifHandleIO7memSizeEv
+    signed char
+    exifoff_t
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEmmPKcm
+    _ZNK9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEdeEv
+    difference_type
+    ptrdiff_t
+    swprintf
+    _M_replace_aux
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEcm
+    status
+    _ZNK6ExifIO9bigEndianEv
+    _ZN12ExifOpenFileD2Ev
+    EXIF_AUDIO_INFO_HAS_BAD_CLSID
+    tm_wday
+    __off64_t
+    wcscpy
+    resize
+    vswprintf
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC4ERKS4_mmRKS3_
+    EXIF_RATIONAL_HAS_ZERO_DENOMINATOR
+    putwc
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_M_local_dataEv
+    _IO_read_base
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag
+    _offset
+    string
+    _FwdIterator
+    _IO_buf_end
+    EXIF_INVALID_TAG_LOCATION
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE8_M_checkEmPKc
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE15_M_check_lengthEmmPKc
+    mbstate_t
+    _ZN9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEmIEl
+    n_sign_posn
+    swabLong
+    wcsrtombs
+    _G_fpos_t
+    _M_erase
+    ~new_allocator
+    wcscspn
+    _ZNSt11char_traitsIcE4moveEPcPKcm
+    _mode
+    _ZN12ExifOpenFile4openEPviPKci
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm
+    _IO_write_base
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_M_local_dataEv
+    _M_data
+    mFlags
+    __wch
+    _ZNSt11char_traitsIcE6assignEPcmc
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5rfindEPKcmm
+    __max
+    append
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6resizeEmc
+    mFileName
+    vswscanf
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13find_first_ofERKS4_m
+    remove
+    tm_mon
+    ~_Alloc_hider
+    copy
+    eq_int_type
+    seek
+    _ZN12ExifOpenFileC4Ev
+    long int
+    _ZN6ExifIO5flagsEv
+    fgetpos
+    _ZN9__gnu_cxx14__alloc_traitsISaIcEE8allocateERS1_m
+    _ZNK9__gnu_cxx13new_allocatorIcE7addressERKc
+    vwprintf
+    _M_construct_aux<char const*>
+    to_int_type
+    _IO_marker
+    int_p_sign_posn
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16find_last_not_ofERKS4_m
+    tm_year
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5emptyEv
+    getc
+    wscanf
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13find_first_ofEPKcm
+    gets
+    write
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE11_M_capacityEm
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEmmRKS4_
+    mon_decimal_point
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6insertEmmc
+    vscanf
+    __capacity
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEixEm
+    _ZNK9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEplEl
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4dataEv
+    _Traits
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6assignERKS4_
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendERKS4_mm
+    __mbstate_t
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE17find_first_not_ofEcm
+    reserve
+    uint16
+    _ZN6ExifIOC4ER10ExifStatusP8_IO_FILERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKc
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12find_last_ofERKS4_m
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE18_M_construct_aux_2Emc
+    p_sep_by_space
+    long unsigned int
+    _S_on_swap
+    _ZNSt11char_traitsIcE7compareEPKcS2_m
+    operator+=
+    tmpnam
+    _Alloc
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEv
+    tdata_t
+    operator++
+    distance<char const*>
+    _M_dataplus
+    char
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4swapERS4_
+    push_back
+    wcstold
+    _ZN6ExifIO8swabLongEPj
+    stdin
+    9_G_fpos_t
+    insert
+    ExifHandleIO
+    _IO_buf_base
+    _Type
+    operator--
+    EXIF_NONEXISTENT_AUDIO_EXTENSION
+    getFileHandle
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC4ERKS4_mm
+    operator-=
+    operator->
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findERKS4_m
+    _M_capacity
+    wmemcmp
+    _ZN12ExifOpenFileD0Ev
+    _IO_FILE
+    _ZN6ExifIOD4Ev
+    wmemchr
+    _ZN12ExifHandleIO4sizeEv
+    strlen
+    EXIF_AUDIO_STORGE_COMMIT_ERROR
+    _ZNK6ExifIO9ioHandlerEv
+    fhandle_t
+    tm_hour
+    _M_append
+    wcsncmp
+    fseek
+    __dat
+    __min
+    _Iter
+    _ZN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC4Ev
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5clearEv
+    const_reverse_iterator
+    10ExifStatus
+    basic_string<char, std::char_traits<char>, std::allocator<char> >
+    getwchar
+    _ZN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEppEv
+    int_n_sign_posn
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_
+    tm_mday
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC4Ev
+    _S_compare
+    c_str
+    const_reference
+    __pad1
+    __pad3
+    __pad4
+    __pad5
+    _ZN12ExifOpenFileC4EP6ExifIO
+    _ZN9__gnu_cxx13new_allocatorIcEC4Ev
+    __numeric_traits_integer<long int>
+    isMapped
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6assignERKS4_mm
+    EXIF_INVALID_AUDIO_HANDLE
+    new_allocator<char>
+    fsetpos
+    vfscanf
+    _markers
+    _pos
+    _IO_save_end
+    _M_length
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEpLEc
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16_M_construct_auxIPKcEEvT_S8_St12__false_type
+    EXIF_INVALID_OWNING_STORAGE
+    _ZNK6ExifIO4modeEv
+    _ZSt19__throw_logic_errorPKc
+    _M_string_length
+    int_n_cs_precedes
+    erase
+    double
+    EXIF_JPEG_HUFFMAN_TABLE_ERROR
+    __FILE
+    _ZN9__gnu_cxx17__is_null_pointerIKcEEbPT_
+    typedef __va_list_tag __va_list_tag
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_S_copy_charsEPcN9__gnu_cxx17__normal_iteratorIPKcS4_EESA_
+    filename
+    _M_local_buf
+    _ZN6ExifIOC4EP8_IO_FILERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKcj
+    _ZNK9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEptEv
+    memSize
+    _Iterator
+    _vptr.ExifOpenFile
+    _ZN12ExifOpenFile5closeEv
+    _ZN6ExifIO5closeEv
+    data
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7replaceEN9__gnu_cxx17__normal_iteratorIPcS4_EES8_mc
+    wcrtomb
+    _ZNK9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEixEl
+    __value
+    _S_copy_chars
+    _InIterator
+    _ZN9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEppEi
+    _ZN9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEppEv
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16find_last_not_ofEcm
+    _ZN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEmmEi
+    EXIF_FPXR_INVALID_EXIFAUDIOHEADER
+    input_iterator_tag
+    _M_allocated_capacity
+    base
+    _ZNK12ExifHandleIO4baseEv
+    positive_sign
+    _ZSt10__distanceIPKcENSt15iterator_traitsIT_E15difference_typeES3_S3_St26random_access_iterator_tag
+    setvbuf
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6insertEN9__gnu_cxx17__normal_iteratorIPcS4_EEc
+    _ZN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEmIEl
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4rendEv
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13get_allocatorEv
+    EXIF_BAD_IFD_PATH
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEmmPKc
+    empty
+    construct
+    _RandomAccessIterator
+    vwscanf
+    forward_iterator_tag
+    _M_dispose
+    _ZN9__gnu_cxx24__numeric_traits_integerIiE5__minE
+    long long unsigned int
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7replaceEN9__gnu_cxx17__normal_iteratorIPcS4_EES8_PKc
+    cmode
+    vsscanf
+    mbrtowc
+    _cur_column
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4rendEv
+    exif_int32
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5beginEv
+    wmemcpy
+    _ZNSt11char_traitsIcE11to_int_typeERKc
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERmm
+    wcsncat
+    fopen
+    tm_gmtoff
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6resizeEm
+    _IO_backup_base
+    int_n_sep_by_space
+    _IO_read_ptr
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5eraseEN9__gnu_cxx17__normal_iteratorIPcS4_EES8_
+    _ZN12ExifOpenFile4openEPKcS1_
+    _ZNSaIcEC4Ev
+    swabShort
+    fgetwc
+    _ZN9__gnu_cxx14__alloc_traitsISaIcEE7destroyERS1_Pc
+    _ZN9__gnu_cxx14__alloc_traitsISaIcEE10_S_on_swapERS1_S3_
+    fgetws
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEixEm
+    long double
+    basic_string
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5rfindEcm
+    EXIF_FPXR_EMBEDED_AUDIO_EOF
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE8max_sizeEv
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareERKS4_
+    __normal_iterator
+    _old_offset
+    __in_chrg
+    wcscoll
+    __c1
+    __c2
+    EXIF_FILE_OPEN_MODE_NOT_SUPPORTED
+    __iterator_category<char const*>
+    EXIF_NO_IFD1_ERROR
+    p_sign_posn
+    wcsrchr
+    _ZN9__gnu_cxx14__alloc_traitsISaIcEE8max_sizeERKS1_
+    compare
+    long long int
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE17find_first_not_ofEPKcm
+    _flags2
+    _ZNK9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEmiEl
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE11_M_is_localEv
+    EXIF_INVALID_STREAM_OFFSET
+    __is_null_pointer<char const>
+    getchar
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5c_strEv
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructEmc
+    const_iterator
+    _ZN12ExifHandleIOD4Ev
+    _ZNK6ExifIO4nameB5cxx11Ev
+    ungetwc
+    find_last_of
+    _ZN12ExifHandleIO5closeEv
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5rfindEPKcm
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE2atEm
+    n_cs_precedes
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_S_copyEPcPKcm
+    ~ExifOpenFile
+    __state
+    _CharT
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_lengthEm
+    reference
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7replaceEmmPKc
+    _ZN12ExifOpenFileD4Ev
+    EXIF_NO_EXIFIFD_ERROR
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEPKcm
+    _M_replace
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_S_compareEmm
+    _S_assign
+    swabArrayOfLong
+    _ZN12ExifOpenFile4openEP8_IO_FILEPKcS3_
+    _M_disjunct
+    __is_signed
+    operator delete
+    unsigned int
+    _ZN6ExifIO17swabArrayOfDoubleEPdj
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEpLEPKc
+    EXIF_LOW_MEMORY_ERROR
+    ExifOpenFile.cpp
+    __cxx11
+    fflush
+    _vptr.ExifHandleIO
+    swabArrayOfDouble
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12find_last_ofEcm
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE2atEm
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5eraseEN9__gnu_cxx17__normal_iteratorIPcS4_EE
+    short int
+    begin
+    int_p_cs_precedes
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendEmc
+    _M_set_length
+    _vtable_offset
+    npos
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE3endEv
+    tsize_t
+    _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE17find_first_not_ofEPKcmm
+    ~allocator
+    _Char_alloc_type
+    flags
+    bidirectional_iterator_tag
+    EXIF_FILE_WRITE_ERROR
+    _ZN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEmmEv
+    find_first_of
+    GCC: (Ubuntu 5.4.0-6ubuntu1~16.04.10) 5.4.0 20160609
+    zPLR
+    ExifOpenFile.cpp
+    __afl_maybe_log
+    __afl_area_ptr
+    __afl_setup
+    __afl_store
+    __afl_prev_loc
+    __afl_return
+    __afl_setup_failure
+    __afl_setup_first
+    .AFL_SHM_ENV
+    __afl_setup_abort
+    __afl_forkserver
+    __afl_temp
+    __afl_fork_resume
+    __afl_fork_wait_loop
+    __afl_die
+    __afl_fork_pid
+    .AFL_VARS
+    _ZN12ExifOpenFile5closeEv
+    __gxx_personality_v0
+    _ZN6ExifIO5closeEv
+    _ZdlPv
+    _Unwind_Resume
+    _ZN12ExifOpenFileD2Ev
+    _ZTV12ExifOpenFile
+    _ZN12ExifOpenFileD1Ev
+    _ZN12ExifOpenFileD0Ev
+    _ZN12ExifOpenFile4openEPKcS1_
+    _ZN6ExifIO4openER10ExifStatusPKcS3_
+    strlen
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm
+    __stack_chk_fail
+    _ZN12ExifOpenFile4openEP8_IO_FILEPKcS3_
+    _Znwm
+    _ZN6ExifIOC1ER10ExifStatusP8_IO_FILERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKc
+    _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERmm
+    memcpy
+    _ZSt19__throw_logic_errorPKc
+    _ZN12ExifOpenFile4openEPviPKci
+    _ZN6ExifIOC1ER10ExifStatusPviPKci
+    _ZTS12ExifOpenFile
+    _ZTI12ExifOpenFile
+    _ZTVN10__cxxabiv117__class_type_infoE
+    __cxa_pure_virtual
+    _GLOBAL_OFFSET_TABLE_
+    __afl_global_area_ptr
+    getenv
+    atoi
+    shmat
+    write
+    read
+    fork
+    waitpid
+    close
+    _exit
+    .symtab
+    .strtab
+    .shstrtab
+    .rela.text
+    .data
+    .bss
+    .text.unlikely
+    .gcc_except_table
+    .rodata.str1.8
+    .rodata._ZTS12ExifOpenFile
+    .rela.rodata._ZTI12ExifOpenFile
+    .rela.rodata._ZTV12ExifOpenFile
+    .rela.debug_info
+    .debug_abbrev
+    .debug_loc
+    .rela.debug_aranges
+    .debug_ranges
+    .rela.debug_line
+    .debug_str
+    .comment
+    .note.GNU-stack
+    .rela.eh_frame
+    .group
+++++++ END
+
+[+] AFL test case: id:000001,orig:ExifFileIO.o (1 / 6), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (52 of 36352 branches)
+[+] AFL test case: id:000002,orig:bfdtest2.o (2 / 6), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (52 of 36352 branches)
+[+] AFL test case: id:000003,orig:iptc.o (3 / 6), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (52 of 36352 branches)
+[+] AFL test case: id:000004,orig:os2.exe (4 / 6), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (52 of 36352 branches)
+[+] AFL test case: id:000005,orig:rdcoff.o (5 / 6), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (52 of 36352 branches)
+
+*** Imported 7 new test cases from: /LearnAFL/output/queue
+
+[+] AFL test case: id:000006,src:000003,op:havoc,rep:64 (0 / 13), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (52 of 36352 branches)
+[+] AFL test case: id:000007,src:000003,op:havoc,rep:32 (1 / 13), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (52 of 36352 branches)
+[+] AFL test case: id:000008,src:000003,op:havoc,rep:128 (2 / 13), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (52 of 36352 branches)
+[+] AFL test case: id:000009,src:000003,op:havoc,rep:128 (3 / 13), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (52 of 36352 branches)
+[+] AFL test case: id:000010,src:000003,op:havoc,rep:64 (4 / 13), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (52 of 36352 branches)
+[+] AFL test case: id:000011,src:000003,op:havoc,rep:128 (5 / 13), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (52 of 36352 branches)
+[+] AFL test case: id:000012,src:000003,op:havoc,rep:128 (6 / 13), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (52 of 36352 branches)
+
+*** Imported 21 new test cases from: /LearnAFL/output/queue
+
+[+] AFL test case: id:000013,src:000003,op:havoc,rep:32,+cov (0 / 34), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000014,src:000003,op:havoc,rep:128 (1 / 34), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000015,src:000003,op:havoc,rep:128 (2 / 34), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000016,src:000003,op:havoc,rep:128 (3 / 34), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000017,src:000003,op:havoc,rep:16 (4 / 34), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000018,src:000003,op:havoc,rep:32 (5 / 34), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000019,src:000003,op:havoc,rep:32 (6 / 34), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000020,src:000003,op:havoc,rep:128 (7 / 34), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000021,src:000003,op:havoc,rep:128 (8 / 34), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000022,src:000003,op:havoc,rep:64 (9 / 34), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000023,src:000003,op:havoc,rep:16 (10 / 34), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000024,src:000003,op:havoc,rep:64 (11 / 34), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000025,src:000003,op:havoc,rep:128 (12 / 34), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000026,src:000003,op:havoc,rep:32 (13 / 34), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000027,src:000003,op:havoc,rep:32 (14 / 34), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000028,src:000003,op:havoc,rep:128 (15 / 34), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000029,src:000003,op:havoc,rep:64 (16 / 34), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000030,src:000003,op:havoc,rep:64 (17 / 34), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000031,src:000003,op:havoc,rep:64 (18 / 34), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000032,src:000003,op:havoc,rep:32 (19 / 34), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000033,src:000003,op:havoc,rep:128 (20 / 34), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+
+*** Imported 14 new test cases from: /LearnAFL/output/queue
+
+[+] AFL test case: id:000034,src:000003,op:havoc,rep:128 (0 / 48), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000035,src:000003,op:havoc,rep:32 (1 / 48), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000036,src:000003,op:havoc,rep:128 (2 / 48), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000037,src:000003,op:havoc,rep:128 (3 / 48), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000038,src:000003,op:havoc,rep:128 (4 / 48), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000039,src:000003,op:havoc,rep:128 (5 / 48), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000040,src:000003,op:havoc,rep:32 (6 / 48), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000041,src:000003,op:havoc,rep:128 (7 / 48), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000042,src:000003,op:havoc,rep:128 (8 / 48), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000043,src:000003,op:havoc,rep:128 (9 / 48), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000044,src:000003,op:havoc,rep:128 (10 / 48), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000045,src:000003,op:havoc,rep:128 (11 / 48), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000046,src:000003,op:havoc,rep:128 (12 / 48), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000047,src:000003,op:havoc,rep:128 (13 / 48), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+
+*** Imported 4 new test cases from: /LearnAFL/output/queue
+
+[+] AFL test case: id:000048,src:000003,op:havoc,rep:128 (0 / 52), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000049,src:000003,op:havoc,rep:128 (1 / 52), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000050,src:000003,op:havoc,rep:128 (2 / 52), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000051,src:000003,op:havoc,rep:64 (3 / 52), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /LearnAFL/output/queue
+
+[+] AFL test case: id:000052,src:000003,op:havoc,rep:64 (0 / 53), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 17 new test cases from: /LearnAFL/output/queue
+
+[+] AFL test case: id:000053,src:000004,op:havoc,rep:128 (0 / 70), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000054,src:000004,op:havoc,rep:64 (1 / 70), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000055,src:000004,op:havoc,rep:128 (2 / 70), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000056,src:000004,op:havoc,rep:128 (3 / 70), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000057,src:000004,op:havoc,rep:32 (4 / 70), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000058,src:000004,op:havoc,rep:16 (5 / 70), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000059,src:000004,op:havoc,rep:64 (6 / 70), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000060,src:000004,op:havoc,rep:32 (7 / 70), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000061,src:000004,op:havoc,rep:16 (8 / 70), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000062,src:000004,op:havoc,rep:128 (9 / 70), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000063,src:000004,op:havoc,rep:128 (10 / 70), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000064,src:000004,op:havoc,rep:128 (11 / 70), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000065,src:000004,op:havoc,rep:128 (12 / 70), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000066,src:000004,op:havoc,rep:64 (13 / 70), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000067,src:000004,op:havoc,rep:64 (14 / 70), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000068,src:000004,op:havoc,rep:64 (15 / 70), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000069,src:000004,op:havoc,rep:32 (16 / 70), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+
+*** Imported 12 new test cases from: /LearnAFL/output/queue
+
+[+] AFL test case: id:000070,src:000069,op:havoc,rep:32 (0 / 82), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000071,src:000069,op:havoc,rep:32 (1 / 82), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000072,src:000069,op:havoc,rep:128 (2 / 82), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000073,src:000069,op:havoc,rep:64 (3 / 82), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000074,src:000069,op:havoc,rep:32 (4 / 82), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000075,src:000069,op:havoc,rep:128 (5 / 82), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000076,src:000069,op:havoc,rep:128 (6 / 82), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000077,src:000069,op:havoc,rep:128 (7 / 82), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000078,src:000069,op:havoc,rep:8 (8 / 82), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000079,src:000069,op:havoc,rep:64 (9 / 82), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000080,src:000069,op:havoc,rep:128 (10 / 82), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (53 of 36352 branches)
+[+] AFL test case: id:000081,src:000069,op:havoc,rep:128,+cov (11 / 82), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (54 of 36352 branches)
+
+*** Imported 3 new test cases from: /LearnAFL/output/queue
+
+[+] AFL test case: id:000082,src:000003,op:havoc,rep:128 (0 / 85), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (54 of 36352 branches)
+[+] AFL test case: id:000083,src:000003,op:havoc,rep:64 (1 / 85), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (54 of 36352 branches)
+[+] AFL test case: id:000084,src:000003,op:havoc,rep:64 (2 / 85), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (54 of 36352 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /LearnAFL/output/queue
+
+[+] AFL test case: id:000085,src:000013,op:havoc,rep:32 (0 / 86), cycle: 0
+    lines......: 0.1% (101 of 105597 lines)
+    functions..: 0.3% (11 of 4156 functions)
+    branches...: 0.1% (54 of 36352 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
