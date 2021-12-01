@@ -1,0 +1,20 @@
+diff id:000069,src:000000,op:flip1,pos:178 -> id:000070,src:000000,op:flip1,pos:178,+cov
+Src file: /afl-rb/code1/jdmarker.c
+  New 'function' coverage: get_dac()
+  New 'line' coverage: 1039
+  New 'line' coverage: 1040
+  New 'line' coverage: 387
+  New 'line' coverage: 392
+  New 'line' coverage: 394
+  New 'line' coverage: 395
+  New 'line' coverage: 397
+  New 'line' coverage: 398
+  New 'line' coverage: 399
+  New 'line' coverage: 401
+  New 'line' coverage: 403
+  New 'line' coverage: 405
+  New 'line' coverage: 408
+  New 'line' coverage: 411
+  New 'line' coverage: 412
+  New 'line' coverage: 413
+  New 'line' coverage: 414

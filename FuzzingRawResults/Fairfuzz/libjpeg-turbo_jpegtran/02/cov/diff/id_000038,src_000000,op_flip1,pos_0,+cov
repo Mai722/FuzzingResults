@@ -1,0 +1,3 @@
+diff id:000037,orig:id:002951,src:001828,op:flip32,pos:314.jpg -> id:000038,src:000000,op:flip1,pos:0,+cov
+Src file: /afl-rb/code1/jdmarker.c
+  New 'line' coverage: 952
