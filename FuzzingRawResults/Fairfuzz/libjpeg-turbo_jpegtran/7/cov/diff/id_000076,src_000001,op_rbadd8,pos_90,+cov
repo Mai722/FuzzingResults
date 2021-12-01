@@ -1,0 +1,10 @@
+diff id:000075,src:000001,op:rbrem8,pos:161,+cov -> id:000076,src:000001,op:rbadd8,pos:90,+cov
+Src file: /afl-rb/code1/jdmarker.c
+  New 'function' coverage: get_dri()
+  New 'line' coverage: 1054
+  New 'line' coverage: 1055
+  New 'line' coverage: 565
+  New 'line' coverage: 570
+  New 'line' coverage: 572
+  New 'line' coverage: 574
+  New 'line' coverage: 575

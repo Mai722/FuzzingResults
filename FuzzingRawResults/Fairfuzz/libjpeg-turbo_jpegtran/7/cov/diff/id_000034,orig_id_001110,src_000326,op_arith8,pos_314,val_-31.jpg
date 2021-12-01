@@ -1,0 +1,14 @@
+diff id:000033,orig:id:001109,sync:jpeg_turbo,src:001092.jpg -> id:000034,orig:id:001110,src:000326,op:arith8,pos:314,val:-31.jpg
+Src file: /afl-rb/code1/jdhuff.c
+  New 'line' coverage: 103
+  New 'line' coverage: 364
+  New 'line' coverage: 365
+Src file: /afl-rb/code1/jdmarker.c
+  New 'function' coverage: examine_app14()
+  New 'line' coverage: 677
+  New 'line' coverage: 686
+  New 'line' coverage: 702
+  New 'line' coverage: 704
+  New 'line' coverage: 735
+  New 'line' coverage: 736
+  New 'line' coverage: 737
