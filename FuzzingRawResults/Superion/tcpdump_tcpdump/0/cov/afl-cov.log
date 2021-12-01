@@ -1,0 +1,4 @@
+
+*** Imported 13 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000000,orig:id:000090,src:000000,op:havoc,rep:2,+cov (0 / 13), cycle: 0
