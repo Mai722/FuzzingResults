@@ -1,0 +1,14 @@
+diff id:000004,orig:id:000170,src:000000,op:flip1,pos:307,+cov.jpg -> id:000005,orig:id:000181,src:000000,op:flip1,pos:503,+cov.jpg
+Src file: /Superion/code1/jdatasrc.c
+  New 'line' coverage: 110
+  New 'line' coverage: 112
+  New 'line' coverage: 114
+  New 'line' coverage: 115
+Src file: /Superion/code1/jdmarker.c
+  New 'function' coverage: get_dri()
+  New 'line' coverage: 1055
+  New 'line' coverage: 565
+  New 'line' coverage: 570
+  New 'line' coverage: 572
+  New 'line' coverage: 574
+  New 'line' coverage: 575

@@ -1,0 +1,19 @@
+diff id:000003,orig:13997 -> id:000004,orig:15756
+Src file: /Superion/code1/jdmarker.c
+  New 'function' coverage: get_sof()
+  New 'line' coverage: 240
+  New 'line' coverage: 246
+  New 'line' coverage: 248
+  New 'line' coverage: 249
+  New 'line' coverage: 251
+  New 'line' coverage: 253
+  New 'line' coverage: 254
+  New 'line' coverage: 255
+  New 'line' coverage: 256
+  New 'line' coverage: 258
+  New 'line' coverage: 260
+  New 'line' coverage: 264
+  New 'line' coverage: 270
+  New 'line' coverage: 271
+  New 'line' coverage: 272
+  New 'line' coverage: 996

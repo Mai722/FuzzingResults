@@ -1,0 +1,33 @@
+diff id:000008,orig:id:000195,src:000000,op:flip2,pos:167,+cov.jpg -> id:000009,orig:id:000202,src:000000,op:flip2,pos:178,+cov.jpg
+Src file: /Superion/code1/jdhuff.c
+  New 'line' coverage: 319
+  New 'line' coverage: 321
+  New 'line' coverage: 322
+  New 'line' coverage: 379
+  New 'line' coverage: 380
+  New 'line' coverage: 381
+  New 'line' coverage: 384
+  New 'line' coverage: 466
+  New 'line' coverage: 467
+  New 'line' coverage: 468
+  New 'line' coverage: 469
+Src file: /Superion/code1/jdatasrc.c
+  New 'function' coverage: skip_input_data()
+  New 'line' coverage: 163
+  New 'line' coverage: 165
+  New 'line' coverage: 171
+  New 'line' coverage: 172
+  New 'line' coverage: 179
+  New 'line' coverage: 180
+  New 'line' coverage: 182
+Src file: /Superion/code1/jdmarker.c
+  New 'function' coverage: skip_variable()
+  New 'line' coverage: 1098
+  New 'line' coverage: 862
+  New 'line' coverage: 866
+  New 'line' coverage: 868
+  New 'line' coverage: 869
+  New 'line' coverage: 871
+  New 'line' coverage: 873
+  New 'line' coverage: 874
+  New 'line' coverage: 875

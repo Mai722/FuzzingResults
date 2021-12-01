@@ -1,0 +1,4 @@
+diff id:000006,orig:id:000393,src:000000,op:int32,pos:500,val:-32768,+cov.jpg -> id:000007,orig:id:000395,src:000000,op:havoc,rep:16,+cov.jpg
+Src file: /Superion/code1/jdmarker.c
+  New 'line' coverage: 275
+  New 'line' coverage: 645

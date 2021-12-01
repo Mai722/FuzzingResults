@@ -1,0 +1,5 @@
+diff id:000004,orig:id:000338,src:000000,op:int8,pos:23,val:+0,+cov.jpg -> id:000005,orig:id:000356,src:000000,op:int8,pos:503,val:-1,+cov.jpg
+Src file: /Superion/code1/jdhuff.c
+  New 'line' coverage: 336
+  New 'line' coverage: 338
+  New 'line' coverage: 339
