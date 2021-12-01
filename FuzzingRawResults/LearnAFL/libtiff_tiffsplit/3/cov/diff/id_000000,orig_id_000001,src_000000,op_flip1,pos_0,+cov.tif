@@ -1,0 +1,12 @@
+diff (init) -> id:000000,orig:id:000001,src:000000,op:flip1,pos:0,+cov.tif
+New src file: /LearnAFL/code1/libtiff/tif_version.c
+  New 'function' coverage: TIFFGetVersion()
+  New 'line' coverage: 30
+  New 'line' coverage: 32
+New src file: /LearnAFL/code1/tools/tiffsplit.c
+  New 'function' coverage: main()
+  New 'line' coverage: 58
+  New 'line' coverage: 62
+  New 'line' coverage: 63
+  New 'line' coverage: 64
+  New 'line' coverage: 65
