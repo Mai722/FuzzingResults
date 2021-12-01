@@ -1,0 +1,35 @@
+diff id:000009,orig:id:000001,src:000000,op:flip1,pos:0,+cov.jpg -> id:000010,orig:id:000046,src:000000,op:flip1,pos:164,+cov.jpg
+Src file: /afl-rb/code1/jcomapi.c
+  New 'function' coverage: jpeg_alloc_quant_table()
+  New 'line' coverage: 89
+  New 'line' coverage: 93
+  New 'line' coverage: 94
+  New 'line' coverage: 95
+  New 'line' coverage: 96
+Src file: /afl-rb/code1/jdmarker.c
+  New 'function' coverage: get_dqt()
+  New 'line' coverage: 1049
+  New 'line' coverage: 1050
+  New 'line' coverage: 507
+  New 'line' coverage: 514
+  New 'line' coverage: 516
+  New 'line' coverage: 517
+  New 'line' coverage: 519
+  New 'line' coverage: 520
+  New 'line' coverage: 521
+  New 'line' coverage: 522
+  New 'line' coverage: 524
+  New 'line' coverage: 526
+  New 'line' coverage: 529
+  New 'line' coverage: 530
+  New 'line' coverage: 531
+  New 'line' coverage: 533
+  New 'line' coverage: 534
+  New 'line' coverage: 537
+  New 'line' coverage: 539
+  New 'line' coverage: 542
+  New 'line' coverage: 552
+  New 'line' coverage: 553
+  New 'line' coverage: 556
+  New 'line' coverage: 559
+  New 'line' coverage: 560

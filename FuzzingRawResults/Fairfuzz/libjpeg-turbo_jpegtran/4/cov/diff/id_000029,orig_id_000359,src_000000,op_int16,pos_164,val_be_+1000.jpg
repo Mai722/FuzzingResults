@@ -1,0 +1,18 @@
+diff id:000028,orig:id:000356,src:000000,op:int8,pos:503,val:-1,+cov.jpg -> id:000029,orig:id:000359,src:000000,op:int16,pos:164,val:be:+1000.jpg
+Src file: /afl-rb/code1/jdatadst.c
+  New 'function' coverage: empty_output_buffer()
+  New 'line' coverage: 115
+  New 'line' coverage: 117
+  New 'line' coverage: 119
+  New 'line' coverage: 123
+  New 'line' coverage: 124
+  New 'line' coverage: 126
+Src file: /afl-rb/code1/jchuff.c
+  New 'line' coverage: 324
+  New 'line' coverage: 326
+  New 'line' coverage: 329
+  New 'line' coverage: 330
+Src file: /afl-rb/code1/jctrans.c
+  New 'line' coverage: 344
+  New 'line' coverage: 345
+  New 'line' coverage: 346
