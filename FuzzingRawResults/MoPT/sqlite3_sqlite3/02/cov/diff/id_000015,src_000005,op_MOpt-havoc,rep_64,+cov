@@ -1,0 +1,4 @@
+diff id:000014,src:000005,op:int16,pos:16,val:be:+512,+cov -> id:000015,src:000005,op:MOpt-havoc,rep:64,+cov
+Src file: /MOpt-AFL/MOpt/code1/shell.c
+  New 'line' coverage: 18293
+  New 'line' coverage: 18294
