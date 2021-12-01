@@ -1,0 +1,3 @@
+diff id:000015,orig:id:000652,sync:jpeg9,src:001356.jpg -> id:000016,orig:id:000655,sync:jpeg9,src:001411,+cov.jpg
+Src file: /afl-rb/code1/jmemmgr.c
+  New 'line' coverage: 516

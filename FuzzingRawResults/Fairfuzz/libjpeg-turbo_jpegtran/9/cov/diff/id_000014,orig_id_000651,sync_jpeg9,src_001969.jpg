@@ -1,0 +1,8 @@
+diff id:000013,orig:id:000643,sync:jpeg9,src:000909.jpg -> id:000014,orig:id:000651,sync:jpeg9,src:001969.jpg
+Src file: /afl-rb/code1/jdarith.c
+  New 'line' coverage: 128
+  New 'line' coverage: 129
+  New 'line' coverage: 130
+  New 'line' coverage: 139
+  New 'line' coverage: 600
+  New 'line' coverage: 605

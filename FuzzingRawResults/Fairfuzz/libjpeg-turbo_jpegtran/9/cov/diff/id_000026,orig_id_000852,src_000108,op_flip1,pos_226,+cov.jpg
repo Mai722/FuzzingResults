@@ -1,0 +1,31 @@
+diff id:000025,orig:id:000847,src:000095,op:havoc,rep:32,+cov.jpg -> id:000026,orig:id:000852,src:000108,op:flip1,pos:226,+cov.jpg
+Src file: /afl-rb/code1/jdhuff.c
+  New 'function' coverage: jinit_huff_decoder()
+  New 'function' coverage: start_pass_huff_decoder()
+  New 'line' coverage: 102
+  New 'line' coverage: 103
+  New 'line' coverage: 104
+  New 'line' coverage: 106
+  New 'line' coverage: 107
+  New 'line' coverage: 108
+  New 'line' coverage: 109
+  New 'line' coverage: 112
+  New 'line' coverage: 113
+  New 'line' coverage: 270
+  New 'line' coverage: 800
+  New 'line' coverage: 809
+  New 'line' coverage: 811
+  New 'line' coverage: 812
+  New 'line' coverage: 814
+  New 'line' coverage: 815
+  New 'line' coverage: 816
+  New 'line' coverage: 819
+  New 'line' coverage: 820
+  New 'line' coverage: 822
+  New 'line' coverage: 91
+  New 'line' coverage: 93
+Src file: /afl-rb/code1/jdtrans.c
+  New 'line' coverage: 125
+Src file: /afl-rb/code1/jstdhuff.c
+  New 'line' coverage: 120
+  New 'line' coverage: 121
