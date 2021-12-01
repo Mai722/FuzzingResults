@@ -1,0 +1,668 @@
+Entering new queueing cycle
+while bitflipping, 0 of 0 tries hit branch -1
+while calibrating, 0 of 0 tries hit branch -1
+calib stage: 1 new coverage in 80 total execs
+calib stage: 1 new branches in 80 total execs
+In deterministic stage, 0 of 0 tries hit branch -1
+det stage: 1 new coverage in 1319 total execs
+det stage: 1 new branches in 1319 total execs
+In havoc stage, 0 of 0 tries hit branch -1
+havoc stage: 3 new coverage in 2872 total execs
+havoc stage: 3 new branches in 2872 total execs
+Trying to fuzz input output/queue/id:000024,src:000000,op:havoc,rep:64,+cov: 
+which hit branch 65308 (hit by 1 inputs) 
+while bitflipping, 47 of 64 tries hit branch 65308
+while calibrating, 13 of 25 tries hit branch 65308
+calib stage: 0 new coverage in 89 total execs
+calib stage: 0 new branches in 89 total execs
+In deterministic stage, 937 of 941 tries hit branch 65308
+det stage: 0 new coverage in 1032 total execs
+det stage: 0 new branches in 1032 total execs
+In havoc stage, 63 of 128 tries hit branch 65308
+havoc stage: 0 new coverage in 1160 total execs
+havoc stage: 0 new branches in 1160 total execs
+Entering new queueing cycle
+Was returning list of size 0
+Upped max exp to 2
+Trying to fuzz input output/queue/id:000001,orig:id:000191,src:000000,op:flip1,pos:278,+cov.tif: 
+which hit branch 64946 (hit by 2 inputs) 
+while bitflipping, 3020 of 3072 tries hit branch 64946
+while calibrating, 1139 of 1153 tries hit branch 64946
+calib stage: 61 new coverage in 4715 total execs
+calib stage: 30 new branches in 4715 total execs
+In deterministic stage, 39673 of 39891 tries hit branch 64946
+det stage: 110 new coverage in 45003 total execs
+det stage: 68 new branches in 45003 total execs
+In havoc stage, 7046 of 9216 tries hit branch 64946
+havoc stage: 180 new coverage in 54786 total execs
+havoc stage: 100 new branches in 54786 total execs
+Trying to fuzz input output/queue/id:000003,orig:id:000342,src:000000,op:arith8,pos:218,val:+1,+cov.tif: 
+which hit branch 52817 (hit by 1 inputs) 
+while bitflipping, 2733 of 3440 tries hit branch 52817
+while calibrating, 539 of 1291 tries hit branch 52817
+calib stage: 90 new coverage in 5456 total execs
+calib stage: 66 new branches in 5456 total execs
+In deterministic stage, 49877 of 51830 tries hit branch 52817
+det stage: 169 new coverage in 57935 total execs
+det stage: 123 new branches in 57935 total execs
+In havoc stage, 6513 of 16384 tries hit branch 52817
+havoc stage: 336 new coverage in 75596 total execs
+havoc stage: 191 new branches in 75596 total execs
+Trying to fuzz input output/queue/id:000005,orig:id:003110,src:001900,op:flip1,pos:160,+cov.tif: 
+which hit branch 51671 (hit by 1 inputs) 
+while bitflipping, 2634 of 2880 tries hit branch 51671
+while calibrating, 617 of 1081 tries hit branch 51671
+calib stage: 32 new coverage in 4224 total execs
+calib stage: 19 new branches in 4224 total execs
+In deterministic stage, 44931 of 45826 tries hit branch 51671
+det stage: 58 new coverage in 50279 total execs
+det stage: 41 new branches in 50279 total execs
+In havoc stage, 6418 of 16384 tries hit branch 51671
+havoc stage: 98 new coverage in 66984 total execs
+havoc stage: 60 new branches in 66984 total execs
+Trying to fuzz input output/queue/id:000007,orig:id:003115,src:001900,op:arith8,pos:160,val:-3,+cov.tif: 
+which hit branch 1903 (hit by 1 inputs) 
+while bitflipping, 2566 of 2784 tries hit branch 1903
+while calibrating, 587 of 1045 tries hit branch 1903
+calib stage: 4 new coverage in 3865 total execs
+calib stage: 3 new branches in 3865 total execs
+In deterministic stage, 48981 of 49847 tries hit branch 1903
+det stage: 17 new coverage in 53817 total execs
+det stage: 13 new branches in 53817 total execs
+In havoc stage, 211 of 512 tries hit branch 1903
+havoc stage: 17 new coverage in 54329 total execs
+havoc stage: 13 new branches in 54329 total execs
+Trying to fuzz input output/queue/id:000008,orig:id:003116,src:001900,op:arith8,pos:160,val:-4,+cov.tif: 
+which hit branch 54599 (hit by 1 inputs) 
+while bitflipping, 2216 of 2688 tries hit branch 54599
+while calibrating, 510 of 1009 tries hit branch 54599
+calib stage: 4 new coverage in 3733 total execs
+calib stage: 3 new branches in 3733 total execs
+In deterministic stage, 39214 of 39954 tries hit branch 54599
+det stage: 9 new coverage in 43735 total execs
+det stage: 8 new branches in 43735 total execs
+In havoc stage, 690 of 1536 tries hit branch 54599
+havoc stage: 10 new coverage in 45281 total execs
+havoc stage: 8 new branches in 45281 total execs
+Trying to fuzz input output/queue/id:000009,orig:id:003117,src:001900,op:arith8,pos:160,val:-5,+cov.tif: 
+which hit branch 24030 (hit by 1 inputs) 
+while bitflipping, 2058 of 2584 tries hit branch 24030
+while calibrating, 423 of 970 tries hit branch 24030
+calib stage: 4 new coverage in 3589 total execs
+calib stage: 3 new branches in 3589 total execs
+In deterministic stage, 35371 of 36031 tries hit branch 24030
+det stage: 6 new coverage in 39638 total execs
+det stage: 5 new branches in 39638 total execs
+In havoc stage, 938 of 2048 tries hit branch 24030
+havoc stage: 7 new coverage in 41694 total execs
+havoc stage: 6 new branches in 41694 total execs
+Trying to fuzz input output/queue/id:000010,orig:id:003118,src:001900,op:arith8,pos:160,val:-7,+cov.tif: 
+which hit branch 62541 (hit by 1 inputs) 
+while bitflipping, 1890 of 2400 tries hit branch 62541
+while calibrating, 351 of 901 tries hit branch 62541
+calib stage: 4 new coverage in 3336 total execs
+calib stage: 2 new branches in 3336 total execs
+In deterministic stage, 25806 of 26322 tries hit branch 62541
+det stage: 4 new coverage in 29660 total execs
+det stage: 2 new branches in 29660 total execs
+In havoc stage, 247 of 512 tries hit branch 62541
+havoc stage: 4 new coverage in 30172 total execs
+havoc stage: 2 new branches in 30172 total execs
+Trying to fuzz input output/queue/id:000014,orig:id:007711,src:007611,op:havoc,rep:4.tif: 
+which hit branch 51601 (hit by 1 inputs) 
+while bitflipping, 2251 of 2880 tries hit branch 51601
+while calibrating, 342 of 1081 tries hit branch 51601
+calib stage: 14 new coverage in 4061 total execs
+calib stage: 7 new branches in 4061 total execs
+In deterministic stage, 33494 of 34782 tries hit branch 51601
+det stage: 22 new coverage in 38908 total execs
+det stage: 13 new branches in 38908 total execs
+In havoc stage, 4907 of 12288 tries hit branch 51601
+havoc stage: 58 new coverage in 51477 total execs
+havoc stage: 28 new branches in 51477 total execs
+Trying to fuzz input output/queue/id:000015,orig:id:007713,src:007614,op:flip2,pos:270.tif: 
+which hit branch 53314 (hit by 1 inputs) 
+while bitflipping, 2212 of 2880 tries hit branch 53314
+while calibrating, 339 of 1081 tries hit branch 53314
+calib stage: 10 new coverage in 4038 total execs
+calib stage: 8 new branches in 4038 total execs
+In deterministic stage, 36479 of 39256 tries hit branch 53314
+det stage: 18 new coverage in 43353 total execs
+det stage: 13 new branches in 43353 total execs
+In havoc stage, 6022 of 16384 tries hit branch 53314
+havoc stage: 38 new coverage in 59874 total execs
+havoc stage: 19 new branches in 59874 total execs
+Trying to fuzz input output/queue/id:000178,src:000001,op:havoc,rep:16,+cov: 
+which hit branch 57619 (hit by 1 inputs) 
+while bitflipping, 1603 of 1728 tries hit branch 57619
+while calibrating, 233 of 649 tries hit branch 57619
+calib stage: 0 new coverage in 2378 total execs
+calib stage: 0 new branches in 2378 total execs
+In deterministic stage, 13810 of 14030 tries hit branch 57619
+det stage: 0 new coverage in 16409 total execs
+det stage: 0 new branches in 16409 total execs
+In havoc stage, 259 of 512 tries hit branch 57619
+havoc stage: 0 new coverage in 16921 total execs
+havoc stage: 0 new branches in 16921 total execs
+Trying to fuzz input output/queue/id:000233,src:000003,op:flip1,pos:234,+cov: 
+which hit branch 63564 (hit by 1 inputs) 
+while bitflipping, 2844 of 3440 tries hit branch 63564
+while calibrating, 664 of 1291 tries hit branch 63564
+calib stage: 16 new coverage in 4851 total execs
+calib stage: 13 new branches in 4851 total execs
+In deterministic stage, 50472 of 51730 tries hit branch 63564
+det stage: 21 new coverage in 56621 total execs
+det stage: 15 new branches in 56621 total execs
+In havoc stage, 5853 of 12288 tries hit branch 63564
+havoc stage: 46 new coverage in 69096 total execs
+havoc stage: 24 new branches in 69096 total execs
+Trying to fuzz input output/queue/id:000495,src:000003,op:havoc,rep:64,+cov: 
+which hit branch 33451 (hit by 1 inputs) 
+while bitflipping, 2738 of 3200 tries hit branch 33451
+while calibrating, 627 of 1201 tries hit branch 33451
+calib stage: 6 new coverage in 4451 total execs
+calib stage: 1 new branches in 4451 total execs
+In deterministic stage, 45021 of 46215 tries hit branch 33451
+det stage: 10 new coverage in 50702 total execs
+det stage: 2 new branches in 50702 total execs
+In havoc stage, 593 of 1536 tries hit branch 33451
+havoc stage: 10 new coverage in 52241 total execs
+havoc stage: 2 new branches in 52241 total execs
+Trying to fuzz input output/queue/id:000499,src:000003,op:havoc,rep:32,+cov: 
+which hit branch 62214 (hit by 1 inputs) 
+while bitflipping, 2872 of 3584 tries hit branch 62214
+while calibrating, 697 of 1345 tries hit branch 62214
+calib stage: 7 new coverage in 4982 total execs
+calib stage: 5 new branches in 4982 total execs
+In deterministic stage, 57507 of 59425 tries hit branch 62214
+det stage: 15 new coverage in 64465 total execs
+det stage: 12 new branches in 64465 total execs
+In havoc stage, 2729 of 12288 tries hit branch 62214
+havoc stage: 24 new coverage in 76818 total execs
+havoc stage: 16 new branches in 76818 total execs
+Trying to fuzz input output/queue/id:000519,src:000003,op:havoc,rep:32,+cov: 
+which hit branch 60615 (hit by 1 inputs) 
+while bitflipping, 2469 of 3456 tries hit branch 60615
+while calibrating, 414 of 1297 tries hit branch 60615
+calib stage: 2 new coverage in 4772 total execs
+calib stage: 0 new branches in 4772 total execs
+In deterministic stage, 40185 of 42453 tries hit branch 60615
+det stage: 2 new coverage in 47227 total execs
+det stage: 0 new branches in 47227 total execs
+In havoc stage, 4198 of 12288 tries hit branch 60615
+havoc stage: 9 new coverage in 59573 total execs
+havoc stage: 3 new branches in 59573 total execs
+Trying to fuzz input output/queue/id:000539,src:000003,op:havoc,rep:16,+cov: 
+which hit branch 13005 (hit by 1 inputs) 
+while bitflipping, 2588 of 3200 tries hit branch 13005
+while calibrating, 347 of 1201 tries hit branch 13005
+calib stage: 2 new coverage in 4421 total execs
+calib stage: 1 new branches in 4421 total execs
+In deterministic stage, 41758 of 42876 tries hit branch 13005
+det stage: 3 new coverage in 47311 total execs
+det stage: 2 new branches in 47311 total execs
+In havoc stage, 4819 of 12288 tries hit branch 13005
+havoc stage: 9 new coverage in 59649 total execs
+havoc stage: 4 new branches in 59649 total execs
+Trying to fuzz input output/queue/id:000579,src:000005,op:flip4,pos:186,+cov: 
+which hit branch 36642 (hit by 1 inputs) 
+while bitflipping, 2194 of 2880 tries hit branch 36642
+while calibrating, 292 of 1081 tries hit branch 36642
+calib stage: 0 new coverage in 3964 total execs
+calib stage: 0 new branches in 3964 total execs
+In deterministic stage, 34582 of 35745 tries hit branch 36642
+det stage: 0 new coverage in 39711 total execs
+det stage: 0 new branches in 39711 total execs
+In havoc stage, 385 of 1024 tries hit branch 36642
+havoc stage: 0 new coverage in 40737 total execs
+havoc stage: 0 new branches in 40737 total execs
+Trying to fuzz input output/queue/id:000622,src:000005,op:havoc,rep:4,+cov: 
+which hit branch 56202 (hit by 1 inputs) 
+while bitflipping, 2248 of 2880 tries hit branch 56202
+while calibrating, 515 of 1081 tries hit branch 56202
+calib stage: 0 new coverage in 3963 total execs
+calib stage: 0 new branches in 3963 total execs
+In deterministic stage, 30634 of 31619 tries hit branch 56202
+det stage: 2 new coverage in 35602 total execs
+det stage: 0 new branches in 35602 total execs
+In havoc stage, 817 of 2048 tries hit branch 56202
+havoc stage: 3 new coverage in 37658 total execs
+havoc stage: 0 new branches in 37658 total execs
+Trying to fuzz input output/queue/id:000628,src:000005,op:havoc,rep:4,+cov: 
+which hit branch 52582 (hit by 1 inputs) 
+while bitflipping, 2199 of 2872 tries hit branch 52582
+while calibrating, 430 of 1078 tries hit branch 52582
+calib stage: 6 new coverage in 3995 total execs
+calib stage: 5 new branches in 3995 total execs
+In deterministic stage, 24853 of 25950 tries hit branch 52582
+det stage: 7 new coverage in 29954 total execs
+det stage: 6 new branches in 29954 total execs
+In havoc stage, 804 of 2048 tries hit branch 52582
+havoc stage: 8 new coverage in 32010 total execs
+havoc stage: 7 new branches in 32010 total execs
+Trying to fuzz input output/queue/id:000630,src:000005,op:havoc,rep:32,+cov: 
+which hit branch 27886 (hit by 1 inputs) 
+while bitflipping, 2471 of 2880 tries hit branch 27886
+while calibrating, 388 of 1081 tries hit branch 27886
+calib stage: 4 new coverage in 3994 total execs
+calib stage: 2 new branches in 3994 total execs
+In deterministic stage, 37412 of 38452 tries hit branch 27886
+det stage: 5 new coverage in 42455 total execs
+det stage: 3 new branches in 42455 total execs
+In havoc stage, 412 of 1024 tries hit branch 27886
+havoc stage: 5 new coverage in 43479 total execs
+havoc stage: 3 new branches in 43479 total execs
+Trying to fuzz input output/queue/id:000643,src:000007,op:flip2,pos:162,+cov: 
+which hit branch 17918 (hit by 1 inputs) 
+while bitflipping, 2551 of 2784 tries hit branch 17918
+while calibrating, 662 of 1045 tries hit branch 17918
+calib stage: 2 new coverage in 3846 total execs
+calib stage: 2 new branches in 3846 total execs
+In deterministic stage, 41169 of 41917 tries hit branch 17918
+det stage: 5 new coverage in 45786 total execs
+det stage: 4 new branches in 45786 total execs
+In havoc stage, 653 of 1536 tries hit branch 17918
+havoc stage: 6 new coverage in 47330 total execs
+havoc stage: 4 new branches in 47330 total execs
+Trying to fuzz input output/queue/id:000645,src:000007,op:arith8,pos:162,val:+17,+cov: 
+which hit branch 34941 (hit by 1 inputs) 
+while bitflipping, 2337 of 2784 tries hit branch 34941
+while calibrating, 543 of 1045 tries hit branch 34941
+calib stage: 6 new coverage in 3878 total execs
+calib stage: 0 new branches in 3878 total execs
+In deterministic stage, 33645 of 34570 tries hit branch 34941
+det stage: 7 new coverage in 38456 total execs
+det stage: 0 new branches in 38456 total execs
+In havoc stage, 794 of 2048 tries hit branch 34941
+havoc stage: 8 new coverage in 40512 total execs
+havoc stage: 0 new branches in 40512 total execs
+Trying to fuzz input output/queue/id:000647,src:000007,op:arith8,pos:162,val:+23,+cov: 
+which hit branch 27740 (hit by 1 inputs) 
+while bitflipping, 2292 of 2784 tries hit branch 27740
+while calibrating, 495 of 1045 tries hit branch 27740
+calib stage: 0 new coverage in 3830 total execs
+calib stage: 0 new branches in 3830 total execs
+In deterministic stage, 37099 of 38100 tries hit branch 27740
+det stage: 0 new coverage in 41931 total execs
+det stage: 0 new branches in 41931 total execs
+In havoc stage, 382 of 1024 tries hit branch 27740
+havoc stage: 0 new coverage in 42955 total execs
+havoc stage: 0 new branches in 42955 total execs
+Trying to fuzz input output/queue/id:000663,src:000008,op:int16,pos:318,val:+255,+cov: 
+which hit branch 35186 (hit by 1 inputs) 
+while bitflipping, 2071 of 2688 tries hit branch 35186
+while calibrating, 269 of 1009 tries hit branch 35186
+calib stage: 1 new coverage in 3706 total execs
+calib stage: 1 new branches in 3706 total execs
+In deterministic stage, 36163 of 37115 tries hit branch 35186
+det stage: 1 new coverage in 40821 total execs
+det stage: 1 new branches in 40821 total execs
+In havoc stage, 276 of 768 tries hit branch 35186
+havoc stage: 1 new coverage in 41589 total execs
+havoc stage: 1 new branches in 41589 total execs
+Trying to fuzz input output/queue/id:000668,src:000009,op:flip1,pos:174,+cov: 
+which hit branch 34866 (hit by 1 inputs) 
+while bitflipping, 2144 of 2584 tries hit branch 34866
+while calibrating, 475 of 970 tries hit branch 34866
+calib stage: 1 new coverage in 3563 total execs
+calib stage: 0 new branches in 3563 total execs
+In deterministic stage, 26412 of 27015 tries hit branch 34866
+det stage: 1 new coverage in 30578 total execs
+det stage: 0 new branches in 30578 total execs
+In havoc stage, 1046 of 2304 tries hit branch 34866
+havoc stage: 1 new coverage in 32882 total execs
+havoc stage: 0 new branches in 32882 total execs
+Trying to fuzz input output/queue/id:000671,src:000009,op:arith8,pos:174,val:+22,+cov: 
+which hit branch 1983 (hit by 1 inputs) 
+while bitflipping, 2101 of 2584 tries hit branch 1983
+while calibrating, 426 of 970 tries hit branch 1983
+calib stage: 0 new coverage in 3555 total execs
+calib stage: 0 new branches in 3555 total execs
+In deterministic stage, 26576 of 27177 tries hit branch 1983
+det stage: 0 new coverage in 30732 total execs
+det stage: 0 new branches in 30732 total execs
+In havoc stage, 642 of 1536 tries hit branch 1983
+havoc stage: 1 new coverage in 32276 total execs
+havoc stage: 1 new branches in 32276 total execs
+Trying to fuzz input output/queue/id:000676,src:000010,op:rbadd8,pos:247,+cov: 
+which hit branch 33546 (hit by 1 inputs) 
+while bitflipping, 2029 of 2400 tries hit branch 33546
+while calibrating, 353 of 901 tries hit branch 33546
+calib stage: 1 new coverage in 3313 total execs
+calib stage: 1 new branches in 3313 total execs
+In deterministic stage, 23449 of 23920 tries hit branch 33546
+det stage: 2 new coverage in 27239 total execs
+det stage: 2 new branches in 27239 total execs
+In havoc stage, 641 of 1536 tries hit branch 33546
+havoc stage: 3 new coverage in 28784 total execs
+havoc stage: 3 new branches in 28784 total execs
+Trying to fuzz input output/queue/id:000719,src:000014,op:havoc,rep:32,+cov: 
+which hit branch 11884 (hit by 1 inputs) 
+while bitflipping, 2370 of 2880 tries hit branch 11884
+while calibrating, 437 of 1081 tries hit branch 11884
+calib stage: 2 new coverage in 3980 total execs
+calib stage: 1 new branches in 3980 total execs
+In deterministic stage, 36504 of 37683 tries hit branch 11884
+det stage: 15 new coverage in 41767 total execs
+det stage: 8 new branches in 41767 total execs
+In havoc stage, 259 of 768 tries hit branch 11884
+havoc stage: 15 new coverage in 42535 total execs
+havoc stage: 8 new branches in 42535 total execs
+Trying to fuzz input output/queue/id:000723,src:000014,op:havoc,rep:32,+cov: 
+which hit branch 60273 (hit by 1 inputs) 
+while bitflipping, 1962 of 2880 tries hit branch 60273
+while calibrating, 345 of 1081 tries hit branch 60273
+calib stage: 5 new coverage in 3996 total execs
+calib stage: 4 new branches in 3996 total execs
+In deterministic stage, 33121 of 34197 tries hit branch 60273
+det stage: 7 new coverage in 38211 total execs
+det stage: 4 new branches in 38211 total execs
+In havoc stage, 235 of 768 tries hit branch 60273
+havoc stage: 7 new coverage in 38979 total execs
+havoc stage: 4 new branches in 38979 total execs
+Trying to fuzz input output/queue/id:000750,src:000015,op:arith8,pos:270,val:+33,+cov: 
+which hit branch 64034 (hit by 1 inputs) 
+while bitflipping, 2309 of 2880 tries hit branch 64034
+while calibrating, 435 of 1081 tries hit branch 64034
+calib stage: 1 new coverage in 3970 total execs
+calib stage: 0 new branches in 3970 total execs
+In deterministic stage, 40355 of 42087 tries hit branch 64034
+det stage: 3 new coverage in 46077 total execs
+det stage: 1 new branches in 46077 total execs
+In havoc stage, 850 of 2048 tries hit branch 64034
+havoc stage: 4 new coverage in 48133 total execs
+havoc stage: 1 new branches in 48133 total execs
+Trying to fuzz input output/queue/id:000755,src:000015,op:havoc,rep:32,+cov: 
+which hit branch 45232 (hit by 1 inputs) 
+while bitflipping, 2204 of 2880 tries hit branch 45232
+while calibrating, 343 of 1081 tries hit branch 45232
+calib stage: 3 new coverage in 3986 total execs
+calib stage: 3 new branches in 3986 total execs
+In deterministic stage, 33468 of 35754 tries hit branch 45232
+det stage: 3 new coverage in 39742 total execs
+det stage: 3 new branches in 39742 total execs
+In havoc stage, 5595 of 16384 tries hit branch 45232
+havoc stage: 18 new coverage in 56237 total execs
+havoc stage: 7 new branches in 56237 total execs
+Trying to fuzz input output/queue/id:000776,src:000233,op:flip1,pos:238,+cov: 
+which hit branch 54594 (hit by 1 inputs) 
+while bitflipping, 2837 of 3440 tries hit branch 54594
+while calibrating, 428 of 1291 tries hit branch 54594
+calib stage: 8 new coverage in 4786 total execs
+calib stage: 8 new branches in 4786 total execs
+In deterministic stage, 54897 of 56346 tries hit branch 54594
+det stage: 8 new coverage in 61135 total execs
+det stage: 8 new branches in 61135 total execs
+In havoc stage, 6750 of 12288 tries hit branch 54594
+havoc stage: 20 new coverage in 73526 total execs
+havoc stage: 13 new branches in 73526 total execs
+Trying to fuzz input output/queue/id:000799,src:000233,op:havoc,rep:16,+cov: 
+which hit branch 37053 (hit by 1 inputs) 
+while bitflipping, 2621 of 3136 tries hit branch 37053
+while calibrating, 339 of 1177 tries hit branch 37053
+calib stage: 4 new coverage in 4346 total execs
+calib stage: 4 new branches in 4346 total execs
+In deterministic stage, 42493 of 43308 tries hit branch 37053
+det stage: 5 new coverage in 47660 total execs
+det stage: 5 new branches in 47660 total execs
+In havoc stage, 397 of 1024 tries hit branch 37053
+havoc stage: 5 new coverage in 48684 total execs
+havoc stage: 5 new branches in 48684 total execs
+Trying to fuzz input output/queue/id:000804,src:000233,op:havoc,rep:32,+cov: 
+which hit branch 64950 (hit by 1 inputs) 
+while bitflipping, 2607 of 3136 tries hit branch 64950
+while calibrating, 587 of 1177 tries hit branch 64950
+calib stage: 2 new coverage in 4331 total execs
+calib stage: 1 new branches in 4331 total execs
+In deterministic stage, 42388 of 43736 tries hit branch 64950
+det stage: 4 new coverage in 48082 total execs
+det stage: 1 new branches in 48082 total execs
+In havoc stage, 728 of 2048 tries hit branch 64950
+havoc stage: 6 new coverage in 50146 total execs
+havoc stage: 1 new branches in 50146 total execs
+Trying to fuzz input output/queue/id:000830,src:000499,op:flip1,pos:236,+cov: 
+which hit branch 53415 (hit by 1 inputs) 
+while bitflipping, 3117 of 3584 tries hit branch 53415
+while calibrating, 760 of 1345 tries hit branch 53415
+calib stage: 6 new coverage in 4982 total execs
+calib stage: 5 new branches in 4982 total execs
+In deterministic stage, 51022 of 52132 tries hit branch 53415
+det stage: 6 new coverage in 57115 total execs
+det stage: 5 new branches in 57115 total execs
+In havoc stage, 409 of 1146 tries hit branch 53415
+havoc stage: 6 new coverage in 58261 total execs
+havoc stage: 5 new branches in 58261 total execs
+Trying to fuzz input output/queue/id:000841,src:000499,op:arith8,pos:236,val:-12,+cov: 
+which hit branch 62176 (hit by 1 inputs) 
+while bitflipping, 2754 of 3328 tries hit branch 62176
+while calibrating, 634 of 1249 tries hit branch 62176
+calib stage: 3 new coverage in 4604 total execs
+calib stage: 2 new branches in 4604 total execs
+In deterministic stage, 49836 of 51000 tries hit branch 62176
+det stage: 5 new coverage in 55622 total execs
+det stage: 3 new branches in 55622 total execs
+In havoc stage, 1367 of 6144 tries hit branch 62176
+havoc stage: 7 new coverage in 61784 total execs
+havoc stage: 5 new branches in 61784 total execs
+Trying to fuzz input output/queue/id:000842,src:000499,op:arith8,pos:236,val:-13,+cov: 
+which hit branch 28788 (hit by 1 inputs) 
+while bitflipping, 2662 of 3200 tries hit branch 28788
+while calibrating, 461 of 1201 tries hit branch 28788
+calib stage: 2 new coverage in 4420 total execs
+calib stage: 2 new branches in 4420 total execs
+In deterministic stage, 42063 of 42986 tries hit branch 28788
+det stage: 2 new coverage in 47409 total execs
+det stage: 2 new branches in 47409 total execs
+In havoc stage, 4884 of 12288 tries hit branch 28788
+havoc stage: 16 new coverage in 59812 total execs
+havoc stage: 8 new branches in 59812 total execs
+Trying to fuzz input output/queue/id:000852,src:000499,op:havoc,rep:64,+cov: 
+which hit branch 50194 (hit by 1 inputs) 
+while bitflipping, 2750 of 3072 tries hit branch 50194
+while calibrating, 590 of 1153 tries hit branch 50194
+calib stage: 7 new coverage in 4282 total execs
+calib stage: 5 new branches in 4282 total execs
+In deterministic stage, 46913 of 47857 tries hit branch 50194
+det stage: 7 new coverage in 52141 total execs
+det stage: 5 new branches in 52141 total execs
+In havoc stage, 992 of 3072 tries hit branch 50194
+havoc stage: 9 new coverage in 55229 total execs
+havoc stage: 6 new branches in 55229 total execs
+Trying to fuzz input output/queue/id:000858,src:000519,op:havoc,rep:8,+cov: 
+which hit branch 55892 (hit by 1 inputs) 
+while bitflipping, 2867 of 3456 tries hit branch 55892
+while calibrating, 602 of 1297 tries hit branch 55892
+calib stage: 4 new coverage in 4789 total execs
+calib stage: 4 new branches in 4789 total execs
+In deterministic stage, 47171 of 48107 tries hit branch 55892
+det stage: 8 new coverage in 52929 total execs
+det stage: 6 new branches in 52929 total execs
+In havoc stage, 1567 of 3072 tries hit branch 55892
+havoc stage: 10 new coverage in 56017 total execs
+havoc stage: 7 new branches in 56017 total execs
+Trying to fuzz input output/queue/id:000868,src:000539,op:havoc,rep:64,+cov: 
+which hit branch 63824 (hit by 1 inputs) 
+while bitflipping, 2687 of 3200 tries hit branch 63824
+while calibrating, 578 of 1201 tries hit branch 63824
+calib stage: 6 new coverage in 4450 total execs
+calib stage: 5 new branches in 4450 total execs
+In deterministic stage, 40160 of 41268 tries hit branch 63824
+det stage: 12 new coverage in 45766 total execs
+det stage: 10 new branches in 45766 total execs
+In havoc stage, 6347 of 12288 tries hit branch 63824
+havoc stage: 18 new coverage in 58103 total execs
+havoc stage: 11 new branches in 58103 total execs
+Trying to fuzz input output/queue/id:000876,src:000628,op:flip1,pos:270,+cov: 
+which hit branch 63768 (hit by 1 inputs) 
+while bitflipping, 2397 of 2872 tries hit branch 63768
+while calibrating, 460 of 1078 tries hit branch 63768
+calib stage: 3 new coverage in 3975 total execs
+calib stage: 3 new branches in 3975 total execs
+In deterministic stage, 28782 of 29332 tries hit branch 63768
+det stage: 3 new coverage in 33308 total execs
+det stage: 3 new branches in 33308 total execs
+In havoc stage, 294 of 768 tries hit branch 63768
+havoc stage: 3 new coverage in 34076 total execs
+havoc stage: 3 new branches in 34076 total execs
+Trying to fuzz input output/queue/id:000885,src:000630,op:flip1,pos:331,+cov: 
+which hit branch 37584 (hit by 1 inputs) 
+while bitflipping, 2444 of 2880 tries hit branch 37584
+while calibrating, 349 of 1081 tries hit branch 37584
+calib stage: 6 new coverage in 4004 total execs
+calib stage: 5 new branches in 4004 total execs
+In deterministic stage, 37330 of 38113 tries hit branch 37584
+det stage: 8 new coverage in 42133 total execs
+det stage: 6 new branches in 42133 total execs
+In havoc stage, 321 of 768 tries hit branch 37584
+havoc stage: 8 new coverage in 42901 total execs
+havoc stage: 6 new branches in 42901 total execs
+Trying to fuzz input output/queue/id:000903,src:000671,op:havoc,rep:16,+cov: 
+which hit branch 13329 (hit by 1 inputs) 
+while bitflipping, 2423 of 2592 tries hit branch 13329
+while calibrating, 598 of 973 tries hit branch 13329
+calib stage: 0 new coverage in 3566 total execs
+calib stage: 0 new branches in 3566 total execs
+In deterministic stage, 18743 of 19024 tries hit branch 13329
+det stage: 0 new coverage in 22590 total execs
+det stage: 0 new branches in 22590 total execs
+In havoc stage, 197 of 512 tries hit branch 13329
+havoc stage: 0 new coverage in 23102 total execs
+havoc stage: 0 new branches in 23102 total execs
+Trying to fuzz input output/queue/id:000904,src:000676,op:flip1,pos:246,+cov: 
+which hit branch 54976 (hit by 1 inputs) 
+while bitflipping, 2017 of 2400 tries hit branch 54976
+while calibrating, 348 of 901 tries hit branch 54976
+calib stage: 4 new coverage in 3335 total execs
+calib stage: 4 new branches in 3335 total execs
+In deterministic stage, 21298 of 21691 tries hit branch 54976
+det stage: 5 new coverage in 25034 total execs
+det stage: 5 new branches in 25034 total execs
+In havoc stage, 447 of 1024 tries hit branch 54976
+havoc stage: 5 new coverage in 26058 total execs
+havoc stage: 5 new branches in 26058 total execs
+Trying to fuzz input output/queue/id:000905,src:000676,op:arith8,pos:198,val:+18,+cov: 
+which hit branch 9410 (hit by 1 inputs) 
+while bitflipping, 1895 of 2400 tries hit branch 9410
+while calibrating, 330 of 901 tries hit branch 9410
+calib stage: 10 new coverage in 3380 total execs
+calib stage: 3 new branches in 3380 total execs
+In deterministic stage, 21065 of 21916 tries hit branch 9410
+det stage: 11 new coverage in 25304 total execs
+det stage: 3 new branches in 25304 total execs
+In havoc stage, 534 of 1024 tries hit branch 9410
+havoc stage: 11 new coverage in 26328 total execs
+havoc stage: 3 new branches in 26328 total execs
+Trying to fuzz input output/queue/id:000906,src:000676,op:havoc,rep:128,+cov: 
+which hit branch 62697 (hit by 1 inputs) 
+while bitflipping, 2007 of 2400 tries hit branch 62697
+while calibrating, 428 of 901 tries hit branch 62697
+calib stage: 10 new coverage in 3375 total execs
+calib stage: 6 new branches in 3375 total execs
+In deterministic stage, 27695 of 28287 tries hit branch 62697
+det stage: 12 new coverage in 31679 total execs
+det stage: 6 new branches in 31679 total execs
+In havoc stage, 535 of 1536 tries hit branch 62697
+havoc stage: 12 new coverage in 33215 total execs
+havoc stage: 6 new branches in 33215 total execs
+Trying to fuzz input output/queue/id:000920,src:000719,op:arith16,pos:210,val:+32,+cov: 
+which hit branch 52259 (hit by 1 inputs) 
+while bitflipping, 2474 of 2880 tries hit branch 52259
+while calibrating, 519 of 1081 tries hit branch 52259
+calib stage: 1 new coverage in 3969 total execs
+calib stage: 0 new branches in 3969 total execs
+In deterministic stage, 47446 of 48432 tries hit branch 52259
+det stage: 1 new coverage in 52401 total execs
+det stage: 0 new branches in 52401 total execs
+In havoc stage, 7252 of 16384 tries hit branch 52259
+havoc stage: 7 new coverage in 68830 total execs
+havoc stage: 3 new branches in 68830 total execs
+Trying to fuzz input output/queue/id:000923,src:000723,op:flip1,pos:306,+cov: 
+which hit branch 43153 (hit by 1 inputs) 
+while bitflipping, 2215 of 2880 tries hit branch 43153
+while calibrating, 354 of 1081 tries hit branch 43153
+calib stage: 4 new coverage in 3996 total execs
+calib stage: 3 new branches in 3996 total execs
+In deterministic stage, 42291 of 43362 tries hit branch 43153
+det stage: 5 new coverage in 47369 total execs
+det stage: 3 new branches in 47369 total execs
+In havoc stage, 393 of 1024 tries hit branch 43153
+havoc stage: 5 new coverage in 48393 total execs
+havoc stage: 3 new branches in 48393 total execs
+Trying to fuzz input output/queue/id:000946,src:000755,op:havoc,rep:32,+cov: 
+which hit branch 48824 (hit by 1 inputs) 
+while bitflipping, 2225 of 2880 tries hit branch 48824
+while calibrating, 337 of 1081 tries hit branch 48824
+calib stage: 1 new coverage in 3970 total execs
+calib stage: 1 new branches in 3970 total execs
+In deterministic stage, 35281 of 36636 tries hit branch 48824
+det stage: 5 new coverage in 40642 total execs
+det stage: 2 new branches in 40642 total execs
+In havoc stage, 781 of 2048 tries hit branch 48824
+havoc stage: 6 new coverage in 42698 total execs
+havoc stage: 2 new branches in 42698 total execs
+Trying to fuzz input output/queue/id:000951,src:000776,op:flip1,pos:236,+cov: 
+which hit branch 43901 (hit by 1 inputs) 
+while bitflipping, 2841 of 3440 tries hit branch 43901
+while calibrating, 665 of 1291 tries hit branch 43901
+calib stage: 12 new coverage in 4828 total execs
+calib stage: 11 new branches in 4828 total execs
+In deterministic stage, 47223 of 48095 tries hit branch 43901
+det stage: 12 new coverage in 52925 total execs
+det stage: 11 new branches in 52925 total execs
+In havoc stage, 4707 of 12288 tries hit branch 43901
+havoc stage: 19 new coverage in 65274 total execs
+havoc stage: 14 new branches in 65274 total execs
+Trying to fuzz input output/queue/id:000967,src:000776,op:havoc,rep:128,+cov: 
+which hit branch 6414 (hit by 1 inputs) 
+while bitflipping, 2690 of 3168 tries hit branch 6414
+while calibrating, 347 of 1189 tries hit branch 6414
+calib stage: 0 new coverage in 4358 total execs
+calib stage: 0 new branches in 4358 total execs
+In deterministic stage, 35012 of 36213 tries hit branch 6414
+det stage: 1 new coverage in 40580 total execs
+det stage: 0 new branches in 40580 total execs
+In havoc stage, 5691 of 16384 tries hit branch 6414
+havoc stage: 7 new coverage in 57013 total execs
+havoc stage: 0 new branches in 57013 total execs
+Trying to fuzz input output/queue/id:000994,src:000841,op:havoc,rep:32,+cov: 
+which hit branch 46980 (hit by 1 inputs) 
+while bitflipping, 2678 of 3328 tries hit branch 46980
+while calibrating, 460 of 1249 tries hit branch 46980
+calib stage: 0 new coverage in 4578 total execs
+calib stage: 0 new branches in 4578 total execs
+In deterministic stage, 41068 of 42580 tries hit branch 46980
+det stage: 3 new coverage in 47183 total execs
+det stage: 2 new branches in 47183 total execs
+In havoc stage, 3599 of 8192 tries hit branch 46980
+havoc stage: 5 new coverage in 55391 total execs
+havoc stage: 3 new branches in 55391 total execs
+Trying to fuzz input output/queue/id:001000,src:000842,op:havoc,rep:128,+cov: 
+which hit branch 55981 (hit by 1 inputs) 
+while bitflipping, 2838 of 3200 tries hit branch 55981
+while calibrating, 654 of 1201 tries hit branch 55981
+calib stage: 4 new coverage in 4433 total execs
+calib stage: 2 new branches in 4433 total execs
+In deterministic stage, 41492 of 42432 tries hit branch 55981
+det stage: 6 new coverage in 46881 total execs
+det stage: 2 new branches in 46881 total execs
+In havoc stage, 593 of 1536 tries hit branch 55981
+havoc stage: 6 new coverage in 48417 total execs
+havoc stage: 2 new branches in 48417 total execs
+Trying to fuzz input output/queue/id:001004,src:000842,op:havoc,rep:64,+cov: 
+which hit branch 14482 (hit by 1 inputs) 
+while bitflipping, 2842 of 3200 tries hit branch 14482
+while calibrating, 636 of 1201 tries hit branch 14482
+calib stage: 0 new coverage in 4402 total execs
+calib stage: 0 new branches in 4402 total execs
+In deterministic stage, 43779 of 44726 tries hit branch 14482
+det stage: 1 new coverage in 49135 total execs
+det stage: 1 new branches in 49135 total execs
+In havoc stage, 6494 of 16384 tries hit branch 14482
+havoc stage: 4 new coverage in 65544 total execs
+havoc stage: 2 new branches in 65544 total execs
+Trying to fuzz input output/queue/id:001006,src:000842,op:havoc,rep:8,+cov: 
+which hit branch 61769 (hit by 1 inputs) 
+while bitflipping, 2382 of 3200 tries hit branch 61769
+while calibrating, 307 of 1201 tries hit branch 61769
+calib stage: 5 new coverage in 4444 total execs
+calib stage: 4 new branches in 4444 total execs
