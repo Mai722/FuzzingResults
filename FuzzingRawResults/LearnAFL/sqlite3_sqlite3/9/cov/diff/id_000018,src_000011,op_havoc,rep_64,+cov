@@ -1,0 +1,10 @@
+diff id:000017,src:000011,op:havoc,rep:8,+cov -> id:000018,src:000011,op:havoc,rep:64,+cov
+Src file: /LearnAFL/code1/sqlite3.c
+  New 'line' coverage: 155521
+  New 'line' coverage: 155522
+  New 'line' coverage: 155523
+  New 'line' coverage: 155619
+  New 'line' coverage: 155622
+  New 'line' coverage: 155625
+  New 'line' coverage: 155630
+  New 'line' coverage: 155631
