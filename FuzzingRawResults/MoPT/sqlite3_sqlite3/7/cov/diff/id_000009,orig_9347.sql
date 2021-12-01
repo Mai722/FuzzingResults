@@ -1,0 +1,25 @@
+diff id:000008,orig:7857.sql -> id:000009,orig:9347.sql
+Src file: /MOpt-AFL/MOpt/code1/sqlite3.c
+  New 'line' coverage: 151707
+  New 'line' coverage: 151719
+  New 'line' coverage: 151722
+  New 'line' coverage: 151736
+  New 'line' coverage: 155417
+  New 'line' coverage: 155439
+  New 'line' coverage: 155440
+  New 'line' coverage: 155619
+  New 'line' coverage: 155622
+  New 'line' coverage: 155625
+  New 'line' coverage: 155630
+  New 'line' coverage: 155631
+  New 'line' coverage: 31160
+  New 'line' coverage: 31162
+  New 'line' coverage: 31163
+  New 'line' coverage: 31164
+  New 'line' coverage: 31165
+  New 'line' coverage: 31166
+  New 'line' coverage: 31168
+  New 'line' coverage: 31169
+  New 'line' coverage: 31170
+  New 'line' coverage: 31634
+  New 'line' coverage: 31639
