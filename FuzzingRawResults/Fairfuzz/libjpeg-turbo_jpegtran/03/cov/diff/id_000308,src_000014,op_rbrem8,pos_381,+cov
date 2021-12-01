@@ -1,0 +1,3 @@
+diff id:000307,src:000014,op:rbrem8,pos:244 -> id:000308,src:000014,op:rbrem8,pos:381,+cov
+Src file: /afl-rb/code1/jctrans.c
+  New 'line' coverage: 135

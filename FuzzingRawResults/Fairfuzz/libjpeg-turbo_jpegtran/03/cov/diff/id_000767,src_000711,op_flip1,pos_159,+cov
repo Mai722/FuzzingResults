@@ -1,0 +1,5 @@
+diff id:000766,src:000656,op:flip2,pos:336 -> id:000767,src:000711,op:flip1,pos:159,+cov
+Src file: /afl-rb/code1/jdhuff.c
+  New 'line' coverage: 336
+  New 'line' coverage: 338
+  New 'line' coverage: 339

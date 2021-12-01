@@ -1,0 +1,28 @@
+diff id:000365,src:000014,op:arith8,pos:375,val:-7,+cov -> id:000366,src:000014,op:arith8,pos:446,val:+35,+cov
+Src file: /afl-rb/code1/jcapimin.c
+  New 'function' coverage: jpeg_write_marker()
+  New 'line' coverage: 207
+  New 'line' coverage: 212
+  New 'line' coverage: 213
+  New 'line' coverage: 214
+  New 'line' coverage: 218
+  New 'line' coverage: 219
+  New 'line' coverage: 220
+  New 'line' coverage: 221
+  New 'line' coverage: 222
+  New 'line' coverage: 224
+Src file: /afl-rb/code1/jcmarker.c
+  New 'function' coverage: write_marker_byte()
+  New 'function' coverage: write_marker_header()
+  New 'line' coverage: 443
+  New 'line' coverage: 446
+  New 'line' coverage: 451
+  New 'line' coverage: 452
+  New 'line' coverage: 455
+  New 'line' coverage: 458
+  New 'line' coverage: 459
+Src file: /afl-rb/code1/transupp.c
+  New 'line' coverage: 1605
+  New 'line' coverage: 1614
+  New 'line' coverage: 1623
+  New 'line' coverage: 1624

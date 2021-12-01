@@ -1,0 +1,39 @@
+diff id:000001,orig:id:000416,src:000000,op:havoc,rep:16.jpg -> id:000002,orig:id:000448,src:000000,op:havoc,rep:32,+cov.jpg
+Src file: /afl-rb/code1/jdinput.c
+  New 'line' coverage: 322
+  New 'line' coverage: 337
+  New 'line' coverage: 338
+  New 'line' coverage: 339
+  New 'line' coverage: 340
+Src file: /afl-rb/code1/jdatasrc.c
+  New 'function' coverage: skip_input_data()
+  New 'line' coverage: 163
+  New 'line' coverage: 165
+  New 'line' coverage: 171
+  New 'line' coverage: 172
+  New 'line' coverage: 173
+  New 'line' coverage: 174
+  New 'line' coverage: 179
+  New 'line' coverage: 180
+  New 'line' coverage: 182
+Src file: /afl-rb/code1/jdmarker.c
+  New 'function' coverage: skip_variable()
+  New 'line' coverage: 1034
+  New 'line' coverage: 1035
+  New 'line' coverage: 1036
+  New 'line' coverage: 1037
+  New 'line' coverage: 862
+  New 'line' coverage: 866
+  New 'line' coverage: 868
+  New 'line' coverage: 869
+  New 'line' coverage: 871
+  New 'line' coverage: 873
+  New 'line' coverage: 874
+  New 'line' coverage: 875
+Src file: /afl-rb/code1/jdapimin.c
+  New 'line' coverage: 263
+  New 'line' coverage: 267
+  New 'line' coverage: 268
+  New 'line' coverage: 269
+  New 'line' coverage: 314
+  New 'line' coverage: 337

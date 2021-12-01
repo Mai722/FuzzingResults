@@ -1,0 +1,5 @@
+diff id:000030,orig:id:002994,src:002797,op:havoc,rep:2,+cov.jpg -> id:000031,orig:id:003040,src:002881,op:arith8,pos:164,val:-29.jpg
+Src file: /afl-rb/code1/jctrans.c
+  New 'line' coverage: 344
+  New 'line' coverage: 345
+  New 'line' coverage: 346
