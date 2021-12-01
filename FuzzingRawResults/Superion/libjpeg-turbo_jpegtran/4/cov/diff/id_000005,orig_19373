@@ -1,0 +1,40 @@
+diff id:000004,orig:19369 -> id:000005,orig:19373
+Src file: /Superion/code1/jdapimin.c
+  New 'line' coverage: 263
+  New 'line' coverage: 268
+  New 'line' coverage: 269
+  New 'line' coverage: 314
+  New 'line' coverage: 337
+Src file: /Superion/code1/jdatasrc.c
+  New 'function' coverage: skip_input_data()
+  New 'line' coverage: 110
+  New 'line' coverage: 112
+  New 'line' coverage: 114
+  New 'line' coverage: 115
+  New 'line' coverage: 163
+  New 'line' coverage: 165
+  New 'line' coverage: 171
+  New 'line' coverage: 172
+  New 'line' coverage: 173
+  New 'line' coverage: 174
+  New 'line' coverage: 179
+  New 'line' coverage: 180
+  New 'line' coverage: 182
+Src file: /Superion/code1/jdmarker.c
+  New 'function' coverage: skip_variable()
+  New 'line' coverage: 1035
+  New 'line' coverage: 1036
+  New 'line' coverage: 1037
+  New 'line' coverage: 862
+  New 'line' coverage: 866
+  New 'line' coverage: 868
+  New 'line' coverage: 869
+  New 'line' coverage: 871
+  New 'line' coverage: 873
+  New 'line' coverage: 874
+  New 'line' coverage: 875
+Src file: /Superion/code1/jdinput.c
+  New 'line' coverage: 322
+  New 'line' coverage: 338
+  New 'line' coverage: 339
+  New 'line' coverage: 340
