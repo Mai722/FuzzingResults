@@ -1,0 +1,3500 @@
+
+*** Imported 123 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000000,orig:582887_0.xsd (0 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+
+    Coverage diff (init) id:000000,orig:582887_0.xsd
+diff (init) -> id:000000,orig:582887_0.xsd
+New src file: /MOpt-AFL/MOpt/code1/xmlcatalog.c
+  New 'function' coverage: main()
+  New 'function' coverage: usage()
+  New 'line' coverage: 309
+  New 'line' coverage: 311
+  New 'line' coverage: 319
+  New 'line' coverage: 326
+  New 'line' coverage: 327
+  New 'line' coverage: 330
+  New 'line' coverage: 333
+  New 'line' coverage: 334
+  New 'line' coverage: 335
+
+
+
+++++++ BEGIN - first exec output for CMD: cat /MOpt-AFL/MOpt/output/queue/id:000000,orig:582887_0.xsd | ./xmlcatalog
+    Usage : ./xmlcatalog [options] catalogfile entities...
+    	Parse the catalog file and query it for the entities
+    	--sgml : handle SGML Super catalogs for --add and --del
+    	--shell : run a shell allowing interactive queries
+    	--create : create a new catalog
+    	--add 'type' 'orig' 'replace' : add an XML entry
+    	--add 'entry' : add an SGML entry
+    	--del 'values' : remove values
+    	--noout: avoid dumping the result on stdout
+    	         used with --add or --del, it saves the catalog changes
+    	         and with --sgml it automatically updates the super catalog
+    	--no-super-update: do not update the SGML super catalog
+    	-v --verbose : provide debug informations
+++++++ END
+
+[+] AFL test case: id:000001,orig:737840.xml (1 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000002,orig:EntityDeclared5 (2 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000003,orig:abc.xml (3 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000004,orig:acb.xml (4 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000005,orig:allsg_0.xml (5 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000006,orig:allsg_1.xml (6 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000007,orig:allsg_2.xml (7 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000008,orig:allsg_3.xml (8 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000009,orig:allsg_4.xml (9 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000010,orig:allsg_5.xml (10 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000011,orig:any5_0.xml (11 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000012,orig:any7_1.xml (12 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000013,orig:any8_1.xsd (13 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000014,orig:anyAttr.importA.1_0.xsd (14 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000015,orig:bac.xml (15 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000016,orig:bca.xml (16 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000017,orig:bug141333.xsd (17 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000018,orig:bug141333_0.xsd (18 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000019,orig:bug143951_0.xsd (19 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000020,orig:cab.xml (20 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000021,orig:cba.xml (21 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000022,orig:comment6.xml (22 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000023,orig:cos-st-restricts-1-2-err_0.xml (23 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000024,orig:cos-st-restricts-1-2-err_0.xsd (24 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000025,orig:dav7 (25 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000026,orig:dav8 (26 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000027,orig:decimal-1_0.xml (27 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000028,orig:defattr2.xml (28 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000029,orig:demo2.rng (29 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000030,orig:derivation-ok-extension_0.xsd (30 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000031,orig:derivation-restriction-anyAttr_0.xsd (31 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000032,orig:ent3 (32 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000033,orig:ent4 (33 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000034,orig:ent9 (34 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000035,orig:example-2.xml (35 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000036,orig:example-3.xml (36 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000037,orig:facet-unionST-err1_0.xml (37 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000038,orig:facet-whiteSpace_0.xml (38 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000039,orig:group0_0.xsd (39 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000040,orig:import2_0.imp (40 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000041,orig:include.xml (41 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000042,src:000009,op:flip1,pos:0,+cov (42 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000043,src:000009,op:flip1,pos:0,+cov (43 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000044,src:000009,op:flip2,pos:0,+cov (44 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000045,src:000009,op:flip2,pos:0,+cov (45 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000046,src:000009,op:flip4,pos:0,+cov (46 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000047,src:000009,op:flip4,pos:0,+cov (47 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000048,src:000009,op:flip4,pos:0,+cov (48 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000049,src:000009,op:flip16,pos:0,+cov (49 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000050,src:000009,op:flip32,pos:0,+cov (50 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000051,src:000009,op:arith8,pos:0,val:-15,+cov (51 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000052,src:000009,op:arith8,pos:0,val:-28,+cov (52 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000053,src:000009,op:arith8,pos:0,val:+35,+cov (53 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000054,src:000009,op:int16,pos:0,val:be:-128,+cov (54 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000055,src:000009,op:int16,pos:0,val:-1,+cov (55 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000056,src:000009,op:int16,pos:0,val:+32,+cov (56 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000057,src:000009,op:int16,pos:0,val:+1000,+cov (57 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000058,src:000009,op:int32,pos:0,val:be:-128,+cov (58 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000059,src:000009,op:int32,pos:0,val:-1,+cov (59 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000060,src:000009,op:int32,pos:0,val:be:-32768 (60 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000061,src:000009,op:int32,pos:0,val:+1000 (61 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000062,src:000009,op:MOpt-havoc,rep:8,+cov (62 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000063,src:000009,op:MOpt-havoc,rep:8 (63 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000064,src:000009,op:MOpt-havoc,rep:64 (64 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000065,src:000009,op:MOpt-havoc,rep:64,+cov (65 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000066,src:000009,op:MOpt-havoc,rep:32 (66 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000067,src:000009,op:MOpt-havoc,rep:128 (67 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000068,src:000009,op:MOpt-havoc,rep:128,+cov (68 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000069,src:000009,op:MOpt-havoc,rep:8 (69 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000070,src:000009,op:MOpt-havoc,rep:8,+cov (70 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000071,src:000009,op:MOpt-havoc,rep:128,+cov (71 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000072,src:000009,op:MOpt-havoc,rep:64,+cov (72 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000073,src:000009,op:MOpt-havoc,rep:4,+cov (73 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000074,src:000009,op:MOpt-havoc,rep:128,+cov (74 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000075,src:000009,op:MOpt-havoc,rep:64,+cov (75 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000076,src:000009,op:MOpt-havoc,rep:128,+cov (76 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000077,src:000009,op:MOpt-havoc,rep:16,+cov (77 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000078,src:000009,op:MOpt-havoc,rep:16,+cov (78 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000079,src:000009,op:MOpt-havoc,rep:128,+cov (79 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000080,src:000009,op:MOpt-havoc,rep:64,+cov (80 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000081,src:000009,op:MOpt-havoc,rep:8,+cov (81 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000082,src:000009,op:MOpt-havoc,rep:32 (82 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000083,src:000009,op:MOpt-havoc,rep:32,+cov (83 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000084,src:000009,op:MOpt-havoc,rep:4,+cov (84 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000085,src:000009,op:MOpt-havoc,rep:32,+cov (85 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000086,src:000009,op:MOpt-havoc,rep:32,+cov (86 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000087,src:000009,op:MOpt-havoc,rep:64 (87 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000088,src:000009,op:MOpt-havoc,rep:64,+cov (88 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000089,src:000009,op:MOpt-havoc,rep:4,+cov (89 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000090,src:000009,op:MOpt-havoc,rep:64,+cov (90 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000091,src:000009,op:MOpt-havoc,rep:64 (91 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000092,src:000009,op:MOpt-havoc,rep:128,+cov (92 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000093,src:000009,op:MOpt-havoc,rep:8,+cov (93 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000094,src:000009,op:MOpt-havoc,rep:2 (94 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000095,src:000009,op:MOpt-havoc,rep:16,+cov (95 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000096,src:000009,op:MOpt-havoc,rep:64,+cov (96 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000097,src:000009,op:MOpt-havoc,rep:128 (97 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000098,src:000009,op:MOpt-havoc,rep:64 (98 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000099,src:000009,op:MOpt-havoc,rep:64 (99 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000100,src:000009,op:MOpt-havoc,rep:128 (100 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000101,src:000009,op:MOpt-havoc,rep:16 (101 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000102,src:000009,op:MOpt-havoc,rep:8 (102 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000103,src:000009,op:MOpt-havoc,rep:32 (103 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000104,src:000009,op:MOpt-havoc,rep:64 (104 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000105,src:000009,op:MOpt-havoc,rep:32 (105 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000106,src:000009,op:MOpt-havoc,rep:8 (106 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000107,src:000009,op:MOpt-havoc,rep:8,+cov (107 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000108,src:000009,op:MOpt-havoc,rep:64,+cov (108 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000109,src:000009,op:MOpt-havoc,rep:128,+cov (109 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000110,src:000009,op:MOpt-havoc,rep:8,+cov (110 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000111,src:000009,op:MOpt-havoc,rep:128 (111 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000112,src:000009,op:MOpt-havoc,rep:128 (112 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000113,src:000009,op:MOpt-havoc,rep:32 (113 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000114,src:000009,op:MOpt-havoc,rep:8,+cov (114 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000115,src:000009,op:MOpt-havoc,rep:16 (115 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000116,src:000009,op:MOpt-havoc,rep:128,+cov (116 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000117,src:000009,op:MOpt-havoc,rep:8 (117 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000118,src:000009,op:MOpt-havoc,rep:32,+cov (118 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000119,src:000009,op:MOpt-havoc,rep:64 (119 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000120,src:000009,op:MOpt-havoc,rep:16 (120 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000121,src:000009,op:MOpt-havoc,rep:128,+cov (121 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000122,src:000009,op:MOpt-havoc,rep:2 (122 / 123), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+
+*** Imported 42 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000123,src:000009,op:MOpt-havoc,rep:64,+cov (0 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000124,src:000009,op:MOpt-havoc,rep:16,+cov (1 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000125,src:000009,op:MOpt-havoc,rep:16,+cov (2 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000126,src:000009,op:MOpt-havoc,rep:32 (3 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000127,src:000009,op:MOpt-havoc,rep:128 (4 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000128,src:000009,op:MOpt-havoc,rep:16 (5 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000129,src:000009,op:MOpt-havoc,rep:128 (6 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000130,src:000009,op:MOpt-havoc,rep:16 (7 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000131,src:000009,op:MOpt-havoc,rep:128 (8 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000132,src:000009,op:MOpt-havoc,rep:64 (9 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000133,src:000009,op:MOpt-havoc,rep:16 (10 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000134,src:000009,op:MOpt-havoc,rep:4,+cov (11 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000135,src:000009,op:MOpt-havoc,rep:64 (12 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000136,src:000009,op:MOpt-havoc,rep:16 (13 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000137,src:000009,op:MOpt-havoc,rep:128 (14 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000138,src:000009,op:MOpt-havoc,rep:32,+cov (15 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000139,src:000009,op:MOpt-havoc,rep:16 (16 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000140,src:000009,op:MOpt-havoc,rep:128 (17 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000141,src:000009,op:MOpt-havoc,rep:32 (18 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000142,src:000009,op:MOpt-havoc,rep:64 (19 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000143,src:000009,op:MOpt-havoc,rep:64 (20 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000144,src:000009,op:MOpt-havoc,rep:64 (21 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000145,src:000009,op:MOpt-havoc,rep:64 (22 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000146,src:000009,op:MOpt-havoc,rep:32 (23 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000147,src:000009,op:MOpt-havoc,rep:8 (24 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000148,src:000009,op:MOpt-havoc,rep:128 (25 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000149,src:000009,op:MOpt-havoc,rep:128 (26 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000150,src:000009,op:MOpt-havoc,rep:128,+cov (27 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000151,src:000009,op:MOpt-havoc,rep:128 (28 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000152,src:000009,op:MOpt-havoc,rep:32,+cov (29 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000153,src:000009,op:MOpt-havoc,rep:8,+cov (30 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000154,src:000009,op:MOpt-havoc,rep:16,+cov (31 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000155,src:000009,op:MOpt-havoc,rep:2 (32 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000156,src:000009,op:MOpt-havoc,rep:4 (33 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000157,src:000009,op:MOpt-havoc,rep:16 (34 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000158,src:000049,op:MOpt-havoc,rep:2 (35 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000159,src:000049,op:MOpt-havoc,rep:8 (36 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000160,src:000049,op:MOpt-havoc,rep:128 (37 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000161,src:000049,op:MOpt-havoc,rep:4 (38 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000162,src:000049,op:MOpt-havoc,rep:2 (39 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000163,src:000049,op:MOpt-havoc,rep:128 (40 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000164,src:000049,op:MOpt-havoc,rep:64 (41 / 165), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+
+*** Imported 13 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000165,src:000049,op:MOpt-havoc,rep:128 (0 / 178), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000166,src:000049,op:MOpt-havoc,rep:4 (1 / 178), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000167,src:000049,op:MOpt-havoc,rep:32 (2 / 178), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000168,src:000049,op:MOpt-havoc,rep:4 (3 / 178), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000169,src:000051,op:MOpt-havoc,rep:2 (4 / 178), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000170,src:000051,op:MOpt-havoc,rep:8 (5 / 178), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000171,src:000051,op:MOpt-havoc,rep:32 (6 / 178), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000172,src:000051,op:MOpt-havoc,rep:2 (7 / 178), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000173,src:000051,op:MOpt-havoc,rep:8 (8 / 178), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000174,src:000051,op:MOpt-havoc,rep:16 (9 / 178), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000175,src:000051,op:MOpt-havoc,rep:128 (10 / 178), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000176,src:000051,op:MOpt-havoc,rep:4 (11 / 178), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000177,src:000051,op:MOpt-havoc,rep:8 (12 / 178), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+
+*** Imported 3 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000178,src:000055,op:MOpt-havoc,rep:4 (0 / 181), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000179,src:000060,op:MOpt-havoc,rep:64 (1 / 181), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000180,src:000071,op:MOpt-havoc,rep:64 (2 / 181), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000181,src:000072,op:MOpt-havoc,rep:8 (0 / 182), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000182,src:000072,op:MOpt-havoc,rep:32 (0 / 183), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000183,src:000073,op:MOpt-havoc,rep:16 (0 / 186), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000184,src:000079,op:MOpt-havoc,rep:2 (1 / 186), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000185,src:000079,op:MOpt-havoc,rep:2 (2 / 186), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000186,src:000079,op:MOpt-havoc,rep:64 (0 / 188), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000187,src:000079,op:MOpt-havoc,rep:8 (1 / 188), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000188,src:000079,op:MOpt-havoc,rep:64 (0 / 190), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000189,src:000079,op:MOpt-havoc,rep:128 (1 / 190), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000190,src:000083,op:MOpt-havoc,rep:2 (0 / 193), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000191,src:000087,op:MOpt-havoc,rep:8 (1 / 193), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000192,src:000087,op:MOpt-havoc,rep:2 (2 / 193), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000193,src:000088,op:MOpt-havoc,rep:64 (0 / 195), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000194,src:000089,op:MOpt-havoc,rep:2 (1 / 195), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000195,src:000119,op:MOpt-havoc,rep:2 (0 / 196), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000196,src:000124,op:MOpt-havoc,rep:4,+cov (0 / 199), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000197,src:000124,op:MOpt-havoc,rep:4 (1 / 199), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000198,src:000124,op:MOpt-havoc,rep:2 (2 / 199), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000199,src:000125,op:MOpt-havoc,rep:4 (0 / 200), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 6 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000200,src:000134,op:MOpt-havoc,rep:4 (0 / 206), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000201,src:000151,op:MOpt-havoc,rep:4 (1 / 206), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000202,src:000151,op:MOpt-havoc,rep:2 (2 / 206), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000203,src:000151,op:MOpt-havoc,rep:2 (3 / 206), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000204,src:000151,op:MOpt-havoc,rep:8 (4 / 206), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000205,src:000151,op:MOpt-havoc,rep:2 (5 / 206), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000206,src:000151,op:MOpt-havoc,rep:4 (0 / 208), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000207,src:000151,op:MOpt-havoc,rep:4 (1 / 208), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000208,src:000151,op:MOpt-havoc,rep:16 (0 / 211), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000209,src:000151,op:MOpt-havoc,rep:2 (1 / 211), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000210,src:000155,op:MOpt-havoc,rep:8 (2 / 211), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000211,src:000155,op:MOpt-havoc,rep:4 (0 / 213), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000212,src:000155,op:MOpt-havoc,rep:2 (1 / 213), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000213,src:000155,op:MOpt-havoc,rep:4 (0 / 215), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000214,src:000155,op:MOpt-havoc,rep:8 (1 / 215), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 4 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000215,src:000163,op:MOpt-havoc,rep:16 (0 / 219), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000216,src:000163,op:MOpt-havoc,rep:8 (1 / 219), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000217,src:000167,op:MOpt-havoc,rep:2 (2 / 219), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000218,src:000167,op:MOpt-havoc,rep:2 (3 / 219), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000219,src:000182,op:MOpt-havoc,rep:2 (0 / 222), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000220,src:000182,op:MOpt-havoc,rep:2 (1 / 222), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000221,src:000182,op:MOpt-havoc,rep:2 (2 / 222), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000222,src:000214,op:MOpt-havoc,rep:2 (0 / 224), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000223,src:000214,op:MOpt-havoc,rep:2 (1 / 224), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000224,src:000214,op:MOpt-havoc,rep:4 (0 / 226), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000225,src:000214,op:MOpt-havoc,rep:2 (1 / 226), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000226,src:000214,op:MOpt-havoc,rep:16 (0 / 228), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000227,src:000216,op:MOpt-havoc,rep:4 (1 / 228), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000228,src:000223,op:MOpt-havoc,rep:8 (0 / 230), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000229,src:000223,op:MOpt-havoc,rep:2 (1 / 230), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000230,src:000223,op:MOpt-havoc,rep:2 (0 / 231), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000231,src:000224,op:MOpt-havoc,rep:2 (0 / 234), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000232,src:000224,op:MOpt-havoc,rep:4 (1 / 234), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000233,src:000232,op:MOpt-havoc,rep:2 (2 / 234), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 5 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000234,src:000009,op:MOpt-havoc,rep:32 (0 / 239), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000235,src:000009,op:MOpt-havoc,rep:32 (1 / 239), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000236,src:000009,op:MOpt-havoc,rep:8 (2 / 239), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000237,src:000009,op:MOpt-havoc,rep:128 (3 / 239), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000238,src:000009,op:MOpt-havoc,rep:4,+cov (4 / 239), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000239,src:000009,op:MOpt-havoc,rep:16,+cov (0 / 240), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 5 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000240,src:000239,op:MOpt-havoc,rep:2 (0 / 245), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000241,src:000239,op:MOpt-havoc,rep:2,+cov (1 / 245), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000242,src:000008,op:MOpt-havoc,rep:64,+cov (2 / 245), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000243,src:000008,op:MOpt-havoc,rep:64 (3 / 245), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000244,src:000008,op:MOpt-havoc,rep:64 (4 / 245), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000245,src:000242,op:MOpt-havoc,rep:64,+cov (0 / 246), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000246,src:000242,op:MOpt-havoc,rep:32 (0 / 249), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000247,src:000242,op:MOpt-havoc,rep:8,+cov (1 / 249), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000248,src:000242,op:MOpt-havoc,rep:4 (2 / 249), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000249,src:000242,op:MOpt-havoc,rep:64,+cov (0 / 250), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000250,src:000076,op:MOpt-havoc,rep:16 (0 / 252), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000251,src:000079,op:MOpt-havoc,rep:16 (1 / 252), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 4 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000252,src:000172,op:MOpt-havoc,rep:16 (0 / 256), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000253,src:000172,op:MOpt-havoc,rep:8 (1 / 256), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000254,src:000172,op:MOpt-havoc,rep:8 (2 / 256), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000255,src:000190,op:MOpt-havoc,rep:4 (3 / 256), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000256,src:000202,op:MOpt-havoc,rep:2 (0 / 258), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000257,src:000202,op:MOpt-havoc,rep:16 (1 / 258), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000258,src:000257,op:MOpt-havoc,rep:4 (0 / 261), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000259,src:000257,op:MOpt-havoc,rep:4,+cov (1 / 261), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000260,src:000257,op:MOpt-havoc,rep:16 (2 / 261), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000261,src:000259,op:MOpt-havoc,rep:4 (0 / 264), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000262,src:000259,op:MOpt-havoc,rep:2 (1 / 264), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000263,src:000259,op:MOpt-havoc,rep:4 (2 / 264), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000264,src:000259,op:MOpt-havoc,rep:4 (0 / 265), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000265,src:000079,op:MOpt-havoc,rep:8 (0 / 266), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000266,src:000214,op:MOpt-havoc,rep:2 (0 / 267), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000267,src:000222,op:MOpt-havoc,rep:2 (0 / 270), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000268,src:000222,op:MOpt-havoc,rep:2 (1 / 270), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000269,src:000222,op:MOpt-havoc,rep:8 (2 / 270), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000270,src:000222,op:MOpt-havoc,rep:16 (0 / 272), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000271,src:000222,op:MOpt-havoc,rep:32 (1 / 272), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000272,src:000270,op:MOpt-havoc,rep:8 (0 / 273), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000273,src:000270,op:MOpt-havoc,rep:2 (0 / 274), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000274,src:000271,op:MOpt-havoc,rep:4 (0 / 277), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000275,src:000271,op:MOpt-havoc,rep:2 (1 / 277), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000276,src:000271,op:MOpt-havoc,rep:2 (2 / 277), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000277,src:000271,op:MOpt-havoc,rep:2 (0 / 278), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000278,src:000277,op:MOpt-havoc,rep:2 (0 / 280), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000279,src:000277,op:MOpt-havoc,rep:4 (1 / 280), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000280,src:000277,op:MOpt-havoc,rep:4 (0 / 281), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000281,src:000279,op:MOpt-havoc,rep:2 (0 / 284), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000282,src:000279,op:MOpt-havoc,rep:4 (1 / 284), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000283,src:000279,op:MOpt-havoc,rep:2 (2 / 284), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000284,src:000279,op:MOpt-havoc,rep:4,+cov (0 / 287), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000285,src:000279,op:MOpt-havoc,rep:4 (1 / 287), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000286,src:000279,op:MOpt-havoc,rep:4 (2 / 287), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000287,src:000279,op:MOpt-havoc,rep:4 (0 / 288), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000288,src:000284,op:MOpt-havoc,rep:2,+cov (0 / 289), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000289,src:000284,op:MOpt-havoc,rep:16 (0 / 290), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000290,src:000289,op:MOpt-havoc,rep:2 (0 / 291), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000291,src:000289,op:MOpt-havoc,rep:2,+cov (0 / 292), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000292,src:000218,op:MOpt-havoc,rep:4 (0 / 294), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000293,src:000218,op:MOpt-havoc,rep:4 (1 / 294), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000294,src:000218,op:MOpt-havoc,rep:2 (0 / 295), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000295,src:000225,op:MOpt-havoc,rep:2 (0 / 297), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000296,src:000227,op:MOpt-havoc,rep:8 (1 / 297), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000297,src:000256,op:MOpt-havoc,rep:4 (0 / 298), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000298,src:000259,op:MOpt-core-havoc,rep:4,+cov (0 / 299), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 4 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000299,src:000287,op:MOpt-core-havoc,rep:2 (0 / 303), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000300,src:000287,op:MOpt-core-havoc,rep:2 (1 / 303), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000301,src:000287,op:MOpt-core-havoc,rep:2 (2 / 303), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000302,src:000287,op:MOpt-core-havoc,rep:4 (3 / 303), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000303,src:000298,op:MOpt-core-havoc,rep:2,+cov (0 / 304), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000304,src:000303,op:MOpt-core-havoc,rep:2,+cov (0 / 305), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000305,src:000245,op:MOpt-core-havoc,rep:8,+cov (0 / 307), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000306,src:000305,op:MOpt-core-havoc,rep:4,+cov (1 / 307), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000307,src:000305,op:MOpt-core-havoc,rep:8,+cov (0 / 308), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000308,src:000307,op:MOpt-core-havoc,rep:8 (0 / 309), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000309,src:000052,op:MOpt-core-havoc,rep:128 (0 / 310), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000310,src:000188,op:MOpt-core-havoc,rep:2 (0 / 312), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000311,src:000310,op:MOpt-core-havoc,rep:2 (1 / 312), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000312,src:000310,op:MOpt-core-havoc,rep:2 (0 / 313), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000313,src:000194,op:MOpt-core-havoc,rep:2 (0 / 315), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000314,src:000208,op:MOpt-core-havoc,rep:2 (1 / 315), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000315,src:000223,op:MOpt-core-havoc,rep:8 (0 / 316), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000316,src:000255,op:MOpt-core-havoc,rep:2 (0 / 317), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000317,src:000255,op:MOpt-core-havoc,rep:16 (0 / 320), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000318,src:000255,op:MOpt-core-havoc,rep:2 (1 / 320), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000319,src:000255,op:MOpt-core-havoc,rep:16 (2 / 320), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000320,src:000256,op:MOpt-core-havoc,rep:4 (0 / 321), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000321,src:000319,op:MOpt-core-havoc,rep:2 (0 / 322), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000322,src:000319,op:MOpt-core-havoc,rep:16 (0 / 323), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000323,src:000266,op:MOpt-core-havoc,rep:2 (0 / 324), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000324,src:000273,op:MOpt-core-havoc,rep:4 (0 / 325), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000325,src:000281,op:MOpt-core-havoc,rep:4 (0 / 326), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000326,src:000285,op:MOpt-core-havoc,rep:2 (0 / 327), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000327,src:000285,op:MOpt-core-havoc,rep:2 (0 / 328), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000328,src:000315,op:MOpt-core-havoc,rep:2 (0 / 329), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000329,src:000324,op:MOpt-core-havoc,rep:2 (0 / 332), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000330,src:000324,op:MOpt-core-havoc,rep:2 (1 / 332), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000331,src:000324,op:MOpt-core-havoc,rep:8 (2 / 332), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000332,src:000325,op:MOpt-core-havoc,rep:2 (0 / 333), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000333,src:000325,op:MOpt-core-havoc,rep:8 (0 / 334), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000334,src:000333,op:MOpt-core-havoc,rep:2 (0 / 337), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000335,src:000333,op:MOpt-core-havoc,rep:4 (1 / 337), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000336,src:000333,op:MOpt-core-havoc,rep:8 (2 / 337), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000337,src:000336,op:MOpt-core-havoc,rep:8 (0 / 338), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000338,src:000336,op:MOpt-core-havoc,rep:2 (0 / 339), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 4 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000339,src:000336,op:MOpt-core-havoc,rep:2 (0 / 343), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000340,src:000336,op:MOpt-core-havoc,rep:4 (1 / 343), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000341,src:000336,op:MOpt-core-havoc,rep:2 (2 / 343), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000342,src:000336,op:MOpt-core-havoc,rep:2 (3 / 343), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000343,src:000337,op:MOpt-core-havoc,rep:2 (0 / 345), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000344,src:000337,op:MOpt-core-havoc,rep:2 (1 / 345), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000345,src:000292,op:MOpt-core-havoc,rep:2 (0 / 346), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000346,src:000326,op:MOpt-core-havoc,rep:2 (0 / 347), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000347,src:000346,op:MOpt-core-havoc,rep:4 (0 / 348), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000348,src:000308,op:MOpt-core-havoc,rep:2 (0 / 350), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000349,src:000308,op:MOpt-core-havoc,rep:2 (1 / 350), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000350,src:000308,op:MOpt-core-havoc,rep:16 (0 / 351), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000351,src:000200,op:MOpt-core-havoc,rep:2 (0 / 352), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000352,src:000318,op:MOpt-core-havoc,rep:4 (0 / 353), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000353,src:000328,op:MOpt-core-havoc,rep:4 (0 / 354), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000354,src:000328,op:MOpt-core-havoc,rep:4 (0 / 355), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000355,src:000344,op:MOpt-core-havoc,rep:2 (0 / 356), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000356,src:000345,op:MOpt-core-havoc,rep:2 (0 / 357), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000357,src:000351,op:MOpt-core-havoc,rep:2 (0 / 360), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000358,src:000351,op:MOpt-core-havoc,rep:8 (1 / 360), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000359,src:000351,op:MOpt-core-havoc,rep:4 (2 / 360), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000360,src:000359,op:MOpt-core-havoc,rep:4 (0 / 362), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000361,src:000359,op:MOpt-core-havoc,rep:4 (1 / 362), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000362,src:000280,op:MOpt-core-havoc,rep:2 (0 / 363), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000363,src:000348,op:MOpt-core-havoc,rep:4 (0 / 364), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000364,src:000348+000268,op:MOpt-splice,rep:4 (0 / 365), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000365,src:000162,op:MOpt-havoc,rep:2 (0 / 366), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000366,src:000365,op:MOpt-havoc,rep:2 (0 / 367), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000367,src:000270+000357,op:MOpt-splice,rep:2 (0 / 368), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000368,src:000321,op:MOpt-havoc,rep:2 (0 / 369), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000369,src:000363+000345,op:MOpt-core-splice,rep:2 (0 / 370), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000370,src:000296,op:MOpt-core-havoc,rep:8 (0 / 371), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000371,src:000365+000264,op:MOpt-core-splice,rep:4 (0 / 372), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000372,src:000368,op:MOpt-core-havoc,rep:2 (0 / 373), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000373,src:000371,op:MOpt-core-havoc,rep:4 (0 / 374), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000374,src:000364,op:MOpt-core-havoc,rep:4 (0 / 375), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 4 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000375,src:000365+000374,op:MOpt-core-splice,rep:8 (0 / 379), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000376,src:000375,op:MOpt-core-havoc,rep:2 (1 / 379), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000377,src:000375,op:MOpt-core-havoc,rep:2 (2 / 379), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000378,src:000375,op:MOpt-core-havoc,rep:2 (3 / 379), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000379,src:000257+000363,op:MOpt-core-splice,rep:2 (0 / 380), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000380,src:000378,op:MOpt-core-havoc,rep:2 (0 / 382), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000381,src:000378,op:MOpt-core-havoc,rep:2 (1 / 382), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000382,src:000379,op:MOpt-core-havoc,rep:4 (0 / 383), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000383,src:000374,op:MOpt-havoc,rep:4 (0 / 384), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000384,src:000366+000264,op:MOpt-splice,rep:4 (0 / 385), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000385,src:000383,op:MOpt-havoc,rep:2 (0 / 386), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000386,src:000367,op:MOpt-core-havoc,rep:4 (0 / 387), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000387,src:000369,op:MOpt-core-havoc,rep:2 (0 / 388), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000388,src:000385,op:MOpt-core-havoc,rep:2 (0 / 391), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000389,src:000385,op:MOpt-core-havoc,rep:2 (1 / 391), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[+] AFL test case: id:000390,src:000385,op:MOpt-core-havoc,rep:2 (2 / 391), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000391,src:000387,op:MOpt-core-havoc,rep:4 (0 / 392), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000392,src:000390,op:MOpt-core-havoc,rep:4 (0 / 393), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000393,src:000390,op:MOpt-core-havoc,rep:4 (0 / 394), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000394,src:000372,op:MOpt-core-havoc,rep:2 (0 / 395), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000395,src:000372,op:MOpt-core-havoc,rep:8 (0 / 396), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000396,src:000394,op:MOpt-core-havoc,rep:2 (0 / 397), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000397,src:000079+000354,op:MOpt-splice,rep:2 (0 / 398), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000398,src:000356,op:MOpt-havoc,rep:2 (0 / 399), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000399,src:000396,op:MOpt-havoc,rep:2 (0 / 400), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000400,src:000398+000258,op:MOpt-core-splice,rep:4 (0 / 401), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000401,src:000397,op:MOpt-core-havoc,rep:4 (0 / 402), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000402,src:000382,op:MOpt-havoc,rep:2 (0 / 403), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000403,src:000358+000381,op:MOpt-splice,rep:4 (0 / 404), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000404,src:000386,op:MOpt-havoc,rep:2 (0 / 405), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000405,src:000399+000392,op:MOpt-core-splice,rep:2 (0 / 406), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000406,src:000401,op:MOpt-havoc,rep:8 (0 / 407), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000407,src:000406,op:MOpt-havoc,rep:2 (0 / 408), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000408,src:000232+000406,op:MOpt-splice,rep:4 (0 / 409), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000409,src:000093+000371,op:MOpt-core-splice,rep:16 (0 / 410), cycle: 0
+    lines......: 0.1% (9 of 96421 lines)
+    functions..: 0.1% (2 of 4418 functions)
+    branches...: 0.1% (1 of 56436 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
