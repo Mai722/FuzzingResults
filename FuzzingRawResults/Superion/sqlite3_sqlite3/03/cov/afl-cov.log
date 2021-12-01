@@ -1,0 +1,4046 @@
+
+*** Imported 10 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000000,orig:23899.sql (0 / 10), cycle: 0
+    lines......: 16.8% (9702 of 57824 lines)
+    functions..: 21.3% (613 of 2873 functions)
+    branches...: 10.8% (5401 of 50092 branches)
+[+] AFL test case: id:000001,orig:26286.sql (1 / 10), cycle: 0
+    lines......: 17.1% (9859 of 57824 lines)
+    functions..: 21.7% (623 of 2873 functions)
+    branches...: 11.0% (5517 of 50092 branches)
+
+    Coverage diff id:000000,orig:23899.sql id:000001,orig:26286.sql
+diff id:000000,orig:23899.sql -> id:000001,orig:26286.sql
+Src file: /Superion/code1/sqlite3.c
+  New 'function' coverage: notValid.isra.311()
+  New 'function' coverage: sqlite3ErrorWithMsg()
+  New 'function' coverage: sqlite3ExprAssignVarNumber()
+  New 'function' coverage: sqlite3VListAdd()
+  New 'function' coverage: sqlite3VListNameToNum()
+  New 'function' coverage: sqlite3_column_count()
+  New 'function' coverage: sqlite3_column_name()
+  New 'function' coverage: sqlite3_column_type()
+  New 'function' coverage: sqlite3_table_column_metadata()
+  New 'line' coverage: 101142
+  New 'line' coverage: 101143
+  New 'line' coverage: 101144
+  New 'line' coverage: 101146
+  New 'line' coverage: 101147
+  New 'line' coverage: 119365
+  New 'line' coverage: 119366
+  New 'line' coverage: 119376
+  New 'line' coverage: 131717
+  New 'line' coverage: 145999
+  New 'line' coverage: 146000
+  New 'line' coverage: 153645
+  New 'line' coverage: 153646
+  New 'line' coverage: 153647
+  New 'line' coverage: 159851
+  New 'line' coverage: 159863
+  New 'line' coverage: 159864
+  New 'line' coverage: 159865
+  New 'line' coverage: 159866
+  New 'line' coverage: 159867
+  New 'line' coverage: 159868
+  New 'line' coverage: 159869
+  New 'line' coverage: 159870
+  New 'line' coverage: 159871
+  New 'line' coverage: 159881
+  New 'line' coverage: 159882
+  New 'line' coverage: 159883
+  New 'line' coverage: 159884
+  New 'line' coverage: 159889
+  New 'line' coverage: 159890
+  New 'line' coverage: 159941
+  New 'line' coverage: 159947
+  New 'line' coverage: 159948
+  New 'line' coverage: 159949
+  New 'line' coverage: 159950
+  New 'line' coverage: 159951
+  New 'line' coverage: 159953
+  New 'line' coverage: 159954
+  New 'line' coverage: 159955
+  New 'line' coverage: 159957
+  New 'line' coverage: 159959
+  New 'line' coverage: 159960
+  New 'line' coverage: 159961
+  New 'line' coverage: 159962
+  New 'line' coverage: 159963
+  New 'line' coverage: 30543
+  New 'line' coverage: 30545
+  New 'line' coverage: 30546
+  New 'line' coverage: 30547
+  New 'line' coverage: 30549
+  New 'line' coverage: 30552
+  New 'line' coverage: 30553
+  New 'line' coverage: 30554
+  New 'line' coverage: 30555
+  New 'line' coverage: 30557
+  New 'line' coverage: 31958
+  New 'line' coverage: 31969
+  New 'line' coverage: 31971
+  New 'line' coverage: 31973
+  New 'line' coverage: 31974
+  New 'line' coverage: 31975
+  New 'line' coverage: 31976
+  New 'line' coverage: 31977
+  New 'line' coverage: 31978
+  New 'line' coverage: 31980
+  New 'line' coverage: 31981
+  New 'line' coverage: 31982
+  New 'line' coverage: 31983
+  New 'line' coverage: 31984
+  New 'line' coverage: 31986
+  New 'line' coverage: 31987
+  New 'line' coverage: 31988
+  New 'line' coverage: 31998
+  New 'line' coverage: 31999
+  New 'line' coverage: 32000
+  New 'line' coverage: 32002
+  New 'line' coverage: 32003
+  New 'line' coverage: 32004
+  New 'line' coverage: 32012
+  New 'line' coverage: 32014
+  New 'line' coverage: 32015
+  New 'line' coverage: 32016
+  New 'line' coverage: 32018
+  New 'line' coverage: 32019
+  New 'line' coverage: 32020
+  New 'line' coverage: 32021
+  New 'line' coverage: 75603
+  New 'line' coverage: 79622
+  New 'line' coverage: 82601
+  New 'line' coverage: 82770
+  New 'line' coverage: 82771
+  New 'line' coverage: 82772
+  New 'line' coverage: 82773
+  New 'line' coverage: 82841
+  New 'line' coverage: 85226
+  New 'line' coverage: 85227
+  New 'line' coverage: 85230
+  New 'line' coverage: 85231
+  New 'line' coverage: 85232
+  New 'line' coverage: 85233
+  New 'line' coverage: 85234
+  New 'line' coverage: 85236
+  New 'line' coverage: 86919
+  New 'line' coverage: 86929
+  New 'line' coverage: 86931
+  New 'line' coverage: 96314
+  New 'line' coverage: 96321
+  New 'line' coverage: 96329
+  New 'line' coverage: 96670
+  New 'line' coverage: 96671
+  New 'line' coverage: 98479
+  New 'line' coverage: 98480
+  New 'line' coverage: 98484
+  New 'line' coverage: 98486
+  New 'line' coverage: 98490
+  New 'line' coverage: 98495
+  New 'line' coverage: 98496
+  New 'line' coverage: 98528
+  New 'line' coverage: 98529
+  New 'line' coverage: 98530
+  New 'line' coverage: 98531
+  New 'line' coverage: 98534
+  New 'line' coverage: 98535
+  New 'line' coverage: 98538
+  New 'line' coverage: 98539
+Src file: /Superion/code1/shell.c
+  New 'function' coverage: shell_callback()
+  New 'line' coverage: 10371
+  New 'line' coverage: 10379
+  New 'line' coverage: 10381
+  New 'line' coverage: 10382
+  New 'line' coverage: 10542
+  New 'line' coverage: 10548
+  New 'line' coverage: 10549
+  New 'line' coverage: 10550
+  New 'line' coverage: 10551
+  New 'line' coverage: 10552
+  New 'line' coverage: 10553
+  New 'line' coverage: 10554
+  New 'line' coverage: 10556
+  New 'line' coverage: 11336
+  New 'line' coverage: 11378
+  New 'line' coverage: 11379
+  New 'line' coverage: 11380
+  New 'line' coverage: 11383
+  New 'line' coverage: 11384
+  New 'line' coverage: 11385
+  New 'line' coverage: 11389
+  New 'line' coverage: 11390
+  New 'line' coverage: 11394
+  New 'line' coverage: 11395
+  New 'line' coverage: 11396
+  New 'line' coverage: 11399
+  New 'line' coverage: 11401
+  New 'line' coverage: 11408
+  New 'line' coverage: 11410
+  New 'line' coverage: 11413
+  New 'line' coverage: 11416
+  New 'line' coverage: 11417
+
+[+] AFL test case: id:000002,orig:27347.sql (2 / 10), cycle: 0
+    lines......: 17.8% (10265 of 57824 lines)
+    functions..: 22.5% (647 of 2873 functions)
+    branches...: 11.5% (5784 of 50092 branches)
+
+    Coverage diff id:000001,orig:26286.sql id:000002,orig:27347.sql
+diff id:000001,orig:26286.sql -> id:000002,orig:27347.sql
+Src file: /Superion/code1/sqlite3.c
+  New 'function' coverage: analyzeAggregate()
+  New 'function' coverage: avgFinalize()
+  New 'function' coverage: codeReal()
+  New 'function' coverage: createAggContext.isra.301()
+  New 'function' coverage: doubleToInt64()
+  New 'function' coverage: exprSrcCount()
+  New 'function' coverage: finalizeAggFunctions.isra.329()
+  New 'function' coverage: isSimpleCount.isra.151()
+  New 'function' coverage: minMaxQuery()
+  New 'function' coverage: resetAccumulator()
+  New 'function' coverage: serialGet()
+  New 'function' coverage: setResultStrOrError()
+  New 'function' coverage: sqlite3ExprAnalyzeAggList()
+  New 'function' coverage: sqlite3ExprAnalyzeAggregates()
+  New 'function' coverage: sqlite3FunctionUsesThisSrc.isra.129()
+  New 'function' coverage: sqlite3HexToBlob()
+  New 'function' coverage: sqlite3VdbeAddOp4Dup8()
+  New 'function' coverage: sqlite3VdbeIntegerAffinity()
+  New 'function' coverage: sqlite3VdbeMemClearAndResize()
+  New 'function' coverage: sqlite3VdbeMemFinalize()
+  New 'function' coverage: sumStep()
+  New 'function' coverage: typeofFunc()
+  New 'function' coverage: updateAccumulator()
+  New 'function' coverage: vdbeMemAddTerminator()
+  New 'line' coverage: 100815
+  New 'line' coverage: 100816
+  New 'line' coverage: 100818
+  New 'line' coverage: 100820
+  New 'line' coverage: 100821
+  New 'line' coverage: 100823
+  New 'line' coverage: 101036
+  New 'line' coverage: 101037
+  New 'line' coverage: 101038
+  New 'line' coverage: 101040
+  New 'line' coverage: 101041
+  New 'line' coverage: 101109
+  New 'line' coverage: 101110
+  New 'line' coverage: 101130
+  New 'line' coverage: 101131
+  New 'line' coverage: 101133
+  New 'line' coverage: 101134
+  New 'line' coverage: 101135
+  New 'line' coverage: 101287
+  New 'line' coverage: 101288
+  New 'line' coverage: 101292
+  New 'line' coverage: 101393
+  New 'line' coverage: 101405
+  New 'line' coverage: 101406
+  New 'line' coverage: 101410
+  New 'line' coverage: 101920
+  New 'line' coverage: 101929
+  New 'line' coverage: 101930
+  New 'line' coverage: 102839
+  New 'line' coverage: 102845
+  New 'line' coverage: 102862
+  New 'line' coverage: 102871
+  New 'line' coverage: 102875
+  New 'line' coverage: 102876
+  New 'line' coverage: 102877
+  New 'line' coverage: 102878
+  New 'line' coverage: 102879
+  New 'line' coverage: 102880
+  New 'line' coverage: 102881
+  New 'line' coverage: 102882
+  New 'line' coverage: 102883
+  New 'line' coverage: 102892
+  New 'line' coverage: 102899
+  New 'line' coverage: 102908
+  New 'line' coverage: 102910
+  New 'line' coverage: 102915
+  New 'line' coverage: 102923
+  New 'line' coverage: 102925
+  New 'line' coverage: 102926
+  New 'line' coverage: 102927
+  New 'line' coverage: 102928
+  New 'line' coverage: 102931
+  New 'line' coverage: 102938
+  New 'line' coverage: 102939
+  New 'line' coverage: 102940
+  New 'line' coverage: 102943
+  New 'line' coverage: 102951
+  New 'line' coverage: 102952
+  New 'line' coverage: 102953
+  New 'line' coverage: 102954
+  New 'line' coverage: 102958
+  New 'line' coverage: 102959
+  New 'line' coverage: 102961
+  New 'line' coverage: 102962
+  New 'line' coverage: 102963
+  New 'line' coverage: 102964
+  New 'line' coverage: 102965
+  New 'line' coverage: 102966
+  New 'line' coverage: 102967
+  New 'line' coverage: 102968
+  New 'line' coverage: 102982
+  New 'line' coverage: 102983
+  New 'line' coverage: 102992
+  New 'line' coverage: 102993
+  New 'line' coverage: 102994
+  New 'line' coverage: 102995
+  New 'line' coverage: 103002
+  New 'line' coverage: 103003
+  New 'line' coverage: 103008
+  New 'line' coverage: 103009
+  New 'line' coverage: 103014
+  New 'line' coverage: 103017
+  New 'line' coverage: 103018
+  New 'line' coverage: 103019
+  New 'line' coverage: 103021
+  New 'line' coverage: 103022
+  New 'line' coverage: 103023
+  New 'line' coverage: 103025
+  New 'line' coverage: 103026
+  New 'line' coverage: 103027
+  New 'line' coverage: 103028
+  New 'line' coverage: 103031
+  New 'line' coverage: 103039
+  New 'line' coverage: 103040
+  New 'line' coverage: 103041
+  New 'line' coverage: 103068
+  New 'line' coverage: 103070
+  New 'line' coverage: 103071
+  New 'line' coverage: 103072
+  New 'line' coverage: 103073
+  New 'line' coverage: 103074
+  New 'line' coverage: 103075
+  New 'line' coverage: 103077
+  New 'line' coverage: 103078
+  New 'line' coverage: 103086
+  New 'line' coverage: 103089
+  New 'line' coverage: 103090
+  New 'line' coverage: 103091
+  New 'line' coverage: 103094
+  New 'line' coverage: 114015
+  New 'line' coverage: 114021
+  New 'line' coverage: 114033
+  New 'line' coverage: 114034
+  New 'line' coverage: 115455
+  New 'line' coverage: 115460
+  New 'line' coverage: 115461
+  New 'line' coverage: 115462
+  New 'line' coverage: 115463
+  New 'line' coverage: 115464
+  New 'line' coverage: 115465
+  New 'line' coverage: 115466
+  New 'line' coverage: 115467
+  New 'line' coverage: 115475
+  New 'line' coverage: 115515
+  New 'line' coverage: 115517
+  New 'line' coverage: 115518
+  New 'line' coverage: 115519
+  New 'line' coverage: 115521
+  New 'line' coverage: 127500
+  New 'line' coverage: 127501
+  New 'line' coverage: 127503
+  New 'line' coverage: 127505
+  New 'line' coverage: 127508
+  New 'line' coverage: 127510
+  New 'line' coverage: 127515
+  New 'line' coverage: 130040
+  New 'line' coverage: 130041
+  New 'line' coverage: 130042
+  New 'line' coverage: 130050
+  New 'line' coverage: 130053
+  New 'line' coverage: 130054
+  New 'line' coverage: 130057
+  New 'line' coverage: 130080
+  New 'line' coverage: 130086
+  New 'line' coverage: 130742
+  New 'line' coverage: 130906
+  New 'line' coverage: 130907
+  New 'line' coverage: 130910
+  New 'line' coverage: 130911
+  New 'line' coverage: 130925
+  New 'line' coverage: 130926
+  New 'line' coverage: 130927
+  New 'line' coverage: 130947
+  New 'line' coverage: 130948
+  New 'line' coverage: 130951
+  New 'line' coverage: 130952
+  New 'line' coverage: 130954
+  New 'line' coverage: 130955
+  New 'line' coverage: 130957
+  New 'line' coverage: 130969
+  New 'line' coverage: 130970
+  New 'line' coverage: 130972
+  New 'line' coverage: 130973
+  New 'line' coverage: 130977
+  New 'line' coverage: 130978
+  New 'line' coverage: 130980
+  New 'line' coverage: 130982
+  New 'line' coverage: 130985
+  New 'line' coverage: 131003
+  New 'line' coverage: 131004
+  New 'line' coverage: 131005
+  New 'line' coverage: 131006
+  New 'line' coverage: 131011
+  New 'line' coverage: 131019
+  New 'line' coverage: 131033
+  New 'line' coverage: 131034
+  New 'line' coverage: 131035
+  New 'line' coverage: 131036
+  New 'line' coverage: 131037
+  New 'line' coverage: 131041
+  New 'line' coverage: 131042
+  New 'line' coverage: 131044
+  New 'line' coverage: 131045
+  New 'line' coverage: 131047
+  New 'line' coverage: 131048
+  New 'line' coverage: 131051
+  New 'line' coverage: 131052
+  New 'line' coverage: 131055
+  New 'line' coverage: 131835
+  New 'line' coverage: 131836
+  New 'line' coverage: 131837
+  New 'line' coverage: 131842
+  New 'line' coverage: 131880
+  New 'line' coverage: 131884
+  New 'line' coverage: 131890
+  New 'line' coverage: 131891
+  New 'line' coverage: 131892
+  New 'line' coverage: 131893
+  New 'line' coverage: 131895
+  New 'line' coverage: 131896
+  New 'line' coverage: 131897
+  New 'line' coverage: 131898
+  New 'line' coverage: 131899
+  New 'line' coverage: 131900
+  New 'line' coverage: 131910
+  New 'line' coverage: 131911
+  New 'line' coverage: 131912
+  New 'line' coverage: 131916
+  New 'line' coverage: 131917
+  New 'line' coverage: 131919
+  New 'line' coverage: 131920
+  New 'line' coverage: 131923
+  New 'line' coverage: 131927
+  New 'line' coverage: 131929
+  New 'line' coverage: 131930
+  New 'line' coverage: 131953
+  New 'line' coverage: 132177
+  New 'line' coverage: 132236
+  New 'line' coverage: 132247
+  New 'line' coverage: 132248
+  New 'line' coverage: 132249
+  New 'line' coverage: 132250
+  New 'line' coverage: 132252
+  New 'line' coverage: 132253
+  New 'line' coverage: 132263
+  New 'line' coverage: 132274
+  New 'line' coverage: 132276
+  New 'line' coverage: 132279
+  New 'line' coverage: 132280
+  New 'line' coverage: 132281
+  New 'line' coverage: 132286
+  New 'line' coverage: 132287
+  New 'line' coverage: 132290
+  New 'line' coverage: 132291
+  New 'line' coverage: 132292
+  New 'line' coverage: 132295
+  New 'line' coverage: 155424
+  New 'line' coverage: 155425
+  New 'line' coverage: 155426
+  New 'line' coverage: 155500
+  New 'line' coverage: 155501
+  New 'line' coverage: 155502
+  New 'line' coverage: 155506
+  New 'line' coverage: 27678
+  New 'line' coverage: 27747
+  New 'line' coverage: 27748
+  New 'line' coverage: 27749
+  New 'line' coverage: 27752
+  New 'line' coverage: 27967
+  New 'line' coverage: 27968
+  New 'line' coverage: 27971
+  New 'line' coverage: 27972
+  New 'line' coverage: 27975
+  New 'line' coverage: 27976
+  New 'line' coverage: 28025
+  New 'line' coverage: 28027
+  New 'line' coverage: 28028
+  New 'line' coverage: 28029
+  New 'line' coverage: 30742
+  New 'line' coverage: 30743
+  New 'line' coverage: 30744
+  New 'line' coverage: 30745
+  New 'line' coverage: 30920
+  New 'line' coverage: 30942
+  New 'line' coverage: 30943
+  New 'line' coverage: 30944
+  New 'line' coverage: 31634
+  New 'line' coverage: 31639
+  New 'line' coverage: 31649
+  New 'line' coverage: 31653
+  New 'line' coverage: 31654
+  New 'line' coverage: 31655
+  New 'line' coverage: 31656
+  New 'line' coverage: 31657
+  New 'line' coverage: 31659
+  New 'line' coverage: 31661
+  New 'line' coverage: 74774
+  New 'line' coverage: 74777
+  New 'line' coverage: 74922
+  New 'line' coverage: 74947
+  New 'line' coverage: 74968
+  New 'line' coverage: 74969
+  New 'line' coverage: 74972
+  New 'line' coverage: 74973
+  New 'line' coverage: 74974
+  New 'line' coverage: 74975
+  New 'line' coverage: 74976
+  New 'line' coverage: 74989
+  New 'line' coverage: 74990
+  New 'line' coverage: 74991
+  New 'line' coverage: 74992
+  New 'line' coverage: 75095
+  New 'line' coverage: 75102
+  New 'line' coverage: 75103
+  New 'line' coverage: 75104
+  New 'line' coverage: 75105
+  New 'line' coverage: 75106
+  New 'line' coverage: 75107
+  New 'line' coverage: 75108
+  New 'line' coverage: 75109
+  New 'line' coverage: 75111
+  New 'line' coverage: 75112
+  New 'line' coverage: 75113
+  New 'line' coverage: 75210
+  New 'line' coverage: 75225
+  New 'line' coverage: 75227
+  New 'line' coverage: 75230
+  New 'line' coverage: 75312
+  New 'line' coverage: 75319
+  New 'line' coverage: 75331
+  New 'line' coverage: 75335
+  New 'line' coverage: 75463
+  New 'line' coverage: 75464
+  New 'line' coverage: 75465
+  New 'line' coverage: 75604
+  New 'line' coverage: 75605
+  New 'line' coverage: 75608
+  New 'line' coverage: 76884
+  New 'line' coverage: 76893
+  New 'line' coverage: 76894
+  New 'line' coverage: 76895
+  New 'line' coverage: 80179
+  New 'line' coverage: 80224
+  New 'line' coverage: 80229
+  New 'line' coverage: 80230
+  New 'line' coverage: 80231
+  New 'line' coverage: 80232
+  New 'line' coverage: 80255
+  New 'line' coverage: 80256
+  New 'line' coverage: 80258
+  New 'line' coverage: 80327
+  New 'line' coverage: 81801
+  New 'line' coverage: 81974
+  New 'line' coverage: 81981
+  New 'line' coverage: 81984
+  New 'line' coverage: 82078
+  New 'line' coverage: 82468
+  New 'line' coverage: 82469
+  New 'line' coverage: 82471
+  New 'line' coverage: 82475
+  New 'line' coverage: 82476
+  New 'line' coverage: 82477
+  New 'line' coverage: 82478
+  New 'line' coverage: 82479
+  New 'line' coverage: 82482
+  New 'line' coverage: 82494
+  New 'line' coverage: 82495
+  New 'line' coverage: 82497
+  New 'line' coverage: 84216
+  New 'line' coverage: 84226
+  New 'line' coverage: 84244
+  New 'line' coverage: 84245
+  New 'line' coverage: 85071
+  New 'line' coverage: 85072
+  New 'line' coverage: 85074
+  New 'line' coverage: 85075
+  New 'line' coverage: 85776
+  New 'line' coverage: 85777
+  New 'line' coverage: 86983
+  New 'line' coverage: 86984
+  New 'line' coverage: 86985
+  New 'line' coverage: 90558
+  New 'line' coverage: 90562
+  New 'line' coverage: 90564
+  New 'line' coverage: 90565
+  New 'line' coverage: 90566
+  New 'line' coverage: 90567
+  New 'line' coverage: 90568
+  New 'line' coverage: 90569
+  New 'line' coverage: 90570
+  New 'line' coverage: 90571
+  New 'line' coverage: 90572
+  New 'line' coverage: 90573
+  New 'line' coverage: 90574
+  New 'line' coverage: 90575
+  New 'line' coverage: 90580
+  New 'line' coverage: 90589
+  New 'line' coverage: 90590
+  New 'line' coverage: 90607
+  New 'line' coverage: 90608
+  New 'line' coverage: 90609
+  New 'line' coverage: 90619
+  New 'line' coverage: 90624
+  New 'line' coverage: 90628
+  New 'line' coverage: 90630
+  New 'line' coverage: 90682
+  New 'line' coverage: 90685
+  New 'line' coverage: 90692
+  New 'line' coverage: 90695
+  New 'line' coverage: 90699
+  New 'line' coverage: 90701
+  New 'line' coverage: 91497
+  New 'line' coverage: 91498
+  New 'line' coverage: 96514
+  New 'line' coverage: 96549
+  New 'line' coverage: 96596
+  New 'line' coverage: 96610
+  New 'line' coverage: 96624
+  New 'line' coverage: 96625
+  New 'line' coverage: 96626
+  New 'line' coverage: 96628
+  New 'line' coverage: 96632
+  New 'line' coverage: 96637
+  New 'line' coverage: 96640
+  New 'line' coverage: 96644
+  New 'line' coverage: 97220
+
+[+] AFL test case: id:000003,orig:30861.sql (3 / 10), cycle: 0
+    lines......: 18.8% (10859 of 57824 lines)
+    functions..: 23.4% (673 of 2873 functions)
+    branches...: 12.3% (6170 of 50092 branches)
+
+    Coverage diff id:000002,orig:27347.sql id:000003,orig:30861.sql
+diff id:000002,orig:27347.sql -> id:000003,orig:30861.sql
+Src file: /Superion/code1/sqlite3.c
+  New 'function' coverage: analyzeAggregatesInSelect()
+  New 'function' coverage: analyzeAggregatesInSelectEnd()
+  New 'function' coverage: heightOfSelect()
+  New 'function' coverage: minmaxFunc()
+  New 'function' coverage: schemaIsValid.isra.373()
+  New 'function' coverage: sqlite3BlobCompare()
+  New 'function' coverage: sqlite3CodeSubselect()
+  New 'function' coverage: sqlite3CodeVerifyNamedSchema()
+  New 'function' coverage: sqlite3DropTable()
+  New 'function' coverage: sqlite3ErrorMsg()
+  New 'function' coverage: sqlite3PExprAddSelect()
+  New 'function' coverage: sqlite3VdbeAllocUnpackedRecord()
+  New 'function' coverage: sqlite3VdbeMemCopy()
+  New 'function' coverage: sqlite3VdbeMemExpandBlob()
+  New 'function' coverage: sqlite3VdbeMemMove()
+  New 'function' coverage: sqlite3VdbeMemSetZeroBlob()
+  New 'function' coverage: sqlite3VdbeRecordUnpack.isra.108()
+  New 'function' coverage: sqlite3VdbeSorterNext.isra.281()
+  New 'function' coverage: sqlite3VdbeSorterRowkey.isra.300()
+  New 'function' coverage: sqlite3VdbeSorterWrite.isra.280()
+  New 'function' coverage: sumFinalize()
+  New 'function' coverage: vdbeSortAllocUnpacked.isra.117()
+  New 'function' coverage: vdbeSorterCompare()
+  New 'function' coverage: vdbeSorterMerge()
+  New 'function' coverage: vdbeSorterSort.isra.119()
+  New 'function' coverage: zeroblobFunc()
+  New 'line' coverage: 100410
+  New 'line' coverage: 100411
+  New 'line' coverage: 100412
+  New 'line' coverage: 100418
+  New 'line' coverage: 100424
+  New 'line' coverage: 100436
+  New 'line' coverage: 100466
+  New 'line' coverage: 100468
+  New 'line' coverage: 100469
+  New 'line' coverage: 100470
+  New 'line' coverage: 100471
+  New 'line' coverage: 100472
+  New 'line' coverage: 100473
+  New 'line' coverage: 100474
+  New 'line' coverage: 100475
+  New 'line' coverage: 100476
+  New 'line' coverage: 100482
+  New 'line' coverage: 100496
+  New 'line' coverage: 100497
+  New 'line' coverage: 100499
+  New 'line' coverage: 100500
+  New 'line' coverage: 100503
+  New 'line' coverage: 100505
+  New 'line' coverage: 100949
+  New 'line' coverage: 101042
+  New 'line' coverage: 101044
+  New 'line' coverage: 101178
+  New 'line' coverage: 101179
+  New 'line' coverage: 101182
+  New 'line' coverage: 101183
+  New 'line' coverage: 101184
+  New 'line' coverage: 101385
+  New 'line' coverage: 101440
+  New 'line' coverage: 101469
+  New 'line' coverage: 101472
+  New 'line' coverage: 101791
+  New 'line' coverage: 101792
+  New 'line' coverage: 102847
+  New 'line' coverage: 102848
+  New 'line' coverage: 102849
+  New 'line' coverage: 102850
+  New 'line' coverage: 102851
+  New 'line' coverage: 102853
+  New 'line' coverage: 102854
+  New 'line' coverage: 102855
+  New 'line' coverage: 102859
+  New 'line' coverage: 102970
+  New 'line' coverage: 102971
+  New 'line' coverage: 102972
+  New 'line' coverage: 102973
+  New 'line' coverage: 102974
+  New 'line' coverage: 102975
+  New 'line' coverage: 102976
+  New 'line' coverage: 103049
+  New 'line' coverage: 103051
+  New 'line' coverage: 103052
+  New 'line' coverage: 103054
+  New 'line' coverage: 103056
+  New 'line' coverage: 103057
+  New 'line' coverage: 108021
+  New 'line' coverage: 108022
+  New 'line' coverage: 108023
+  New 'line' coverage: 108026
+  New 'line' coverage: 108031
+  New 'line' coverage: 108032
+  New 'line' coverage: 108038
+  New 'line' coverage: 108039
+  New 'line' coverage: 108042
+  New 'line' coverage: 110408
+  New 'line' coverage: 110411
+  New 'line' coverage: 110414
+  New 'line' coverage: 110419
+  New 'line' coverage: 110420
+  New 'line' coverage: 110422
+  New 'line' coverage: 110423
+  New 'line' coverage: 110425
+  New 'line' coverage: 110426
+  New 'line' coverage: 110508
+  New 'line' coverage: 110509
+  New 'line' coverage: 112089
+  New 'line' coverage: 112090
+  New 'line' coverage: 112092
+  New 'line' coverage: 112093
+  New 'line' coverage: 112094
+  New 'line' coverage: 112095
+  New 'line' coverage: 112098
+  New 'line' coverage: 112749
+  New 'line' coverage: 113966
+  New 'line' coverage: 113969
+  New 'line' coverage: 113985
+  New 'line' coverage: 113996
+  New 'line' coverage: 113997
+  New 'line' coverage: 114000
+  New 'line' coverage: 114001
+  New 'line' coverage: 114002
+  New 'line' coverage: 114003
+  New 'line' coverage: 114004
+  New 'line' coverage: 114009
+  New 'line' coverage: 115124
+  New 'line' coverage: 115133
+  New 'line' coverage: 115134
+  New 'line' coverage: 115135
+  New 'line' coverage: 115136
+  New 'line' coverage: 115139
+  New 'line' coverage: 115502
+  New 'line' coverage: 115504
+  New 'line' coverage: 115505
+  New 'line' coverage: 115506
+  New 'line' coverage: 115508
+  New 'line' coverage: 115511
+  New 'line' coverage: 115514
+  New 'line' coverage: 119567
+  New 'line' coverage: 119573
+  New 'line' coverage: 119577
+  New 'line' coverage: 119581
+  New 'line' coverage: 119582
+  New 'line' coverage: 119583
+  New 'line' coverage: 119586
+  New 'line' coverage: 125125
+  New 'line' coverage: 125126
+  New 'line' coverage: 125133
+  New 'line' coverage: 125134
+  New 'line' coverage: 125135
+  New 'line' coverage: 125136
+  New 'line' coverage: 125141
+  New 'line' coverage: 125142
+  New 'line' coverage: 125143
+  New 'line' coverage: 125146
+  New 'line' coverage: 125153
+  New 'line' coverage: 125155
+  New 'line' coverage: 125161
+  New 'line' coverage: 125162
+  New 'line' coverage: 125312
+  New 'line' coverage: 126791
+  New 'line' coverage: 126886
+  New 'line' coverage: 127362
+  New 'line' coverage: 127363
+  New 'line' coverage: 127365
+  New 'line' coverage: 127366
+  New 'line' coverage: 127367
+  New 'line' coverage: 127368
+  New 'line' coverage: 127793
+  New 'line' coverage: 127794
+  New 'line' coverage: 127795
+  New 'line' coverage: 127797
+  New 'line' coverage: 127798
+  New 'line' coverage: 127799
+  New 'line' coverage: 130087
+  New 'line' coverage: 130091
+  New 'line' coverage: 130092
+  New 'line' coverage: 130095
+  New 'line' coverage: 130096
+  New 'line' coverage: 130097
+  New 'line' coverage: 130098
+  New 'line' coverage: 131846
+  New 'line' coverage: 131847
+  New 'line' coverage: 131849
+  New 'line' coverage: 131850
+  New 'line' coverage: 131853
+  New 'line' coverage: 131863
+  New 'line' coverage: 131969
+  New 'line' coverage: 131970
+  New 'line' coverage: 131971
+  New 'line' coverage: 131977
+  New 'line' coverage: 131978
+  New 'line' coverage: 131979
+  New 'line' coverage: 131980
+  New 'line' coverage: 131981
+  New 'line' coverage: 131982
+  New 'line' coverage: 131983
+  New 'line' coverage: 131984
+  New 'line' coverage: 131985
+  New 'line' coverage: 131986
+  New 'line' coverage: 131987
+  New 'line' coverage: 131988
+  New 'line' coverage: 131989
+  New 'line' coverage: 131996
+  New 'line' coverage: 131998
+  New 'line' coverage: 132001
+  New 'line' coverage: 132002
+  New 'line' coverage: 132019
+  New 'line' coverage: 132020
+  New 'line' coverage: 132023
+  New 'line' coverage: 132024
+  New 'line' coverage: 132025
+  New 'line' coverage: 132026
+  New 'line' coverage: 132027
+  New 'line' coverage: 132028
+  New 'line' coverage: 132029
+  New 'line' coverage: 132030
+  New 'line' coverage: 132033
+  New 'line' coverage: 132034
+  New 'line' coverage: 132035
+  New 'line' coverage: 132036
+  New 'line' coverage: 132037
+  New 'line' coverage: 132038
+  New 'line' coverage: 132039
+  New 'line' coverage: 132040
+  New 'line' coverage: 132042
+  New 'line' coverage: 132045
+  New 'line' coverage: 132046
+  New 'line' coverage: 132047
+  New 'line' coverage: 132048
+  New 'line' coverage: 132049
+  New 'line' coverage: 132050
+  New 'line' coverage: 132051
+  New 'line' coverage: 132052
+  New 'line' coverage: 132053
+  New 'line' coverage: 132054
+  New 'line' coverage: 132055
+  New 'line' coverage: 132056
+  New 'line' coverage: 132066
+  New 'line' coverage: 132078
+  New 'line' coverage: 132079
+  New 'line' coverage: 132080
+  New 'line' coverage: 132083
+  New 'line' coverage: 132084
+  New 'line' coverage: 132085
+  New 'line' coverage: 132091
+  New 'line' coverage: 132092
+  New 'line' coverage: 132093
+  New 'line' coverage: 132094
+  New 'line' coverage: 132105
+  New 'line' coverage: 132106
+  New 'line' coverage: 132107
+  New 'line' coverage: 132108
+  New 'line' coverage: 132109
+  New 'line' coverage: 132110
+  New 'line' coverage: 132111
+  New 'line' coverage: 132116
+  New 'line' coverage: 132117
+  New 'line' coverage: 132118
+  New 'line' coverage: 132119
+  New 'line' coverage: 132123
+  New 'line' coverage: 132124
+  New 'line' coverage: 132133
+  New 'line' coverage: 132134
+  New 'line' coverage: 132138
+  New 'line' coverage: 132147
+  New 'line' coverage: 132148
+  New 'line' coverage: 132149
+  New 'line' coverage: 132150
+  New 'line' coverage: 132151
+  New 'line' coverage: 132152
+  New 'line' coverage: 132153
+  New 'line' coverage: 132155
+  New 'line' coverage: 132156
+  New 'line' coverage: 132157
+  New 'line' coverage: 132158
+  New 'line' coverage: 132159
+  New 'line' coverage: 132162
+  New 'line' coverage: 132163
+  New 'line' coverage: 132167
+  New 'line' coverage: 132168
+  New 'line' coverage: 132169
+  New 'line' coverage: 132170
+  New 'line' coverage: 144063
+  New 'line' coverage: 144064
+  New 'line' coverage: 153151
+  New 'line' coverage: 153191
+  New 'line' coverage: 153420
+  New 'line' coverage: 153421
+  New 'line' coverage: 153423
+  New 'line' coverage: 153830
+  New 'line' coverage: 153831
+  New 'line' coverage: 155299
+  New 'line' coverage: 155303
+  New 'line' coverage: 155304
+  New 'line' coverage: 155305
+  New 'line' coverage: 155306
+  New 'line' coverage: 156009
+  New 'line' coverage: 156013
+  New 'line' coverage: 156014
+  New 'line' coverage: 156015
+  New 'line' coverage: 156016
+  New 'line' coverage: 156017
+  New 'line' coverage: 156018
+  New 'line' coverage: 156080
+  New 'line' coverage: 156084
+  New 'line' coverage: 30576
+  New 'line' coverage: 30579
+  New 'line' coverage: 30580
+  New 'line' coverage: 30581
+  New 'line' coverage: 30582
+  New 'line' coverage: 30583
+  New 'line' coverage: 30591
+  New 'line' coverage: 31863
+  New 'line' coverage: 68870
+  New 'line' coverage: 68871
+  New 'line' coverage: 68890
+  New 'line' coverage: 68891
+  New 'line' coverage: 75008
+  New 'line' coverage: 75017
+  New 'line' coverage: 75018
+  New 'line' coverage: 75022
+  New 'line' coverage: 75026
+  New 'line' coverage: 75027
+  New 'line' coverage: 75028
+  New 'line' coverage: 75029
+  New 'line' coverage: 75043
+  New 'line' coverage: 75496
+  New 'line' coverage: 75497
+  New 'line' coverage: 75498
+  New 'line' coverage: 75499
+  New 'line' coverage: 75500
+  New 'line' coverage: 75501
+  New 'line' coverage: 75502
+  New 'line' coverage: 75503
+  New 'line' coverage: 75504
+  New 'line' coverage: 75522
+  New 'line' coverage: 75525
+  New 'line' coverage: 75526
+  New 'line' coverage: 75606
+  New 'line' coverage: 75677
+  New 'line' coverage: 75678
+  New 'line' coverage: 75681
+  New 'line' coverage: 75682
+  New 'line' coverage: 75683
+  New 'line' coverage: 75684
+  New 'line' coverage: 75685
+  New 'line' coverage: 75686
+  New 'line' coverage: 75687
+  New 'line' coverage: 75691
+  New 'line' coverage: 75700
+  New 'line' coverage: 75705
+  New 'line' coverage: 75706
+  New 'line' coverage: 75707
+  New 'line' coverage: 75708
+  New 'line' coverage: 75709
+  New 'line' coverage: 75890
+  New 'line' coverage: 75891
+  New 'line' coverage: 75892
+  New 'line' coverage: 75895
+  New 'line' coverage: 80276
+  New 'line' coverage: 80277
+  New 'line' coverage: 80290
+  New 'line' coverage: 80291
+  New 'line' coverage: 80293
+  New 'line' coverage: 80365
+  New 'line' coverage: 80370
+  New 'line' coverage: 80371
+  New 'line' coverage: 80372
+  New 'line' coverage: 80373
+  New 'line' coverage: 80375
+  New 'line' coverage: 80376
+  New 'line' coverage: 80377
+  New 'line' coverage: 80385
+  New 'line' coverage: 80391
+  New 'line' coverage: 80396
+  New 'line' coverage: 80398
+  New 'line' coverage: 80400
+  New 'line' coverage: 80401
+  New 'line' coverage: 80402
+  New 'line' coverage: 80403
+  New 'line' coverage: 80406
+  New 'line' coverage: 80407
+  New 'line' coverage: 80408
+  New 'line' coverage: 80410
+  New 'line' coverage: 80411
+  New 'line' coverage: 80412
+  New 'line' coverage: 80413
+  New 'line' coverage: 80414
+  New 'line' coverage: 80416
+  New 'line' coverage: 80424
+  New 'line' coverage: 80425
+  New 'line' coverage: 80630
+  New 'line' coverage: 80632
+  New 'line' coverage: 80633
+  New 'line' coverage: 80642
+  New 'line' coverage: 80643
+  New 'line' coverage: 80644
+  New 'line' coverage: 80706
+  New 'line' coverage: 80715
+  New 'line' coverage: 80718
+  New 'line' coverage: 80719
+  New 'line' coverage: 80720
+  New 'line' coverage: 80781
+  New 'line' coverage: 80873
+  New 'line' coverage: 80874
+  New 'line' coverage: 80875
+  New 'line' coverage: 81008
+  New 'line' coverage: 81009
+  New 'line' coverage: 81048
+  New 'line' coverage: 82047
+  New 'line' coverage: 82127
+  New 'line' coverage: 82134
+  New 'line' coverage: 82136
+  New 'line' coverage: 82139
+  New 'line' coverage: 82404
+  New 'line' coverage: 84114
+  New 'line' coverage: 84115
+  New 'line' coverage: 84116
+  New 'line' coverage: 84835
+  New 'line' coverage: 84838
+  New 'line' coverage: 84839
+  New 'line' coverage: 84855
+  New 'line' coverage: 84857
+  New 'line' coverage: 84858
+  New 'line' coverage: 84859
+  New 'line' coverage: 85253
+  New 'line' coverage: 85254
+  New 'line' coverage: 85255
+  New 'line' coverage: 85259
+  New 'line' coverage: 85260
+  New 'line' coverage: 85266
+  New 'line' coverage: 85272
+  New 'line' coverage: 85274
+  New 'line' coverage: 85275
+  New 'line' coverage: 85276
+  New 'line' coverage: 85635
+  New 'line' coverage: 86043
+  New 'line' coverage: 86044
+  New 'line' coverage: 86045
+  New 'line' coverage: 86062
+  New 'line' coverage: 86063
+  New 'line' coverage: 86143
+  New 'line' coverage: 86152
+  New 'line' coverage: 86153
+  New 'line' coverage: 86156
+  New 'line' coverage: 86157
+  New 'line' coverage: 86169
+  New 'line' coverage: 86170
+  New 'line' coverage: 86176
+  New 'line' coverage: 86177
+  New 'line' coverage: 86178
+  New 'line' coverage: 86179
+  New 'line' coverage: 86180
+  New 'line' coverage: 86185
+  New 'line' coverage: 86199
+  New 'line' coverage: 86200
+  New 'line' coverage: 86201
+  New 'line' coverage: 86202
+  New 'line' coverage: 86518
+  New 'line' coverage: 86522
+  New 'line' coverage: 86525
+  New 'line' coverage: 86526
+  New 'line' coverage: 87913
+  New 'line' coverage: 87914
+  New 'line' coverage: 87915
+  New 'line' coverage: 87916
+  New 'line' coverage: 87917
+  New 'line' coverage: 87922
+  New 'line' coverage: 87924
+  New 'line' coverage: 88998
+  New 'line' coverage: 88999
+  New 'line' coverage: 89001
+  New 'line' coverage: 89004
+  New 'line' coverage: 89005
+  New 'line' coverage: 89006
+  New 'line' coverage: 89378
+  New 'line' coverage: 89380
+  New 'line' coverage: 89381
+  New 'line' coverage: 89476
+  New 'line' coverage: 90427
+  New 'line' coverage: 90430
+  New 'line' coverage: 90431
+  New 'line' coverage: 90432
+  New 'line' coverage: 90504
+  New 'line' coverage: 90506
+  New 'line' coverage: 90508
+  New 'line' coverage: 93065
+  New 'line' coverage: 93071
+  New 'line' coverage: 93072
+  New 'line' coverage: 93073
+  New 'line' coverage: 93074
+  New 'line' coverage: 93076
+  New 'line' coverage: 93608
+  New 'line' coverage: 93609
+  New 'line' coverage: 93610
+  New 'line' coverage: 93611
+  New 'line' coverage: 93612
+  New 'line' coverage: 93613
+  New 'line' coverage: 93622
+  New 'line' coverage: 93627
+  New 'line' coverage: 93628
+  New 'line' coverage: 93629
+  New 'line' coverage: 93634
+  New 'line' coverage: 93638
+  New 'line' coverage: 93639
+  New 'line' coverage: 93640
+  New 'line' coverage: 93641
+  New 'line' coverage: 93642
+  New 'line' coverage: 93643
+  New 'line' coverage: 93644
+  New 'line' coverage: 93657
+  New 'line' coverage: 93665
+  New 'line' coverage: 93667
+  New 'line' coverage: 93678
+  New 'line' coverage: 93684
+  New 'line' coverage: 93685
+  New 'line' coverage: 93687
+  New 'line' coverage: 93688
+  New 'line' coverage: 93690
+  New 'line' coverage: 93691
+  New 'line' coverage: 93695
+  New 'line' coverage: 93697
+  New 'line' coverage: 93698
+  New 'line' coverage: 93702
+  New 'line' coverage: 93708
+  New 'line' coverage: 93709
+  New 'line' coverage: 93710
+  New 'line' coverage: 93711
+  New 'line' coverage: 93713
+  New 'line' coverage: 93714
+  New 'line' coverage: 93718
+  New 'line' coverage: 93719
+  New 'line' coverage: 93720
+  New 'line' coverage: 93722
+  New 'line' coverage: 93724
+  New 'line' coverage: 93728
+  New 'line' coverage: 94048
+  New 'line' coverage: 94053
+  New 'line' coverage: 94061
+  New 'line' coverage: 94062
+  New 'line' coverage: 94063
+  New 'line' coverage: 94064
+  New 'line' coverage: 94065
+  New 'line' coverage: 94068
+  New 'line' coverage: 94089
+  New 'line' coverage: 94090
+  New 'line' coverage: 94091
+  New 'line' coverage: 94092
+  New 'line' coverage: 94093
+  New 'line' coverage: 94100
+  New 'line' coverage: 94108
+  New 'line' coverage: 94109
+  New 'line' coverage: 94110
+  New 'line' coverage: 94113
+  New 'line' coverage: 94114
+  New 'line' coverage: 94116
+  New 'line' coverage: 94135
+  New 'line' coverage: 94136
+  New 'line' coverage: 94137
+  New 'line' coverage: 94138
+  New 'line' coverage: 94148
+  New 'line' coverage: 94149
+  New 'line' coverage: 94150
+  New 'line' coverage: 94875
+  New 'line' coverage: 94876
+  New 'line' coverage: 94914
+  New 'line' coverage: 94919
+  New 'line' coverage: 94921
+  New 'line' coverage: 94939
+  New 'line' coverage: 94940
+  New 'line' coverage: 94941
+  New 'line' coverage: 94942
+  New 'line' coverage: 94943
+  New 'line' coverage: 94945
+  New 'line' coverage: 94957
+  New 'line' coverage: 94970
+  New 'line' coverage: 94971
+  New 'line' coverage: 94979
+  New 'line' coverage: 94984
+  New 'line' coverage: 94985
+  New 'line' coverage: 94986
+  New 'line' coverage: 94989
+  New 'line' coverage: 94990
+  New 'line' coverage: 94991
+  New 'line' coverage: 95565
+  New 'line' coverage: 96280
+  New 'line' coverage: 96281
+  New 'line' coverage: 96657
+  New 'line' coverage: 96658
+  New 'line' coverage: 96659
+  New 'line' coverage: 96660
+  New 'line' coverage: 96662
+  New 'line' coverage: 96663
+  New 'line' coverage: 96664
+  New 'line' coverage: 97299
+  New 'line' coverage: 97302
+  New 'line' coverage: 97303
+  New 'line' coverage: 97767
+  New 'line' coverage: 97770
+  New 'line' coverage: 98188
+  New 'line' coverage: 98190
+  New 'line' coverage: 98191
+  New 'line' coverage: 98192
+  New 'line' coverage: 98193
+  New 'line' coverage: 98194
+  New 'line' coverage: 98195
+  New 'line' coverage: 98196
+  New 'line' coverage: 98198
+  New 'line' coverage: 98215
+  New 'line' coverage: 98399
+  New 'line' coverage: 98400
+  New 'line' coverage: 98401
+  New 'line' coverage: 98402
+  New 'line' coverage: 98403
+  New 'line' coverage: 98408
+  New 'line' coverage: 98571
+  New 'line' coverage: 99646
+  New 'line' coverage: 99647
+  New 'line' coverage: 99753
+  New 'line' coverage: 99754
+
+[+] AFL test case: id:000004,orig:3380.sql (4 / 10), cycle: 0
+    lines......: 19.1% (11053 of 57824 lines)
+    functions..: 23.7% (680 of 2873 functions)
+    branches...: 12.6% (6329 of 50092 branches)
+
+    Coverage diff id:000003,orig:30861.sql id:000004,orig:3380.sql
+diff id:000003,orig:30861.sql -> id:000004,orig:3380.sql
+Src file: /Superion/code1/sqlite3.c
+  New 'function' coverage: sqlite3CreateView.isra.395()
+  New 'function' coverage: sqlite3FixExprList()
+  New 'function' coverage: sqlite3GetVarint32()
+  New 'function' coverage: sqlite3SrcListEnlarge()
+  New 'function' coverage: sqlite3WindowListDup()
+  New 'function' coverage: withDup()
+  New 'function' coverage: yy_syntax_error.isra.314()
+  New 'line' coverage: 107269
+  New 'line' coverage: 107272
+  New 'line' coverage: 107275
+  New 'line' coverage: 107278
+  New 'line' coverage: 107281
+  New 'line' coverage: 107284
+  New 'line' coverage: 107287
+  New 'line' coverage: 107290
+  New 'line' coverage: 107298
+  New 'line' coverage: 107307
+  New 'line' coverage: 107308
+  New 'line' coverage: 107316
+  New 'line' coverage: 107317
+  New 'line' coverage: 107320
+  New 'line' coverage: 107322
+  New 'line' coverage: 107325
+  New 'line' coverage: 107329
+  New 'line' coverage: 107335
+  New 'line' coverage: 107336
+  New 'line' coverage: 107337
+  New 'line' coverage: 109066
+  New 'line' coverage: 109067
+  New 'line' coverage: 109068
+  New 'line' coverage: 109069
+  New 'line' coverage: 109091
+  New 'line' coverage: 109093
+  New 'line' coverage: 109097
+  New 'line' coverage: 109098
+  New 'line' coverage: 109100
+  New 'line' coverage: 109101
+  New 'line' coverage: 109807
+  New 'line' coverage: 109808
+  New 'line' coverage: 109956
+  New 'line' coverage: 109971
+  New 'line' coverage: 109973
+  New 'line' coverage: 109975
+  New 'line' coverage: 109979
+  New 'line' coverage: 109980
+  New 'line' coverage: 109981
+  New 'line' coverage: 109982
+  New 'line' coverage: 109983
+  New 'line' coverage: 109984
+  New 'line' coverage: 109985
+  New 'line' coverage: 109992
+  New 'line' coverage: 109996
+  New 'line' coverage: 109998
+  New 'line' coverage: 109999
+  New 'line' coverage: 110004
+  New 'line' coverage: 110006
+  New 'line' coverage: 110007
+  New 'line' coverage: 110009
+  New 'line' coverage: 110010
+  New 'line' coverage: 110012
+  New 'line' coverage: 110013
+  New 'line' coverage: 110014
+  New 'line' coverage: 110015
+  New 'line' coverage: 110018
+  New 'line' coverage: 110021
+  New 'line' coverage: 110022
+  New 'line' coverage: 110025
+  New 'line' coverage: 110026
+  New 'line' coverage: 111664
+  New 'line' coverage: 111679
+  New 'line' coverage: 111681
+  New 'line' coverage: 111682
+  New 'line' coverage: 111684
+  New 'line' coverage: 111689
+  New 'line' coverage: 111690
+  New 'line' coverage: 111691
+  New 'line' coverage: 111692
+  New 'line' coverage: 111696
+  New 'line' coverage: 111697
+  New 'line' coverage: 111702
+  New 'line' coverage: 111705
+  New 'line' coverage: 111708
+  New 'line' coverage: 111709
+  New 'line' coverage: 111710
+  New 'line' coverage: 111773
+  New 'line' coverage: 111774
+  New 'line' coverage: 111882
+  New 'line' coverage: 111957
+  New 'line' coverage: 118407
+  New 'line' coverage: 118408
+  New 'line' coverage: 118754
+  New 'line' coverage: 125352
+  New 'line' coverage: 125359
+  New 'line' coverage: 125360
+  New 'line' coverage: 148965
+  New 'line' coverage: 148967
+  New 'line' coverage: 148968
+  New 'line' coverage: 148970
+  New 'line' coverage: 148976
+  New 'line' coverage: 153087
+  New 'line' coverage: 153196
+  New 'line' coverage: 153361
+  New 'line' coverage: 153451
+  New 'line' coverage: 153608
+  New 'line' coverage: 153609
+  New 'line' coverage: 153610
+  New 'line' coverage: 153614
+  New 'line' coverage: 153616
+  New 'line' coverage: 154391
+  New 'line' coverage: 154397
+  New 'line' coverage: 154402
+  New 'line' coverage: 154403
+  New 'line' coverage: 154409
+  New 'line' coverage: 154410
+  New 'line' coverage: 154510
+  New 'line' coverage: 154583
+  New 'line' coverage: 154584
+  New 'line' coverage: 154585
+  New 'line' coverage: 155663
+  New 'line' coverage: 155664
+  New 'line' coverage: 155666
+  New 'line' coverage: 155667
+  New 'line' coverage: 28234
+  New 'line' coverage: 28235
+  New 'line' coverage: 28237
+  New 'line' coverage: 28238
+  New 'line' coverage: 30586
+  New 'line' coverage: 30587
+  New 'line' coverage: 30588
+  New 'line' coverage: 30589
+  New 'line' coverage: 31159
+  New 'line' coverage: 31270
+  New 'line' coverage: 31271
+  New 'line' coverage: 31272
+  New 'line' coverage: 31273
+  New 'line' coverage: 31456
+  New 'line' coverage: 31461
+  New 'line' coverage: 31473
+  New 'line' coverage: 31474
+  New 'line' coverage: 31476
+  New 'line' coverage: 31479
+  New 'line' coverage: 31480
+  New 'line' coverage: 31481
+  New 'line' coverage: 31482
+  New 'line' coverage: 31864
+  New 'line' coverage: 80092
+  New 'line' coverage: 85193
+  New 'line' coverage: 85194
+  New 'line' coverage: 85195
+  New 'line' coverage: 86033
+  New 'line' coverage: 86620
+  New 'line' coverage: 86621
+  New 'line' coverage: 86622
+  New 'line' coverage: 98654
+  New 'line' coverage: 98663
+  New 'line' coverage: 98667
+  New 'line' coverage: 98704
+  New 'line' coverage: 98730
+  New 'line' coverage: 98731
+  New 'line' coverage: 98754
+  New 'line' coverage: 98785
+  New 'line' coverage: 98786
+  New 'line' coverage: 98787
+  New 'line' coverage: 98788
+  New 'line' coverage: 98789
+  New 'line' coverage: 98790
+  New 'line' coverage: 98793
+  New 'line' coverage: 98798
+  New 'line' coverage: 98799
+  New 'line' coverage: 98823
+  New 'line' coverage: 98824
+  New 'line' coverage: 98825
+  New 'line' coverage: 98838
+  New 'line' coverage: 99023
+  New 'line' coverage: 99024
+  New 'line' coverage: 99025
+  New 'line' coverage: 99026
+  New 'line' coverage: 99027
+  New 'line' coverage: 99028
+  New 'line' coverage: 99029
+  New 'line' coverage: 99030
+  New 'line' coverage: 99031
+  New 'line' coverage: 99032
+  New 'line' coverage: 99033
+  New 'line' coverage: 99034
+  New 'line' coverage: 99035
+  New 'line' coverage: 99036
+  New 'line' coverage: 99037
+  New 'line' coverage: 99038
+  New 'line' coverage: 99039
+  New 'line' coverage: 99040
+  New 'line' coverage: 99041
+  New 'line' coverage: 99043
+  New 'line' coverage: 99044
+  New 'line' coverage: 99045
+  New 'line' coverage: 99047
+  New 'line' coverage: 99048
+  New 'line' coverage: 99049
+  New 'line' coverage: 99050
+Src file: /Superion/code1/shell.c
+  New 'line' coverage: 11588
+  New 'line' coverage: 11589
+
+[+] AFL test case: id:000005,orig:34422.sql (5 / 10), cycle: 0
+    lines......: 20.0% (11570 of 57824 lines)
+    functions..: 24.4% (700 of 2873 functions)
+    branches...: 13.4% (6727 of 50092 branches)
+
+    Coverage diff id:000004,orig:3380.sql id:000005,orig:34422.sql
+diff id:000004,orig:3380.sql -> id:000005,orig:34422.sql
+Src file: /Superion/code1/sqlite3.c
+  New 'function' coverage: exprAnalyzeOrTerm()
+  New 'function' coverage: exprCommute()
+  New 'function' coverage: findConstInWhere()
+  New 'function' coverage: flattenSubquery()
+  New 'function' coverage: incrAggFunctionDepth()
+  New 'function' coverage: printfTempBuf()
+  New 'function' coverage: propagateConstants.isra.327()
+  New 'function' coverage: resolveAlias()
+  New 'function' coverage: sqlite3ColumnsFromExprList.isra.385()
+  New 'function' coverage: sqlite3ExprIfTrue()
+  New 'function' coverage: sqlite3ExprSimplifiedAndOr()
+  New 'function' coverage: sqlite3ResultSetOfSelect()
+  New 'function' coverage: sqlite3SelectAddColumnTypeAndCollation()
+  New 'function' coverage: sqlite3WhereExprListUsage()
+  New 'function' coverage: substExpr()
+  New 'function' coverage: substExprList()
+  New 'function' coverage: substSelect()
+  New 'function' coverage: termIsEquivalence()
+  New 'function' coverage: whereLoopAddOr()
+  New 'function' coverage: whereOrInfoDelete()
+  New 'line' coverage: 101747
+  New 'line' coverage: 102034
+  New 'line' coverage: 102035
+  New 'line' coverage: 102036
+  New 'line' coverage: 102037
+  New 'line' coverage: 102038
+  New 'line' coverage: 102042
+  New 'line' coverage: 102043
+  New 'line' coverage: 102044
+  New 'line' coverage: 102045
+  New 'line' coverage: 102100
+  New 'line' coverage: 102102
+  New 'line' coverage: 102103
+  New 'line' coverage: 102104
+  New 'line' coverage: 102118
+  New 'line' coverage: 102162
+  New 'line' coverage: 102163
+  New 'line' coverage: 102220
+  New 'line' coverage: 102221
+  New 'line' coverage: 102223
+  New 'line' coverage: 102228
+  New 'line' coverage: 102230
+  New 'line' coverage: 102232
+  New 'line' coverage: 102233
+  New 'line' coverage: 102446
+  New 'line' coverage: 102449
+  New 'line' coverage: 102452
+  New 'line' coverage: 102505
+  New 'line' coverage: 102506
+  New 'line' coverage: 102507
+  New 'line' coverage: 102508
+  New 'line' coverage: 102509
+  New 'line' coverage: 102510
+  New 'line' coverage: 102511
+  New 'line' coverage: 110082
+  New 'line' coverage: 110096
+  New 'line' coverage: 110097
+  New 'line' coverage: 110099
+  New 'line' coverage: 110100
+  New 'line' coverage: 110102
+  New 'line' coverage: 110103
+  New 'line' coverage: 110104
+  New 'line' coverage: 110105
+  New 'line' coverage: 110107
+  New 'line' coverage: 110108
+  New 'line' coverage: 110109
+  New 'line' coverage: 110110
+  New 'line' coverage: 110114
+  New 'line' coverage: 110115
+  New 'line' coverage: 110131
+  New 'line' coverage: 110136
+  New 'line' coverage: 110137
+  New 'line' coverage: 110138
+  New 'line' coverage: 110139
+  New 'line' coverage: 110145
+  New 'line' coverage: 110146
+  New 'line' coverage: 110147
+  New 'line' coverage: 110149
+  New 'line' coverage: 110154
+  New 'line' coverage: 110155
+  New 'line' coverage: 111703
+  New 'line' coverage: 126072
+  New 'line' coverage: 126075
+  New 'line' coverage: 126076
+  New 'line' coverage: 126081
+  New 'line' coverage: 126102
+  New 'line' coverage: 126111
+  New 'line' coverage: 126124
+  New 'line' coverage: 127548
+  New 'line' coverage: 127554
+  New 'line' coverage: 127563
+  New 'line' coverage: 127564
+  New 'line' coverage: 127565
+  New 'line' coverage: 127566
+  New 'line' coverage: 127568
+  New 'line' coverage: 127574
+  New 'line' coverage: 127575
+  New 'line' coverage: 127577
+  New 'line' coverage: 127580
+  New 'line' coverage: 127603
+  New 'line' coverage: 127604
+  New 'line' coverage: 127612
+  New 'line' coverage: 127613
+  New 'line' coverage: 127614
+  New 'line' coverage: 127615
+  New 'line' coverage: 127616
+  New 'line' coverage: 127617
+  New 'line' coverage: 127619
+  New 'line' coverage: 127620
+  New 'line' coverage: 127622
+  New 'line' coverage: 127624
+  New 'line' coverage: 127628
+  New 'line' coverage: 127629
+  New 'line' coverage: 127652
+  New 'line' coverage: 127658
+  New 'line' coverage: 127669
+  New 'line' coverage: 127670
+  New 'line' coverage: 127671
+  New 'line' coverage: 127672
+  New 'line' coverage: 127673
+  New 'line' coverage: 127676
+  New 'line' coverage: 127677
+  New 'line' coverage: 127679
+  New 'line' coverage: 127680
+  New 'line' coverage: 127689
+  New 'line' coverage: 127690
+  New 'line' coverage: 127691
+  New 'line' coverage: 127692
+  New 'line' coverage: 127695
+  New 'line' coverage: 127702
+  New 'line' coverage: 127704
+  New 'line' coverage: 127707
+  New 'line' coverage: 127708
+  New 'line' coverage: 127709
+  New 'line' coverage: 127710
+  New 'line' coverage: 127711
+  New 'line' coverage: 127712
+  New 'line' coverage: 127713
+  New 'line' coverage: 127714
+  New 'line' coverage: 127715
+  New 'line' coverage: 127718
+  New 'line' coverage: 127719
+  New 'line' coverage: 127720
+  New 'line' coverage: 127721
+  New 'line' coverage: 127722
+  New 'line' coverage: 127723
+  New 'line' coverage: 127724
+  New 'line' coverage: 129060
+  New 'line' coverage: 129064
+  New 'line' coverage: 129065
+  New 'line' coverage: 129070
+  New 'line' coverage: 129116
+  New 'line' coverage: 129119
+  New 'line' coverage: 129120
+  New 'line' coverage: 129121
+  New 'line' coverage: 129124
+  New 'line' coverage: 129127
+  New 'line' coverage: 129137
+  New 'line' coverage: 129142
+  New 'line' coverage: 129143
+  New 'line' coverage: 129144
+  New 'line' coverage: 129147
+  New 'line' coverage: 129155
+  New 'line' coverage: 129157
+  New 'line' coverage: 129158
+  New 'line' coverage: 129159
+  New 'line' coverage: 129160
+  New 'line' coverage: 129161
+  New 'line' coverage: 129162
+  New 'line' coverage: 129164
+  New 'line' coverage: 129165
+  New 'line' coverage: 129166
+  New 'line' coverage: 129170
+  New 'line' coverage: 129328
+  New 'line' coverage: 129334
+  New 'line' coverage: 129341
+  New 'line' coverage: 129342
+  New 'line' coverage: 129346
+  New 'line' coverage: 129352
+  New 'line' coverage: 129353
+  New 'line' coverage: 129355
+  New 'line' coverage: 129356
+  New 'line' coverage: 129357
+  New 'line' coverage: 129361
+  New 'line' coverage: 129364
+  New 'line' coverage: 129371
+  New 'line' coverage: 129372
+  New 'line' coverage: 129373
+  New 'line' coverage: 129376
+  New 'line' coverage: 129377
+  New 'line' coverage: 129378
+  New 'line' coverage: 129381
+  New 'line' coverage: 129384
+  New 'line' coverage: 129385
+  New 'line' coverage: 129386
+  New 'line' coverage: 129389
+  New 'line' coverage: 129413
+  New 'line' coverage: 129435
+  New 'line' coverage: 129478
+  New 'line' coverage: 129479
+  New 'line' coverage: 129481
+  New 'line' coverage: 129516
+  New 'line' coverage: 129546
+  New 'line' coverage: 129551
+  New 'line' coverage: 129552
+  New 'line' coverage: 129553
+  New 'line' coverage: 129554
+  New 'line' coverage: 129555
+  New 'line' coverage: 129556
+  New 'line' coverage: 129557
+  New 'line' coverage: 129566
+  New 'line' coverage: 129567
+  New 'line' coverage: 129568
+  New 'line' coverage: 129573
+  New 'line' coverage: 129575
+  New 'line' coverage: 129591
+  New 'line' coverage: 129593
+  New 'line' coverage: 129595
+  New 'line' coverage: 129596
+  New 'line' coverage: 129597
+  New 'line' coverage: 129599
+  New 'line' coverage: 129601
+  New 'line' coverage: 129624
+  New 'line' coverage: 129625
+  New 'line' coverage: 129626
+  New 'line' coverage: 129627
+  New 'line' coverage: 129633
+  New 'line' coverage: 129634
+  New 'line' coverage: 129636
+  New 'line' coverage: 129637
+  New 'line' coverage: 129638
+  New 'line' coverage: 129640
+  New 'line' coverage: 129654
+  New 'line' coverage: 129673
+  New 'line' coverage: 129674
+  New 'line' coverage: 129675
+  New 'line' coverage: 129678
+  New 'line' coverage: 129679
+  New 'line' coverage: 129681
+  New 'line' coverage: 129682
+  New 'line' coverage: 129683
+  New 'line' coverage: 129684
+  New 'line' coverage: 129685
+  New 'line' coverage: 129686
+  New 'line' coverage: 129691
+  New 'line' coverage: 129700
+  New 'line' coverage: 129776
+  New 'line' coverage: 129778
+  New 'line' coverage: 129779
+  New 'line' coverage: 129780
+  New 'line' coverage: 129781
+  New 'line' coverage: 129782
+  New 'line' coverage: 129783
+  New 'line' coverage: 129785
+  New 'line' coverage: 129871
+  New 'line' coverage: 129877
+  New 'line' coverage: 129878
+  New 'line' coverage: 129880
+  New 'line' coverage: 129881
+  New 'line' coverage: 129882
+  New 'line' coverage: 129883
+  New 'line' coverage: 129884
+  New 'line' coverage: 129896
+  New 'line' coverage: 129897
+  New 'line' coverage: 130492
+  New 'line' coverage: 130543
+  New 'line' coverage: 130544
+  New 'line' coverage: 130546
+  New 'line' coverage: 130550
+  New 'line' coverage: 130551
+  New 'line' coverage: 130552
+  New 'line' coverage: 130553
+  New 'line' coverage: 130554
+  New 'line' coverage: 130555
+  New 'line' coverage: 130556
+  New 'line' coverage: 131388
+  New 'line' coverage: 131401
+  New 'line' coverage: 131422
+  New 'line' coverage: 131431
+  New 'line' coverage: 131432
+  New 'line' coverage: 131436
+  New 'line' coverage: 131437
+  New 'line' coverage: 131438
+  New 'line' coverage: 131439
+  New 'line' coverage: 131467
+  New 'line' coverage: 131519
+  New 'line' coverage: 139549
+  New 'line' coverage: 139550
+  New 'line' coverage: 139609
+  New 'line' coverage: 139688
+  New 'line' coverage: 139689
+  New 'line' coverage: 139690
+  New 'line' coverage: 139691
+  New 'line' coverage: 139786
+  New 'line' coverage: 139787
+  New 'line' coverage: 139788
+  New 'line' coverage: 139789
+  New 'line' coverage: 139791
+  New 'line' coverage: 139793
+  New 'line' coverage: 139798
+  New 'line' coverage: 139802
+  New 'line' coverage: 139803
+  New 'line' coverage: 139806
+  New 'line' coverage: 139807
+  New 'line' coverage: 139815
+  New 'line' coverage: 140143
+  New 'line' coverage: 140144
+  New 'line' coverage: 140309
+  New 'line' coverage: 140314
+  New 'line' coverage: 140315
+  New 'line' coverage: 140316
+  New 'line' coverage: 140317
+  New 'line' coverage: 140318
+  New 'line' coverage: 140333
+  New 'line' coverage: 140334
+  New 'line' coverage: 140335
+  New 'line' coverage: 140336
+  New 'line' coverage: 140337
+  New 'line' coverage: 140338
+  New 'line' coverage: 140339
+  New 'line' coverage: 140340
+  New 'line' coverage: 140341
+  New 'line' coverage: 140347
+  New 'line' coverage: 140348
+  New 'line' coverage: 140349
+  New 'line' coverage: 140350
+  New 'line' coverage: 140381
+  New 'line' coverage: 140386
+  New 'line' coverage: 140387
+  New 'line' coverage: 140388
+  New 'line' coverage: 140389
+  New 'line' coverage: 140391
+  New 'line' coverage: 140392
+  New 'line' coverage: 140395
+  New 'line' coverage: 140404
+  New 'line' coverage: 140405
+  New 'line' coverage: 140406
+  New 'line' coverage: 140407
+  New 'line' coverage: 140414
+  New 'line' coverage: 140447
+  New 'line' coverage: 140459
+  New 'line' coverage: 140460
+  New 'line' coverage: 140461
+  New 'line' coverage: 140462
+  New 'line' coverage: 140464
+  New 'line' coverage: 140465
+  New 'line' coverage: 140469
+  New 'line' coverage: 140471
+  New 'line' coverage: 140480
+  New 'line' coverage: 140482
+  New 'line' coverage: 140483
+  New 'line' coverage: 140484
+  New 'line' coverage: 140485
+  New 'line' coverage: 140487
+  New 'line' coverage: 140500
+  New 'line' coverage: 140502
+  New 'line' coverage: 140504
+  New 'line' coverage: 140514
+  New 'line' coverage: 140515
+  New 'line' coverage: 140516
+  New 'line' coverage: 140519
+  New 'line' coverage: 140529
+  New 'line' coverage: 140580
+  New 'line' coverage: 140583
+  New 'line' coverage: 140584
+  New 'line' coverage: 140585
+  New 'line' coverage: 140586
+  New 'line' coverage: 140587
+  New 'line' coverage: 140588
+  New 'line' coverage: 140593
+  New 'line' coverage: 140594
+  New 'line' coverage: 140792
+  New 'line' coverage: 140794
+  New 'line' coverage: 140796
+  New 'line' coverage: 140797
+  New 'line' coverage: 140801
+  New 'line' coverage: 140802
+  New 'line' coverage: 140803
+  New 'line' coverage: 140804
+  New 'line' coverage: 140805
+  New 'line' coverage: 140806
+  New 'line' coverage: 140807
+  New 'line' coverage: 140809
+  New 'line' coverage: 140810
+  New 'line' coverage: 140811
+  New 'line' coverage: 140817
+  New 'line' coverage: 140818
+  New 'line' coverage: 140819
+  New 'line' coverage: 140821
+  New 'line' coverage: 140822
+  New 'line' coverage: 140871
+  New 'line' coverage: 140872
+  New 'line' coverage: 141165
+  New 'line' coverage: 141168
+  New 'line' coverage: 141201
+  New 'line' coverage: 141214
+  New 'line' coverage: 141216
+  New 'line' coverage: 141217
+  New 'line' coverage: 141218
+  New 'line' coverage: 141219
+  New 'line' coverage: 141222
+  New 'line' coverage: 143433
+  New 'line' coverage: 144710
+  New 'line' coverage: 144715
+  New 'line' coverage: 144719
+  New 'line' coverage: 144726
+  New 'line' coverage: 144727
+  New 'line' coverage: 144728
+  New 'line' coverage: 144729
+  New 'line' coverage: 144730
+  New 'line' coverage: 144731
+  New 'line' coverage: 144733
+  New 'line' coverage: 144734
+  New 'line' coverage: 144735
+  New 'line' coverage: 144737
+  New 'line' coverage: 144738
+  New 'line' coverage: 144740
+  New 'line' coverage: 144743
+  New 'line' coverage: 144744
+  New 'line' coverage: 144745
+  New 'line' coverage: 144748
+  New 'line' coverage: 144749
+  New 'line' coverage: 144751
+  New 'line' coverage: 144752
+  New 'line' coverage: 144753
+  New 'line' coverage: 144754
+  New 'line' coverage: 144755
+  New 'line' coverage: 144756
+  New 'line' coverage: 144757
+  New 'line' coverage: 144761
+  New 'line' coverage: 144770
+  New 'line' coverage: 144775
+  New 'line' coverage: 144777
+  New 'line' coverage: 144778
+  New 'line' coverage: 144781
+  New 'line' coverage: 144782
+  New 'line' coverage: 144783
+  New 'line' coverage: 144800
+  New 'line' coverage: 144801
+  New 'line' coverage: 144802
+  New 'line' coverage: 144803
+  New 'line' coverage: 144804
+  New 'line' coverage: 144805
+  New 'line' coverage: 144806
+  New 'line' coverage: 144827
+  New 'line' coverage: 144876
+  New 'line' coverage: 145463
+  New 'line' coverage: 145464
+  New 'line' coverage: 145473
+  New 'line' coverage: 145485
+  New 'line' coverage: 145513
+  New 'line' coverage: 145514
+  New 'line' coverage: 145515
+  New 'line' coverage: 145516
+  New 'line' coverage: 145533
+  New 'line' coverage: 145564
+  New 'line' coverage: 145565
+  New 'line' coverage: 145567
+  New 'line' coverage: 145568
+  New 'line' coverage: 145569
+  New 'line' coverage: 146183
+  New 'line' coverage: 155671
+  New 'line' coverage: 155672
+  New 'line' coverage: 157164
+  New 'line' coverage: 27205
+  New 'line' coverage: 27574
+  New 'line' coverage: 27576
+  New 'line' coverage: 27577
+  New 'line' coverage: 27581
+  New 'line' coverage: 27582
+  New 'line' coverage: 27832
+  New 'line' coverage: 27834
+  New 'line' coverage: 27841
+  New 'line' coverage: 28143
+  New 'line' coverage: 28144
+  New 'line' coverage: 28145
+  New 'line' coverage: 28146
+  New 'line' coverage: 28215
+  New 'line' coverage: 28216
+  New 'line' coverage: 28284
+  New 'line' coverage: 95724
+  New 'line' coverage: 95725
+  New 'line' coverage: 95732
+  New 'line' coverage: 95753
+  New 'line' coverage: 95766
+  New 'line' coverage: 95768
+  New 'line' coverage: 95769
+  New 'line' coverage: 95770
+  New 'line' coverage: 95771
+  New 'line' coverage: 95772
+  New 'line' coverage: 95783
+  New 'line' coverage: 95784
+  New 'line' coverage: 95785
+  New 'line' coverage: 95786
+  New 'line' coverage: 95791
+  New 'line' coverage: 95800
+  New 'line' coverage: 95801
+  New 'line' coverage: 95976
+  New 'line' coverage: 95978
+  New 'line' coverage: 95979
+  New 'line' coverage: 95981
+  New 'line' coverage: 96140
+  New 'line' coverage: 96142
+  New 'line' coverage: 96143
+  New 'line' coverage: 96144
+  New 'line' coverage: 96149
+  New 'line' coverage: 96150
+  New 'line' coverage: 96154
+  New 'line' coverage: 96158
+  New 'line' coverage: 96162
+  New 'line' coverage: 96163
+  New 'line' coverage: 96164
+  New 'line' coverage: 96166
+  New 'line' coverage: 96417
+  New 'line' coverage: 96418
+  New 'line' coverage: 96419
+  New 'line' coverage: 96420
+  New 'line' coverage: 96428
+  New 'line' coverage: 96429
+  New 'line' coverage: 96430
+  New 'line' coverage: 97181
+  New 'line' coverage: 97182
+  New 'line' coverage: 97189
+  New 'line' coverage: 97191
+  New 'line' coverage: 97192
+  New 'line' coverage: 97193
+  New 'line' coverage: 97194
+  New 'line' coverage: 97196
+  New 'line' coverage: 97198
+  New 'line' coverage: 98759
+  New 'line' coverage: 99380
+  New 'line' coverage: 99382
+  New 'line' coverage: 99383
+  New 'line' coverage: 99384
+  New 'line' coverage: 99385
+  New 'line' coverage: 99387
+  New 'line' coverage: 99391
+
+[+] AFL test case: id:000006,orig:361.sql (6 / 10), cycle: 0
+    lines......: 20.3% (11740 of 57824 lines)
+    functions..: 24.9% (714 of 2873 functions)
+    branches...: 13.6% (6830 of 50092 branches)
+
+    Coverage diff id:000005,orig:34422.sql id:000006,orig:361.sql
+diff id:000005,orig:34422.sql -> id:000006,orig:361.sql
+Src file: /Superion/code1/sqlite3.c
+  New 'function' coverage: getSafetyLevel()
+  New 'function' coverage: pragmaLocate()
+  New 'function' coverage: returnSingleInt()
+  New 'function' coverage: setAllPagerFlags()
+  New 'function' coverage: setPragmaResultColumnNames()
+  New 'function' coverage: sqlite3BtreeSetPageSize()
+  New 'function' coverage: sqlite3BtreeSetPagerFlags()
+  New 'function' coverage: sqlite3DbNameToBtree()
+  New 'function' coverage: sqlite3FindDb()
+  New 'function' coverage: sqlite3FindDbName()
+  New 'function' coverage: sqlite3OpenTempDatabase()
+  New 'function' coverage: sqlite3PagerSetFlags()
+  New 'function' coverage: sqlite3Pragma()
+  New 'function' coverage: sqlite3_file_control()
+  New 'line' coverage: 108392
+  New 'line' coverage: 108393
+  New 'line' coverage: 108394
+  New 'line' coverage: 108396
+  New 'line' coverage: 108397
+  New 'line' coverage: 108400
+  New 'line' coverage: 108403
+  New 'line' coverage: 108412
+  New 'line' coverage: 108415
+  New 'line' coverage: 108416
+  New 'line' coverage: 108417
+  New 'line' coverage: 108418
+  New 'line' coverage: 108448
+  New 'line' coverage: 108452
+  New 'line' coverage: 108453
+  New 'line' coverage: 108454
+  New 'line' coverage: 112035
+  New 'line' coverage: 112036
+  New 'line' coverage: 112037
+  New 'line' coverage: 112047
+  New 'line' coverage: 112048
+  New 'line' coverage: 112054
+  New 'line' coverage: 112056
+  New 'line' coverage: 122208
+  New 'line' coverage: 122216
+  New 'line' coverage: 122219
+  New 'line' coverage: 122220
+  New 'line' coverage: 122221
+  New 'line' coverage: 122222
+  New 'line' coverage: 122224
+  New 'line' coverage: 122234
+  New 'line' coverage: 122332
+  New 'line' coverage: 122336
+  New 'line' coverage: 122337
+  New 'line' coverage: 122338
+  New 'line' coverage: 122339
+  New 'line' coverage: 122346
+  New 'line' coverage: 122351
+  New 'line' coverage: 122352
+  New 'line' coverage: 122353
+  New 'line' coverage: 122354
+  New 'line' coverage: 122375
+  New 'line' coverage: 122376
+  New 'line' coverage: 122377
+  New 'line' coverage: 122378
+  New 'line' coverage: 122385
+  New 'line' coverage: 122386
+  New 'line' coverage: 122387
+  New 'line' coverage: 122388
+  New 'line' coverage: 122390
+  New 'line' coverage: 122393
+  New 'line' coverage: 122445
+  New 'line' coverage: 122446
+  New 'line' coverage: 122447
+  New 'line' coverage: 122448
+  New 'line' coverage: 122449
+  New 'line' coverage: 122450
+  New 'line' coverage: 122451
+  New 'line' coverage: 122452
+  New 'line' coverage: 122453
+  New 'line' coverage: 122454
+  New 'line' coverage: 122456
+  New 'line' coverage: 122459
+  New 'line' coverage: 122493
+  New 'line' coverage: 122500
+  New 'line' coverage: 122501
+  New 'line' coverage: 122502
+  New 'line' coverage: 122507
+  New 'line' coverage: 122509
+  New 'line' coverage: 122512
+  New 'line' coverage: 122513
+  New 'line' coverage: 122514
+  New 'line' coverage: 122518
+  New 'line' coverage: 122519
+  New 'line' coverage: 122520
+  New 'line' coverage: 122525
+  New 'line' coverage: 122529
+  New 'line' coverage: 122530
+  New 'line' coverage: 122531
+  New 'line' coverage: 122534
+  New 'line' coverage: 122538
+  New 'line' coverage: 122539
+  New 'line' coverage: 122558
+  New 'line' coverage: 122559
+  New 'line' coverage: 122560
+  New 'line' coverage: 122561
+  New 'line' coverage: 122562
+  New 'line' coverage: 122563
+  New 'line' coverage: 122564
+  New 'line' coverage: 122571
+  New 'line' coverage: 122582
+  New 'line' coverage: 122583
+  New 'line' coverage: 122586
+  New 'line' coverage: 122591
+  New 'line' coverage: 122592
+  New 'line' coverage: 122594
+  New 'line' coverage: 122598
+  New 'line' coverage: 122976
+  New 'line' coverage: 122977
+  New 'line' coverage: 122978
+  New 'line' coverage: 122981
+  New 'line' coverage: 122982
+  New 'line' coverage: 122985
+  New 'line' coverage: 122988
+  New 'line' coverage: 122990
+  New 'line' coverage: 124262
+  New 'line' coverage: 124363
+  New 'line' coverage: 124364
+  New 'line' coverage: 153932
+  New 'line' coverage: 153935
+  New 'line' coverage: 159998
+  New 'line' coverage: 159999
+  New 'line' coverage: 160005
+  New 'line' coverage: 160006
+  New 'line' coverage: 160007
+  New 'line' coverage: 160010
+  New 'line' coverage: 160011
+  New 'line' coverage: 160013
+  New 'line' coverage: 160015
+  New 'line' coverage: 160018
+  New 'line' coverage: 160021
+  New 'line' coverage: 160024
+  New 'line' coverage: 160028
+  New 'line' coverage: 160030
+  New 'line' coverage: 160032
+  New 'line' coverage: 160033
+  New 'line' coverage: 160475
+  New 'line' coverage: 160476
+  New 'line' coverage: 160477
+  New 'line' coverage: 27344
+  New 'line' coverage: 54411
+  New 'line' coverage: 54415
+  New 'line' coverage: 54416
+  New 'line' coverage: 54417
+  New 'line' coverage: 54418
+  New 'line' coverage: 54419
+  New 'line' coverage: 54425
+  New 'line' coverage: 54426
+  New 'line' coverage: 54432
+  New 'line' coverage: 54433
+  New 'line' coverage: 54436
+  New 'line' coverage: 54439
+  New 'line' coverage: 54442
+  New 'line' coverage: 54444
+  New 'line' coverage: 66214
+  New 'line' coverage: 66218
+  New 'line' coverage: 66220
+  New 'line' coverage: 66221
+  New 'line' coverage: 66222
+  New 'line' coverage: 66223
+  New 'line' coverage: 66247
+  New 'line' coverage: 66248
+  New 'line' coverage: 66249
+  New 'line' coverage: 66251
+  New 'line' coverage: 66255
+  New 'line' coverage: 66259
+  New 'line' coverage: 66260
+  New 'line' coverage: 66263
+  New 'line' coverage: 66270
+  New 'line' coverage: 66271
+  New 'line' coverage: 66272
+  New 'line' coverage: 66273
+  New 'line' coverage: 66274
+  New 'line' coverage: 77082
+  New 'line' coverage: 85057
+  New 'line' coverage: 85059
+  New 'line' coverage: 85060
+Src file: /Superion/code1/shell.c
+  New 'line' coverage: 18346
+  New 'line' coverage: 599
+  New 'line' coverage: 600
+
+[+] AFL test case: id:000007,orig:4021.sql (7 / 10), cycle: 0
+    lines......: 20.6% (11889 of 57824 lines)
+    functions..: 25.0% (719 of 2873 functions)
+    branches...: 13.9% (6947 of 50092 branches)
+
+    Coverage diff id:000006,orig:361.sql id:000007,orig:4021.sql
+diff id:000006,orig:361.sql -> id:000007,orig:4021.sql
+Src file: /Superion/code1/sqlite3.c
+  New 'function' coverage: likeFunc()
+  New 'function' coverage: memIntValue.isra.98()
+  New 'function' coverage: memRealValue.isra.99()
+  New 'function' coverage: patternCompare()
+  New 'function' coverage: sqlite3ValueBytes()
+  New 'line' coverage: 101434
+  New 'line' coverage: 114616
+  New 'line' coverage: 114623
+  New 'line' coverage: 114624
+  New 'line' coverage: 114625
+  New 'line' coverage: 114626
+  New 'line' coverage: 114628
+  New 'line' coverage: 114629
+  New 'line' coverage: 114694
+  New 'line' coverage: 114733
+  New 'line' coverage: 114734
+  New 'line' coverage: 114735
+  New 'line' coverage: 114738
+  New 'line' coverage: 114782
+  New 'line' coverage: 114790
+  New 'line' coverage: 114791
+  New 'line' coverage: 114808
+  New 'line' coverage: 114811
+  New 'line' coverage: 114815
+  New 'line' coverage: 114828
+  New 'line' coverage: 114830
+  New 'line' coverage: 114831
+  New 'line' coverage: 114832
+  New 'line' coverage: 114836
+  New 'line' coverage: 114837
+  New 'line' coverage: 146055
+  New 'line' coverage: 146056
+  New 'line' coverage: 153351
+  New 'line' coverage: 153736
+  New 'line' coverage: 153737
+  New 'line' coverage: 153738
+  New 'line' coverage: 153739
+  New 'line' coverage: 153740
+  New 'line' coverage: 153741
+  New 'line' coverage: 153742
+  New 'line' coverage: 155332
+  New 'line' coverage: 155335
+  New 'line' coverage: 155336
+  New 'line' coverage: 155337
+  New 'line' coverage: 155339
+  New 'line' coverage: 155340
+  New 'line' coverage: 155353
+  New 'line' coverage: 155357
+  New 'line' coverage: 155358
+  New 'line' coverage: 155381
+  New 'line' coverage: 155394
+  New 'line' coverage: 155395
+  New 'line' coverage: 155619
+  New 'line' coverage: 155622
+  New 'line' coverage: 155625
+  New 'line' coverage: 155630
+  New 'line' coverage: 155631
+  New 'line' coverage: 28003
+  New 'line' coverage: 28017
+  New 'line' coverage: 30634
+  New 'line' coverage: 30635
+  New 'line' coverage: 31042
+  New 'line' coverage: 31048
+  New 'line' coverage: 31067
+  New 'line' coverage: 31069
+  New 'line' coverage: 31072
+  New 'line' coverage: 31076
+  New 'line' coverage: 31077
+  New 'line' coverage: 75246
+  New 'line' coverage: 75247
+  New 'line' coverage: 75248
+  New 'line' coverage: 75249
+  New 'line' coverage: 75259
+  New 'line' coverage: 75261
+  New 'line' coverage: 75263
+  New 'line' coverage: 75275
+  New 'line' coverage: 75277
+  New 'line' coverage: 75278
+  New 'line' coverage: 75279
+  New 'line' coverage: 75289
+  New 'line' coverage: 75290
+  New 'line' coverage: 76538
+  New 'line' coverage: 76539
+  New 'line' coverage: 76541
+  New 'line' coverage: 76542
+  New 'line' coverage: 80653
+  New 'line' coverage: 80654
+  New 'line' coverage: 80665
+  New 'line' coverage: 80666
+  New 'line' coverage: 80667
+  New 'line' coverage: 80722
+  New 'line' coverage: 80727
+  New 'line' coverage: 80730
+  New 'line' coverage: 80732
+  New 'line' coverage: 80740
+  New 'line' coverage: 80741
+  New 'line' coverage: 80744
+  New 'line' coverage: 81789
+  New 'line' coverage: 82043
+  New 'line' coverage: 82419
+  New 'line' coverage: 85442
+  New 'line' coverage: 85443
+  New 'line' coverage: 85444
+  New 'line' coverage: 85448
+  New 'line' coverage: 85451
+  New 'line' coverage: 85455
+  New 'line' coverage: 85456
+  New 'line' coverage: 85457
+  New 'line' coverage: 85458
+  New 'line' coverage: 85459
+  New 'line' coverage: 85460
+  New 'line' coverage: 85462
+  New 'line' coverage: 85463
+  New 'line' coverage: 85466
+  New 'line' coverage: 85467
+  New 'line' coverage: 85468
+  New 'line' coverage: 85470
+  New 'line' coverage: 85471
+  New 'line' coverage: 85474
+  New 'line' coverage: 85477
+  New 'line' coverage: 85478
+  New 'line' coverage: 85479
+  New 'line' coverage: 85481
+  New 'line' coverage: 85483
+  New 'line' coverage: 85485
+  New 'line' coverage: 85486
+  New 'line' coverage: 85487
+  New 'line' coverage: 85488
+  New 'line' coverage: 85489
+  New 'line' coverage: 85490
+  New 'line' coverage: 85491
+  New 'line' coverage: 85493
+  New 'line' coverage: 85680
+  New 'line' coverage: 85681
+  New 'line' coverage: 85682
+  New 'line' coverage: 85683
+  New 'line' coverage: 85687
+  New 'line' coverage: 85688
+  New 'line' coverage: 85689
+  New 'line' coverage: 85690
+  New 'line' coverage: 85692
+  New 'line' coverage: 85694
+  New 'line' coverage: 85698
+  New 'line' coverage: 85704
+  New 'line' coverage: 85707
+  New 'line' coverage: 85708
+  New 'line' coverage: 85711
+  New 'line' coverage: 85713
+  New 'line' coverage: 85718
+  New 'line' coverage: 85719
+  New 'line' coverage: 85720
+  New 'line' coverage: 95788
+  New 'line' coverage: 95789
+  New 'line' coverage: 97853
+
+[+] AFL test case: id:000008,orig:4937.sql (8 / 10), cycle: 0
+    lines......: 20.7% (11959 of 57824 lines)
+    functions..: 25.1% (720 of 2873 functions)
+    branches...: 14.0% (7013 of 50092 branches)
+
+    Coverage diff id:000007,orig:4021.sql id:000008,orig:4937.sql
+diff id:000007,orig:4021.sql -> id:000008,orig:4937.sql
+Src file: /Superion/code1/sqlite3.c
+  New 'function' coverage: sqlite3VdbeMemCast()
+  New 'line' coverage: 101157
+  New 'line' coverage: 101158
+  New 'line' coverage: 101162
+  New 'line' coverage: 101163
+  New 'line' coverage: 101164
+  New 'line' coverage: 102323
+  New 'line' coverage: 102325
+  New 'line' coverage: 102328
+  New 'line' coverage: 102329
+  New 'line' coverage: 115801
+  New 'line' coverage: 115802
+  New 'line' coverage: 115803
+  New 'line' coverage: 115806
+  New 'line' coverage: 115807
+  New 'line' coverage: 115821
+  New 'line' coverage: 115825
+  New 'line' coverage: 115826
+  New 'line' coverage: 139883
+  New 'line' coverage: 139884
+  New 'line' coverage: 139886
+  New 'line' coverage: 139887
+  New 'line' coverage: 139888
+  New 'line' coverage: 139897
+  New 'line' coverage: 139900
+  New 'line' coverage: 139997
+  New 'line' coverage: 139998
+  New 'line' coverage: 139999
+  New 'line' coverage: 140052
+  New 'line' coverage: 140053
+  New 'line' coverage: 140064
+  New 'line' coverage: 140065
+  New 'line' coverage: 140086
+  New 'line' coverage: 140087
+  New 'line' coverage: 153040
+  New 'line' coverage: 153600
+  New 'line' coverage: 153671
+  New 'line' coverage: 153672
+  New 'line' coverage: 155466
+  New 'line' coverage: 155467
+  New 'line' coverage: 155468
+  New 'line' coverage: 155469
+  New 'line' coverage: 75285
+  New 'line' coverage: 75304
+  New 'line' coverage: 75358
+  New 'line' coverage: 75359
+  New 'line' coverage: 75419
+  New 'line' coverage: 75420
+  New 'line' coverage: 75421
+  New 'line' coverage: 76544
+  New 'line' coverage: 76551
+  New 'line' coverage: 80723
+  New 'line' coverage: 80724
+  New 'line' coverage: 80725
+  New 'line' coverage: 85810
+  New 'line' coverage: 85812
+  New 'line' coverage: 85813
+  New 'line' coverage: 85815
+  New 'line' coverage: 85933
+  New 'line' coverage: 85953
+  New 'line' coverage: 85954
+  New 'line' coverage: 85955
+  New 'line' coverage: 85957
+  New 'line' coverage: 85971
+  New 'line' coverage: 85988
+  New 'line' coverage: 97581
+  New 'line' coverage: 97692
+  New 'line' coverage: 97693
+  New 'line' coverage: 97711
+  New 'line' coverage: 99469
+  New 'line' coverage: 99474
+
+[+] AFL test case: id:000009,orig:5068.sql (9 / 10), cycle: 0
+    lines......: 20.9% (12062 of 57824 lines)
+    functions..: 25.4% (730 of 2873 functions)
+    branches...: 14.2% (7110 of 50092 branches)
+
+    Coverage diff id:000008,orig:4937.sql id:000009,orig:5068.sql
+diff id:000008,orig:4937.sql -> id:000009,orig:5068.sql
+Src file: /Superion/code1/sqlite3.c
+  New 'function' coverage: sqlite3DecOrHexToI64()
+  New 'function' coverage: sqlite3_result_int64()
+  New 'function' coverage: sqlite3_result_text64()
+  New 'function' coverage: sqlite3_value_blob()
+  New 'function' coverage: sqlite3_value_bytes()
+  New 'function' coverage: sqlite3_value_text()
+  New 'function' coverage: substrFunc()
+  New 'function' coverage: valueBytes()
+  New 'line' coverage: 100843
+  New 'line' coverage: 100845
+  New 'line' coverage: 100846
+  New 'line' coverage: 100851
+  New 'line' coverage: 100856
+  New 'line' coverage: 100861
+  New 'line' coverage: 101228
+  New 'line' coverage: 101230
+  New 'line' coverage: 101231
+  New 'line' coverage: 101232
+  New 'line' coverage: 101522
+  New 'line' coverage: 101523
+  New 'line' coverage: 101922
+  New 'line' coverage: 114235
+  New 'line' coverage: 114245
+  New 'line' coverage: 114248
+  New 'line' coverage: 114249
+  New 'line' coverage: 114253
+  New 'line' coverage: 114254
+  New 'line' coverage: 114255
+  New 'line' coverage: 114261
+  New 'line' coverage: 114262
+  New 'line' coverage: 114263
+  New 'line' coverage: 114264
+  New 'line' coverage: 114278
+  New 'line' coverage: 114279
+  New 'line' coverage: 114280
+  New 'line' coverage: 114287
+  New 'line' coverage: 114294
+  New 'line' coverage: 114295
+  New 'line' coverage: 114299
+  New 'line' coverage: 114307
+  New 'line' coverage: 114308
+  New 'line' coverage: 114312
+  New 'line' coverage: 114313
+  New 'line' coverage: 114315
+  New 'line' coverage: 114741
+  New 'line' coverage: 153782
+  New 'line' coverage: 27919
+  New 'line' coverage: 27920
+  New 'line' coverage: 27999
+  New 'line' coverage: 28037
+  New 'line' coverage: 28038
+  New 'line' coverage: 28041
+  New 'line' coverage: 28043
+  New 'line' coverage: 28047
+  New 'line' coverage: 28048
+  New 'line' coverage: 30904
+  New 'line' coverage: 30946
+  New 'line' coverage: 31058
+  New 'line' coverage: 31085
+  New 'line' coverage: 31086
+  New 'line' coverage: 31091
+  New 'line' coverage: 31092
+  New 'line' coverage: 31117
+  New 'line' coverage: 31119
+  New 'line' coverage: 31133
+  New 'line' coverage: 76535
+  New 'line' coverage: 76536
+  New 'line' coverage: 76552
+  New 'line' coverage: 81775
+  New 'line' coverage: 81776
+  New 'line' coverage: 81777
+  New 'line' coverage: 81785
+  New 'line' coverage: 81788
+  New 'line' coverage: 81820
+  New 'line' coverage: 82045
+  New 'line' coverage: 82048
+  New 'line' coverage: 82080
+  New 'line' coverage: 82089
+  New 'line' coverage: 82090
+  New 'line' coverage: 82093
+  New 'line' coverage: 82095
+  New 'line' coverage: 99438
+  New 'line' coverage: 99439
+Src file: /Superion/code1/shell.c
+  New 'function' coverage: writeFile()
+  New 'function' coverage: writefileFunc()
+  New 'line' coverage: 2371
+  New 'line' coverage: 2379
+  New 'line' coverage: 2385
+  New 'line' coverage: 2401
+  New 'line' coverage: 2403
+  New 'line' coverage: 2404
+  New 'line' coverage: 2405
+  New 'line' coverage: 2406
+  New 'line' coverage: 2407
+  New 'line' coverage: 2408
+  New 'line' coverage: 2409
+  New 'line' coverage: 2410
+  New 'line' coverage: 2414
+  New 'line' coverage: 2415
+  New 'line' coverage: 2418
+  New 'line' coverage: 2419
+  New 'line' coverage: 2423
+  New 'line' coverage: 2483
+  New 'line' coverage: 2489
+  New 'line' coverage: 2491
+  New 'line' coverage: 2493
+  New 'line' coverage: 2500
+  New 'line' coverage: 2501
+  New 'line' coverage: 2502
+  New 'line' coverage: 2505
+  New 'line' coverage: 2509
+  New 'line' coverage: 2510
+  New 'line' coverage: 2516
+
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000010,src:000006,op:arith8,pos:122,val:-19,+cov (10 / 11), cycle: 0
+    lines......: 20.9% (12062 of 57824 lines)
+    functions..: 25.4% (730 of 2873 functions)
+    branches...: 14.2% (7110 of 50092 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000011,src:000010,op:arith8,pos:123,val:-29,+cov (11 / 12), cycle: 0
+    lines......: 20.9% (12062 of 57824 lines)
+    functions..: 25.4% (730 of 2873 functions)
+    branches...: 14.2% (7110 of 50092 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000012,src:000011,op:flip2,pos:124,+cov (12 / 13), cycle: 0
+    lines......: 20.9% (12064 of 57824 lines)
+    functions..: 25.4% (730 of 2873 functions)
+    branches...: 14.2% (7111 of 50092 branches)
+
+    Coverage diff id:000011,src:000010,op:arith8,pos:123,val:-29,+cov id:000012,src:000011,op:flip2,pos:124,+cov
+diff id:000011,src:000010,op:arith8,pos:123,val:-29,+cov -> id:000012,src:000011,op:flip2,pos:124,+cov
+Src file: /Superion/code1/sqlite3.c
+  New 'line' coverage: 155522
+  New 'line' coverage: 155523
+
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000013,src:000002,op:flip1,pos:17,+cov (13 / 14), cycle: 0
+    lines......: 20.9% (12065 of 57824 lines)
+    functions..: 25.4% (730 of 2873 functions)
+    branches...: 14.2% (7119 of 50092 branches)
+
+    Coverage diff id:000012,src:000011,op:flip2,pos:124,+cov id:000013,src:000002,op:flip1,pos:17,+cov
+diff id:000012,src:000011,op:flip2,pos:124,+cov -> id:000013,src:000002,op:flip1,pos:17,+cov
+Src file: /Superion/code1/sqlite3.c
+  New 'line' coverage: 107795
+
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000014,src:000013,op:arith8,pos:16,val:+31,+cov (14 / 15), cycle: 0
+    lines......: 20.9% (12065 of 57824 lines)
+    functions..: 25.4% (730 of 2873 functions)
+    branches...: 14.2% (7120 of 50092 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
