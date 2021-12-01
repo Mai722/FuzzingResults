@@ -1,0 +1,41 @@
+Entering new queueing cycle
+while bitflipping, 0 of 0 tries hit branch -1
+while calibrating, 0 of 0 tries hit branch -1
+calib stage: 9 new coverage in 1251 total execs
+calib stage: 6 new branches in 1251 total execs
+In deterministic stage, 0 of 0 tries hit branch -1
+det stage: 49 new coverage in 14807 total execs
+det stage: 31 new branches in 14807 total execs
+In havoc stage, 0 of 0 tries hit branch -1
+havoc stage: 86 new coverage in 20015 total execs
+havoc stage: 48 new branches in 20015 total execs
+Trying to fuzz input output/queue/id:000001,orig:10.mp4: 
+which hit branch 58747 (hit by 1 inputs) 
+while bitflipping, 213144 of 213176 tries hit branch 58747
+while calibrating, 79930 of 79942 tries hit branch 58747
+calib stage: 40 new coverage in 293443 total execs
+calib stage: 4 new branches in 293443 total execs
+In deterministic stage, 598958 of 599584 tries hit branch 58747
+det stage: 57 new coverage in 893163 total execs
+det stage: 9 new branches in 893163 total execs
+In havoc stage, 6438 of 6528 tries hit branch 58747
+havoc stage: 103 new coverage in 900059 total execs
+havoc stage: 12 new branches in 900059 total execs
+Trying to fuzz input output/queue/id:000009,orig:674: 
+which hit branch 4626 (hit by 1 inputs) 
+while bitflipping, 47199 of 47232 tries hit branch 4626
+while calibrating, 17632 of 17713 tries hit branch 4626
+calib stage: 215 new coverage in 66665 total execs
+calib stage: 21 new branches in 66665 total execs
+In deterministic stage, 384200 of 385730 tries hit branch 4626
+det stage: 480 new coverage in 454515 total execs
+det stage: 44 new branches in 454515 total execs
+In havoc stage, 4767 of 4912 tries hit branch 4626
+havoc stage: 586 new coverage in 460275 total execs
+havoc stage: 53 new branches in 460275 total execs
+Trying to fuzz input output/queue/id:000013,orig:841: 
+which hit branch 9427 (hit by 1 inputs) 
+while bitflipping, 133386 of 133632 tries hit branch 9427
+while calibrating, 48267 of 50113 tries hit branch 9427
+calib stage: 78 new coverage in 184371 total execs
+calib stage: 7 new branches in 184371 total execs

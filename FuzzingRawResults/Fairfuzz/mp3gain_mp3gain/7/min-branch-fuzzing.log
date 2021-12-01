@@ -1,0 +1,41 @@
+Entering new queueing cycle
+while bitflipping, 0 of 0 tries hit branch -1
+while calibrating, 0 of 0 tries hit branch -1
+calib stage: 126 new coverage in 159702 total execs
+calib stage: 27 new branches in 159702 total execs
+In deterministic stage, 0 of 0 tries hit branch -1
+det stage: 318 new coverage in 575586 total execs
+det stage: 82 new branches in 575586 total execs
+In havoc stage, 0 of 0 tries hit branch -1
+havoc stage: 404 new coverage in 579958 total execs
+havoc stage: 87 new branches in 579958 total execs
+Trying to fuzz input output/queue/id:000002,orig:71: 
+which hit branch 64445 (hit by 1 inputs) 
+while bitflipping, 59587 of 59672 tries hit branch 64445
+while calibrating, 22282 of 22378 tries hit branch 64445
+calib stage: 115 new coverage in 82972 total execs
+calib stage: 15 new branches in 82972 total execs
+In deterministic stage, 604049 of 605889 tries hit branch 64445
+det stage: 284 new coverage in 690219 total execs
+det stage: 40 new branches in 690219 total execs
+In havoc stage, 4389 of 6528 tries hit branch 64445
+havoc stage: 379 new coverage in 697507 total execs
+havoc stage: 45 new branches in 697507 total execs
+Trying to fuzz input output/queue/id:000415,src:000000,op:havoc,rep:128,+cov: 
+which hit branch 57069 (hit by 1 inputs) 
+while bitflipping, 132614 of 132696 tries hit branch 57069
+while calibrating, 49677 of 49762 tries hit branch 57069
+calib stage: 11 new coverage in 182548 total execs
+calib stage: 2 new branches in 182548 total execs
+In deterministic stage, 399818 of 400627 tries hit branch 57069
+det stage: 21 new coverage in 583255 total execs
+det stage: 4 new branches in 583255 total execs
+In havoc stage, 6354 of 6528 tries hit branch 57069
+havoc stage: 43 new coverage in 589959 total execs
+havoc stage: 5 new branches in 589959 total execs
+Trying to fuzz input output/queue/id:000674,src:000002,op:ext_AO,pos:177,+cov: 
+which hit branch 45477 (hit by 1 inputs) 
+while bitflipping, 59523 of 59672 tries hit branch 45477
+while calibrating, 21977 of 22378 tries hit branch 45477
+calib stage: 2 new coverage in 82096 total execs
+calib stage: 0 new branches in 82096 total execs
