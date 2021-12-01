@@ -1,0 +1,2 @@
+alg,SUT,rep,# unix_time, unique_crashes, unique_hangs, execs_per_sec
+AFLfast,pdftotext,9,1624096422, 0, 0, 3.22
