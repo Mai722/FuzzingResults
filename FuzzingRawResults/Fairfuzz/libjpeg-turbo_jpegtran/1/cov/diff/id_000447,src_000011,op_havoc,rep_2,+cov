@@ -1,0 +1,3 @@
+diff id:000446,src:000011,op:havoc,rep:128 -> id:000447,src:000011,op:havoc,rep:2,+cov
+Src file: /afl-rb/code1/jctrans.c
+  New 'line' coverage: 135

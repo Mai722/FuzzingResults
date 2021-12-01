@@ -1,0 +1,55 @@
+diff id:000035,orig:id:005695,src:005691+005255,op:splice,rep:2,+cov.jpg -> id:000036,orig:id:005700,src:005105+005691,op:splice,rep:1.jpg
+Src file: /afl-rb/code1/jdinput.c
+  New 'line' coverage: 155
+  New 'line' coverage: 158
+  New 'line' coverage: 159
+  New 'line' coverage: 162
+  New 'line' coverage: 163
+  New 'line' coverage: 164
+  New 'line' coverage: 165
+  New 'line' coverage: 166
+  New 'line' coverage: 170
+  New 'line' coverage: 171
+  New 'line' coverage: 172
+  New 'line' coverage: 175
+  New 'line' coverage: 176
+Src file: /afl-rb/code1/jdtrans.c
+  New 'line' coverage: 113
+Src file: /afl-rb/code1/jdarith.c
+  New 'function' coverage: jinit_arith_decoder()
+  New 'function' coverage: start_pass()
+  New 'line' coverage: 629
+  New 'line' coverage: 631
+  New 'line' coverage: 635
+  New 'line' coverage: 637
+  New 'line' coverage: 638
+  New 'line' coverage: 648
+  New 'line' coverage: 650
+  New 'line' coverage: 654
+  New 'line' coverage: 655
+  New 'line' coverage: 738
+  New 'line' coverage: 743
+  New 'line' coverage: 744
+  New 'line' coverage: 746
+  New 'line' coverage: 747
+  New 'line' coverage: 750
+  New 'line' coverage: 751
+  New 'line' coverage: 752
+  New 'line' coverage: 756
+  New 'line' coverage: 758
+  New 'line' coverage: 761
+  New 'line' coverage: 762
+  New 'line' coverage: 763
+  New 'line' coverage: 764
+  New 'line' coverage: 765
+  New 'line' coverage: 766
+  New 'line' coverage: 767
+  New 'line' coverage: 769
+Src file: /afl-rb/code1/jdmarker.c
+  New 'line' coverage: 1010
+  New 'line' coverage: 1011
+Src file: /afl-rb/code1/jdapimin.c
+  New 'line' coverage: 193
+  New 'line' coverage: 194
+  New 'line' coverage: 195
+  New 'line' coverage: 196

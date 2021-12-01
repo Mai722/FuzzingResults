@@ -1,0 +1,14 @@
+diff id:000671,src:000206,op:havoc,rep:8 -> id:000672,src:000206,op:havoc,rep:16,+cov
+Src file: /afl-rb/code1/jdatadst.c
+  New 'function' coverage: empty_output_buffer()
+  New 'line' coverage: 115
+  New 'line' coverage: 117
+  New 'line' coverage: 119
+  New 'line' coverage: 123
+  New 'line' coverage: 124
+  New 'line' coverage: 126
+Src file: /afl-rb/code1/jchuff.c
+  New 'line' coverage: 324
+  New 'line' coverage: 326
+  New 'line' coverage: 329
+  New 'line' coverage: 330

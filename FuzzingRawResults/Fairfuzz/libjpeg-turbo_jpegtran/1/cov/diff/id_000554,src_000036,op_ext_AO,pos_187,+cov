@@ -1,0 +1,31 @@
+diff id:000553,src:000036,op:ext_AO,pos:186,+cov -> id:000554,src:000036,op:ext_AO,pos:187,+cov
+Src file: /afl-rb/code1/jdarith.c
+  New 'function' coverage: decode_mcu_AC_first()
+  New 'line' coverage: 326
+  New 'line' coverage: 328
+  New 'line' coverage: 335
+  New 'line' coverage: 341
+  New 'line' coverage: 344
+  New 'line' coverage: 345
+  New 'line' coverage: 350
+  New 'line' coverage: 351
+  New 'line' coverage: 352
+  New 'line' coverage: 353
+  New 'line' coverage: 354
+  New 'line' coverage: 355
+  New 'line' coverage: 356
+  New 'line' coverage: 357
+  New 'line' coverage: 358
+  New 'line' coverage: 363
+  New 'line' coverage: 364
+  New 'line' coverage: 366
+  New 'line' coverage: 383
+  New 'line' coverage: 384
+  New 'line' coverage: 386
+  New 'line' coverage: 388
+  New 'line' coverage: 666
+  New 'line' coverage: 713
+  New 'line' coverage: 714
+  New 'line' coverage: 716
+  New 'line' coverage: 717
+  New 'line' coverage: 719
