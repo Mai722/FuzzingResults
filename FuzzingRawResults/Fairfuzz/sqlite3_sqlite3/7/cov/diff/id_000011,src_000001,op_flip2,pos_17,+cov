@@ -1,0 +1,3 @@
+diff id:000010,orig:9828.sql -> id:000011,src:000001,op:flip2,pos:17,+cov
+Src file: /afl-rb/code1/sqlite3.c
+  New 'line' coverage: 154405
