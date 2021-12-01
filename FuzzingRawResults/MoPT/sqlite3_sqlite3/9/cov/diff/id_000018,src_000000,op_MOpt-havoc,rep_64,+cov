@@ -1,0 +1,4 @@
+diff id:000017,src:000000,op:int16,pos:16,val:be:+512,+cov -> id:000018,src:000000,op:MOpt-havoc,rep:64,+cov
+Src file: /MOpt-AFL/MOpt/code1/sqlite3.c
+  New 'line' coverage: 155439
+  New 'line' coverage: 155440
