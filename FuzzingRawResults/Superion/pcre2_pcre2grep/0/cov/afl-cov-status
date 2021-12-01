@@ -1,3 +1,0 @@
-afl_cov_pid     : 8117
-afl_cov_version : 0.3
-command_line    : /usr/bin/afl-cov -d /Superion/output --live --coverage-cmd cat AFL_FILE | ./pcre2grep --code-dir .

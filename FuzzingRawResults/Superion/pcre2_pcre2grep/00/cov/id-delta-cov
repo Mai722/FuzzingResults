@@ -1,9 +1,0 @@
-# id:NNNNNN*_file, cycle, src_file, coverage_type, fcn/line
-id:000000,orig:45.txt, 0, /Superion/code1/src/pcre2grep.c, function, main()
-id:000000,orig:45.txt, 0, /Superion/code1/src/pcre2grep.c, function, usage()
-id:000000,orig:45.txt, 0, /Superion/code1/src/pcre2_match_data.c, function, pcre2_get_ovector_pointer_8()
-id:000000,orig:45.txt, 0, /Superion/code1/src/pcre2_match_data.c, function, pcre2_match_data_create_8()
-id:000000,orig:45.txt, 0, /Superion/code1/src/pcre2_config.c, function, pcre2_config_8()
-id:000000,orig:45.txt, 0, /Superion/code1/src/pcre2_context.c, function, _pcre2_memctl_malloc_8()
-id:000000,orig:45.txt, 0, /Superion/code1/src/pcre2_context.c, function, pcre2_compile_context_create_8()
-id:000000,orig:45.txt, 0, /Superion/code1/src/pcre2_context.c, function, pcre2_match_context_create_8()
