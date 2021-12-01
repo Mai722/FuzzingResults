@@ -1,0 +1,31 @@
+diff id:000007,orig:5700.sql -> id:000008,orig:7235.sql
+Src file: /MOpt-AFL/MOpt/code1/shell.c
+  New 'line' coverage: 599
+  New 'line' coverage: 600
+Src file: /MOpt-AFL/MOpt/code1/sqlite3.c
+  New 'function' coverage: returnSingleInt()
+  New 'function' coverage: sqlite3BtreeSecureDelete()
+  New 'line' coverage: 122351
+  New 'line' coverage: 122352
+  New 'line' coverage: 122353
+  New 'line' coverage: 122354
+  New 'line' coverage: 122688
+  New 'line' coverage: 122689
+  New 'line' coverage: 122690
+  New 'line' coverage: 122692
+  New 'line' coverage: 122699
+  New 'line' coverage: 122705
+  New 'line' coverage: 122706
+  New 'line' coverage: 122707
+  New 'line' coverage: 122940
+  New 'line' coverage: 122942
+  New 'line' coverage: 122945
+  New 'line' coverage: 122946
+  New 'line' coverage: 122947
+  New 'line' coverage: 66354
+  New 'line' coverage: 66356
+  New 'line' coverage: 66357
+  New 'line' coverage: 66360
+  New 'line' coverage: 66364
+  New 'line' coverage: 66365
+  New 'line' coverage: 66366
