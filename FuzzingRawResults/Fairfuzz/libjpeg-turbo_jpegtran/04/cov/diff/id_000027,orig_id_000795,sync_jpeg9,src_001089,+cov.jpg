@@ -1,0 +1,34 @@
+diff id:000026,orig:id:000755,sync:jpeg9,src:002688,+cov.jpg -> id:000027,orig:id:000795,sync:jpeg9,src:001089,+cov.jpg
+Src file: /afl-rb/code1/jdtrans.c
+  New 'line' coverage: 113
+Src file: /afl-rb/code1/jdarith.c
+  New 'function' coverage: jinit_arith_decoder()
+  New 'function' coverage: start_pass()
+  New 'line' coverage: 629
+  New 'line' coverage: 631
+  New 'line' coverage: 635
+  New 'line' coverage: 637
+  New 'line' coverage: 642
+  New 'line' coverage: 654
+  New 'line' coverage: 655
+  New 'line' coverage: 738
+  New 'line' coverage: 743
+  New 'line' coverage: 744
+  New 'line' coverage: 746
+  New 'line' coverage: 747
+  New 'line' coverage: 750
+  New 'line' coverage: 751
+  New 'line' coverage: 752
+  New 'line' coverage: 756
+  New 'line' coverage: 758
+  New 'line' coverage: 761
+  New 'line' coverage: 762
+  New 'line' coverage: 763
+  New 'line' coverage: 764
+  New 'line' coverage: 765
+  New 'line' coverage: 766
+  New 'line' coverage: 767
+  New 'line' coverage: 769
+Src file: /afl-rb/code1/jdmarker.c
+  New 'line' coverage: 1010
+  New 'line' coverage: 1011

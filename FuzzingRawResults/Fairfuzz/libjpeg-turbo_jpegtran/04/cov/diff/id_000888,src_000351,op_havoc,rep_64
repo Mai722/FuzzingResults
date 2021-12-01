@@ -1,0 +1,3 @@
+diff id:000887,src:000351,op:havoc,rep:16,+cov -> id:000888,src:000351,op:havoc,rep:64
+Src file: /afl-rb/code1/jdphuff.c
+  New 'line' coverage: 578
