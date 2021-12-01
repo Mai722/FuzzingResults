@@ -1,0 +1,17 @@
+diff id:000009,orig:id:000663,sync:jpeg9,src:001432,+cov.jpg -> id:000010,orig:id:000667,sync:jpeg9,src:001800.jpg
+Src file: /afl-rb/code1/jerror.c
+  New 'line' coverage: 136
+  New 'line' coverage: 137
+  New 'line' coverage: 139
+Src file: /afl-rb/code1/jdmarker.c
+  New 'line' coverage: 644
+  New 'line' coverage: 671
+  New 'line' coverage: 722
+  New 'line' coverage: 723
+  New 'line' coverage: 904
+  New 'line' coverage: 905
+  New 'line' coverage: 906
+  New 'line' coverage: 921
+  New 'line' coverage: 922
+  New 'line' coverage: 926
+  New 'line' coverage: 927

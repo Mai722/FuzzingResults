@@ -1,0 +1,4 @@
+diff id:000061,src:000001,op:havoc,rep:64,+cov -> id:000062,src:000001,op:havoc,rep:64,+cov
+Src file: /afl-rb/code1/jdmarker.c
+  New 'line' coverage: 1097
+  New 'line' coverage: 1098

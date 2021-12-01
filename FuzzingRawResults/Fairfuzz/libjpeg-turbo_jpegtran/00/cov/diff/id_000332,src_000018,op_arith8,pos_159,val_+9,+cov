@@ -1,0 +1,29 @@
+diff id:000331,src:000018,op:arith8,pos:90,val:+35 -> id:000332,src:000018,op:arith8,pos:159,val:+9,+cov
+Src file: /afl-rb/code1/jdarith.c
+  New 'line' coverage: 167
+  New 'line' coverage: 169
+  New 'line' coverage: 170
+  New 'line' coverage: 171
+  New 'line' coverage: 173
+  New 'line' coverage: 174
+  New 'line' coverage: 175
+  New 'line' coverage: 581
+  New 'line' coverage: 582
+  New 'line' coverage: 583
+  New 'line' coverage: 586
+  New 'line' coverage: 591
+  New 'line' coverage: 592
+  New 'line' coverage: 594
+  New 'line' coverage: 595
+  New 'line' coverage: 596
+  New 'line' coverage: 597
+  New 'line' coverage: 598
+  New 'line' coverage: 599
+  New 'line' coverage: 600
+  New 'line' coverage: 605
+  New 'line' coverage: 611
+  New 'line' coverage: 612
+  New 'line' coverage: 613
+  New 'line' coverage: 614
+  New 'line' coverage: 615
+  New 'line' coverage: 616

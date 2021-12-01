@@ -1,0 +1,44 @@
+diff id:000022,orig:id:000775,sync:jpeg_turbo,src:000774,+cov.jpg -> id:000023,orig:id:001484,src:000666,op:havoc,rep:8.jpg
+Src file: /afl-rb/code1/jdhuff.c
+  New 'line' coverage: 319
+  New 'line' coverage: 321
+  New 'line' coverage: 322
+Src file: /afl-rb/code1/jdphuff.c
+  New 'function' coverage: decode_mcu_DC_refine()
+  New 'line' coverage: 121
+  New 'line' coverage: 139
+  New 'line' coverage: 140
+  New 'line' coverage: 141
+  New 'line' coverage: 142
+  New 'line' coverage: 144
+  New 'line' coverage: 145
+  New 'line' coverage: 146
+  New 'line' coverage: 147
+  New 'line' coverage: 148
+  New 'line' coverage: 153
+  New 'line' coverage: 159
+  New 'line' coverage: 160
+  New 'line' coverage: 162
+  New 'line' coverage: 165
+  New 'line' coverage: 166
+  New 'line' coverage: 170
+  New 'line' coverage: 171
+  New 'line' coverage: 184
+  New 'line' coverage: 188
+  New 'line' coverage: 189
+  New 'line' coverage: 190
+  New 'line' coverage: 193
+  New 'line' coverage: 196
+  New 'line' coverage: 197
+  New 'line' coverage: 448
+  New 'line' coverage: 450
+  New 'line' coverage: 451
+  New 'line' coverage: 457
+  New 'line' coverage: 468
+  New 'line' coverage: 472
+  New 'line' coverage: 473
+  New 'line' coverage: 476
+  New 'line' coverage: 477
+  New 'line' coverage: 483
+  New 'line' coverage: 486
+  New 'line' coverage: 488
