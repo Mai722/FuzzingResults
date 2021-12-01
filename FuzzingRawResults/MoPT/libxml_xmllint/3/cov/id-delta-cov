@@ -1,0 +1,3 @@
+# id:NNNNNN*_file, cycle, src_file, coverage_type, fcn/line
+id:000000,orig:558452_0.xml, 0, /MOpt-AFL/MOpt/code1/xmllint.c, function, main()
+id:000000,orig:558452_0.xml, 0, /MOpt-AFL/MOpt/code1/xmllint.c, function, usage()
