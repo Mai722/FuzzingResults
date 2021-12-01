@@ -1,0 +1,3 @@
+diff id:000271,src:000032,op:flip1,pos:149 -> id:000272,src:000032,op:flip1,pos:180
+Src file: /afl-rb/code1/jdinput.c
+  New 'line' coverage: 341

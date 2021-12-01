@@ -1,0 +1,6 @@
+diff id:001303,src:000026,op:flip1,pos:296 -> id:001304,src:000026,op:flip1,pos:578,+cov
+Src file: /afl-rb/code1/jdapimin.c
+  New 'line' coverage: 148
+  New 'line' coverage: 149
+  New 'line' coverage: 150
+  New 'line' coverage: 151

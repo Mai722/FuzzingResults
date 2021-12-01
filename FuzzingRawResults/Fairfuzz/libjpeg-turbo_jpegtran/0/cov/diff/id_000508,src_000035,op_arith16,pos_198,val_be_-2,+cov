@@ -1,0 +1,9 @@
+diff id:000507,src:000035,op:arith16,pos:184,val:be:-35 -> id:000508,src:000035,op:arith16,pos:198,val:be:-2,+cov
+Src file: /afl-rb/code1/jcapimin.c
+  New 'line' coverage: 221
+  New 'line' coverage: 222
+Src file: /afl-rb/code1/jcmarker.c
+  New 'function' coverage: write_marker_byte()
+  New 'line' coverage: 455
+  New 'line' coverage: 458
+  New 'line' coverage: 459

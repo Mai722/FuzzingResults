@@ -1,0 +1,13 @@
+diff id:000027,orig:id:005533,src:005500,op:flip1,pos:134.jpg -> id:000028,orig:id:005538,src:005509,op:flip1,pos:134.jpg
+Src file: /afl-rb/code1/jdphuff.c
+  New 'line' coverage: 548
+  New 'line' coverage: 549
+  New 'line' coverage: 550
+  New 'line' coverage: 551
+  New 'line' coverage: 572
+  New 'line' coverage: 573
+  New 'line' coverage: 584
+  New 'line' coverage: 589
+  New 'line' coverage: 590
+  New 'line' coverage: 592
+  New 'line' coverage: 594

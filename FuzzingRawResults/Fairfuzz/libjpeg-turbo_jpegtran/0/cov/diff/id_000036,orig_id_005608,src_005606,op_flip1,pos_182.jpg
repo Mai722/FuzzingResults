@@ -1,0 +1,15 @@
+diff id:000035,orig:id:005607,src:005605,op:flip1,pos:182.jpg -> id:000036,orig:id:005608,src:005606,op:flip1,pos:182.jpg
+Src file: /afl-rb/code1/jdphuff.c
+  New 'function' coverage: process_restart()
+  New 'line' coverage: 234
+  New 'line' coverage: 236
+  New 'line' coverage: 241
+  New 'line' coverage: 242
+  New 'line' coverage: 245
+  New 'line' coverage: 249
+  New 'line' coverage: 250
+  New 'line' coverage: 252
+  New 'line' coverage: 255
+  New 'line' coverage: 262
+  New 'line' coverage: 458
+  New 'line' coverage: 459

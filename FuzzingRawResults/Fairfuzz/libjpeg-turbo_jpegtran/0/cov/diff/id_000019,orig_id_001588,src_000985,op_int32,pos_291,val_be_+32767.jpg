@@ -1,0 +1,12 @@
+diff id:000018,orig:id:001571,src:000833,op:int8,pos:166,val:+1.jpg -> id:000019,orig:id:001588,src:000985,op:int32,pos:291,val:be:+32767.jpg
+Src file: /afl-rb/code1/jdhuff.c
+  New 'line' coverage: 479
+  New 'line' coverage: 480
+Src file: /afl-rb/code1/jdinput.c
+  New 'line' coverage: 254
+  New 'line' coverage: 332
+  New 'line' coverage: 334
+Src file: /afl-rb/code1/jdmarker.c
+  New 'line' coverage: 322
+  New 'line' coverage: 921
+  New 'line' coverage: 922

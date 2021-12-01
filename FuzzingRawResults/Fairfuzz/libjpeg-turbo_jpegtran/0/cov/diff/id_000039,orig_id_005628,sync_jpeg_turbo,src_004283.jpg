@@ -1,0 +1,14 @@
+diff id:000038,orig:id:005623,src:005561+005218,op:splice,rep:4.jpg -> id:000039,orig:id:005628,sync:jpeg_turbo,src:004283.jpg
+Src file: /afl-rb/code1/jdhuff.c
+  New 'function' coverage: process_restart()
+  New 'line' coverage: 521
+  New 'line' coverage: 523
+  New 'line' coverage: 528
+  New 'line' coverage: 529
+  New 'line' coverage: 532
+  New 'line' coverage: 536
+  New 'line' coverage: 537
+  New 'line' coverage: 540
+  New 'line' coverage: 547
+  New 'line' coverage: 763
+  New 'line' coverage: 764

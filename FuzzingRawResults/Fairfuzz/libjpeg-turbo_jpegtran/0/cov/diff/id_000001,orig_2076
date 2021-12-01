@@ -1,0 +1,26 @@
+diff id:000000,orig:1925 -> id:000001,orig:2076
+Src file: /afl-rb/code1/jdatasrc.c
+  New 'function' coverage: skip_input_data()
+  New 'line' coverage: 163
+  New 'line' coverage: 165
+  New 'line' coverage: 171
+  New 'line' coverage: 172
+  New 'line' coverage: 179
+  New 'line' coverage: 180
+  New 'line' coverage: 182
+Src file: /afl-rb/code1/jdmarker.c
+  New 'function' coverage: skip_variable()
+  New 'line' coverage: 1059
+  New 'line' coverage: 1075
+  New 'line' coverage: 1076
+  New 'line' coverage: 1085
+  New 'line' coverage: 1094
+  New 'line' coverage: 1095
+  New 'line' coverage: 862
+  New 'line' coverage: 866
+  New 'line' coverage: 868
+  New 'line' coverage: 869
+  New 'line' coverage: 871
+  New 'line' coverage: 873
+  New 'line' coverage: 874
+  New 'line' coverage: 875

@@ -1,0 +1,33 @@
+diff id:001310,src:000026,op:flip1,pos:1186 -> id:001311,src:000026,op:flip1,pos:1187,+cov
+Src file: /afl-rb/code1/jdphuff.c
+  New 'function' coverage: decode_mcu_AC_first()
+  New 'line' coverage: 157
+  New 'line' coverage: 363
+  New 'line' coverage: 365
+  New 'line' coverage: 366
+  New 'line' coverage: 367
+  New 'line' coverage: 375
+  New 'line' coverage: 384
+  New 'line' coverage: 389
+  New 'line' coverage: 393
+  New 'line' coverage: 394
+  New 'line' coverage: 396
+  New 'line' coverage: 397
+  New 'line' coverage: 398
+  New 'line' coverage: 400
+  New 'line' coverage: 401
+  New 'line' coverage: 402
+  New 'line' coverage: 403
+  New 'line' coverage: 404
+  New 'line' coverage: 412
+  New 'line' coverage: 415
+  New 'line' coverage: 416
+  New 'line' coverage: 417
+  New 'line' coverage: 418
+  New 'line' coverage: 419
+  New 'line' coverage: 421
+  New 'line' coverage: 422
+  New 'line' coverage: 427
+  New 'line' coverage: 431
+  New 'line' coverage: 435
+  New 'line' coverage: 437

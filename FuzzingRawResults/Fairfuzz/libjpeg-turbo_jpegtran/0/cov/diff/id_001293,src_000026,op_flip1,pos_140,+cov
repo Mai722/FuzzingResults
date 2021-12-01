@@ -1,0 +1,15 @@
+diff id:001292,src:000026,op:flip1,pos:134 -> id:001293,src:000026,op:flip1,pos:140,+cov
+Src file: /afl-rb/code1/jcmarker.c
+  New 'function' coverage: emit_adobe_app14()
+  New 'line' coverage: 389
+  New 'line' coverage: 412
+  New 'line' coverage: 413
+  New 'line' coverage: 414
+  New 'line' coverage: 415
+  New 'line' coverage: 416
+  New 'line' coverage: 420
+  New 'line' coverage: 427
+  New 'line' coverage: 428
+  New 'line' coverage: 429
+  New 'line' coverage: 431
+  New 'line' coverage: 486

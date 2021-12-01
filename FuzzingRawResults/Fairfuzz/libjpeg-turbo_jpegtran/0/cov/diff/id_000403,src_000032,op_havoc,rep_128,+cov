@@ -1,0 +1,5 @@
+diff id:000402,src:000032,op:havoc,rep:128 -> id:000403,src:000032,op:havoc,rep:128,+cov
+Src file: /afl-rb/code1/jdapimin.c
+  New 'line' coverage: 161
+  New 'line' coverage: 164
+  New 'line' coverage: 165
