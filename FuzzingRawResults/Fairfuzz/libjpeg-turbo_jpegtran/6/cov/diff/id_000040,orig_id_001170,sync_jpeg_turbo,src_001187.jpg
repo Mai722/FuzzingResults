@@ -1,0 +1,5 @@
+diff id:000039,orig:id:001164,sync:jpeg_turbo,src:001169.jpg -> id:000040,orig:id:001170,sync:jpeg_turbo,src:001187.jpg
+Src file: /afl-rb/code1/jdmarker.c
+  New 'line' coverage: 1085
+  New 'line' coverage: 1094
+  New 'line' coverage: 1095
