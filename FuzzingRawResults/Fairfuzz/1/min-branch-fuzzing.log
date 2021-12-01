@@ -1,0 +1,41 @@
+Entering new queueing cycle
+while bitflipping, 0 of 0 tries hit branch -1
+while calibrating, 0 of 0 tries hit branch -1
+calib stage: 67 new coverage in 815 total execs
+calib stage: 41 new branches in 815 total execs
+In deterministic stage, 0 of 0 tries hit branch -1
+det stage: 161 new coverage in 6116 total execs
+det stage: 100 new branches in 6116 total execs
+In havoc stage, 0 of 0 tries hit branch -1
+havoc stage: 247 new coverage in 13332 total execs
+havoc stage: 131 new branches in 13332 total execs
+Trying to fuzz input output/queue/id:000007,orig:570702_0.xsd: 
+which hit branch 61395 (hit by 1 inputs) 
+while bitflipping, 2495 of 6696 tries hit branch 61395
+while calibrating, 591 of 2512 tries hit branch 61395
+calib stage: 185 new coverage in 10688 total execs
+calib stage: 55 new branches in 10688 total execs
+In deterministic stage, 0 of 0 tries hit branch 61395
+det stage: 185 new coverage in 10688 total execs
+det stage: 55 new branches in 10688 total execs
+In havoc stage, 1290 of 3664 tries hit branch 61395
+havoc stage: 335 new coverage in 15552 total execs
+havoc stage: 87 new branches in 15552 total execs
+Trying to fuzz input output/queue/id:000010,orig:759020.xml: 
+which hit branch 62903 (hit by 1 inputs) 
+while bitflipping, 33446 of 33464 tries hit branch 62903
+while calibrating, 12542 of 12550 tries hit branch 62903
+calib stage: 50 new coverage in 46414 total execs
+calib stage: 12 new branches in 46414 total execs
+In deterministic stage, 678253 of 678254 tries hit branch 62903
+det stage: 105 new coverage in 725108 total execs
+det stage: 31 new branches in 725108 total execs
+In havoc stage, 6491 of 6528 tries hit branch 62903
+havoc stage: 141 new coverage in 731924 total execs
+havoc stage: 36 new branches in 731924 total execs
+Trying to fuzz input output/queue/id:000011,orig:759398.xml: 
+which hit branch 63090 (hit by 1 inputs) 
+while bitflipping, 135193 of 135408 tries hit branch 63090
+while calibrating, 50698 of 50779 tries hit branch 63090
+calib stage: 578 new coverage in 190811 total execs
+calib stage: 208 new branches in 190811 total execs
