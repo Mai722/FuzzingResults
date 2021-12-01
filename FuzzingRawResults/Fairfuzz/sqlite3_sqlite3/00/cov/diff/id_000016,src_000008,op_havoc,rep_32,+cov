@@ -1,0 +1,3 @@
+diff id:000015,src:000008,op:havoc,rep:16,+cov -> id:000016,src:000008,op:havoc,rep:32,+cov
+Src file: /afl-rb/code1/shell.c
+  New 'line' coverage: 18346

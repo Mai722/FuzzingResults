@@ -1,0 +1,5 @@
+diff id:000012,src:000008,op:int16,pos:16,val:+16,+cov -> id:000013,src:000008,op:int16,pos:16,val:+32,+cov
+Src file: /afl-rb/code1/sqlite3.c
+  New 'line' coverage: 151914
+  New 'line' coverage: 151935
+  New 'line' coverage: 151936
