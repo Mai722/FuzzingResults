@@ -1,0 +1,330 @@
+
+*** Imported 56 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000000,orig:id:000001,src:000000,op:flip1,pos:0,+cov.jpg (0 / 56), cycle: 0
+    lines......: 5.9% (331 of 5566 lines)
+    functions..: 10.9% (33 of 303 functions)
+    branches...: 1.3% (77 of 5757 branches)
+[+] AFL test case: id:000001,orig:id:000006,src:000000,op:flip1,pos:3,+cov.jpg (1 / 56), cycle: 0
+    lines......: 6.8% (377 of 5566 lines)
+    functions..: 11.9% (36 of 303 functions)
+    branches...: 1.7% (95 of 5757 branches)
+
+    Coverage diff id:000000,orig:id:000001,src:000000,op:flip1,pos:0,+cov.jpg id:000001,orig:id:000006,src:000000,op:flip1,pos:3,+cov.jpg
+diff id:000000,orig:id:000001,src:000000,op:flip1,pos:0,+cov.jpg -> id:000001,orig:id:000006,src:000000,op:flip1,pos:3,+cov.jpg
+Src file: /Superion/code1/jdmarker.c
+  New 'function' coverage: get_soi()
+  New 'function' coverage: next_marker()
+  New 'line' coverage: 1108
+  New 'line' coverage: 1112
+  New 'line' coverage: 1113
+  New 'line' coverage: 200
+  New 'line' coverage: 205
+  New 'line' coverage: 207
+  New 'line' coverage: 208
+  New 'line' coverage: 212
+  New 'line' coverage: 213
+  New 'line' coverage: 214
+  New 'line' coverage: 215
+  New 'line' coverage: 217
+  New 'line' coverage: 221
+  New 'line' coverage: 222
+  New 'line' coverage: 224
+  New 'line' coverage: 225
+  New 'line' coverage: 226
+  New 'line' coverage: 227
+  New 'line' coverage: 228
+  New 'line' coverage: 229
+  New 'line' coverage: 230
+  New 'line' coverage: 231
+  New 'line' coverage: 233
+  New 'line' coverage: 235
+  New 'line' coverage: 891
+  New 'line' coverage: 894
+  New 'line' coverage: 897
+  New 'line' coverage: 903
+  New 'line' coverage: 914
+  New 'line' coverage: 915
+  New 'line' coverage: 916
+  New 'line' coverage: 925
+  New 'line' coverage: 930
+  New 'line' coverage: 932
+  New 'line' coverage: 933
+  New 'line' coverage: 954
+  New 'line' coverage: 956
+  New 'line' coverage: 957
+  New 'line' coverage: 980
+  New 'line' coverage: 988
+  New 'line' coverage: 990
+Src file: /Superion/code1/jerror.c
+  New 'function' coverage: emit_message()
+  New 'line' coverage: 127
+  New 'line' coverage: 129
+  New 'line' coverage: 131
+  New 'line' coverage: 142
+  New 'line' coverage: 145
+
+[+] AFL test case: id:000002,orig:id:000023,src:000000,op:flip1,pos:21,+cov.jpg (2 / 56), cycle: 0
+    lines......: 7.4% (413 of 5566 lines)
+    functions..: 12.5% (38 of 303 functions)
+    branches...: 2.0% (114 of 5757 branches)
+
+    Coverage diff id:000001,orig:id:000006,src:000000,op:flip1,pos:3,+cov.jpg id:000002,orig:id:000023,src:000000,op:flip1,pos:21,+cov.jpg
+diff id:000001,orig:id:000006,src:000000,op:flip1,pos:3,+cov.jpg -> id:000002,orig:id:000023,src:000000,op:flip1,pos:21,+cov.jpg
+Src file: /Superion/code1/jdmarker.c
+  New 'function' coverage: examine_app0()
+  New 'function' coverage: get_interesting_appn()
+  New 'line' coverage: 1075
+  New 'line' coverage: 1076
+  New 'line' coverage: 601
+  New 'line' coverage: 608
+  New 'line' coverage: 610
+  New 'line' coverage: 611
+  New 'line' coverage: 612
+  New 'line' coverage: 613
+  New 'line' coverage: 614
+  New 'line' coverage: 615
+  New 'line' coverage: 617
+  New 'line' coverage: 618
+  New 'line' coverage: 619
+  New 'line' coverage: 620
+  New 'line' coverage: 621
+  New 'line' coverage: 622
+  New 'line' coverage: 629
+  New 'line' coverage: 633
+  New 'line' coverage: 637
+  New 'line' coverage: 640
+  New 'line' coverage: 641
+  New 'line' coverage: 642
+  New 'line' coverage: 673
+  New 'line' coverage: 708
+  New 'line' coverage: 714
+  New 'line' coverage: 716
+  New 'line' coverage: 717
+  New 'line' coverage: 720
+  New 'line' coverage: 726
+  New 'line' coverage: 727
+  New 'line' coverage: 728
+  New 'line' coverage: 731
+  New 'line' coverage: 733
+  New 'line' coverage: 734
+  New 'line' coverage: 745
+  New 'line' coverage: 746
+
+[+] AFL test case: id:000003,orig:id:000034,src:000000,op:flip1,pos:159,+cov.jpg (3 / 56), cycle: 0
+    lines......: 8.0% (443 of 5566 lines)
+    functions..: 13.2% (40 of 303 functions)
+    branches...: 2.3% (131 of 5757 branches)
+
+    Coverage diff id:000002,orig:id:000023,src:000000,op:flip1,pos:21,+cov.jpg id:000003,orig:id:000034,src:000000,op:flip1,pos:159,+cov.jpg
+diff id:000002,orig:id:000023,src:000000,op:flip1,pos:21,+cov.jpg -> id:000003,orig:id:000034,src:000000,op:flip1,pos:159,+cov.jpg
+Src file: /Superion/code1/jdmarker.c
+  New 'function' coverage: get_dqt()
+  New 'line' coverage: 1025
+  New 'line' coverage: 1050
+  New 'line' coverage: 507
+  New 'line' coverage: 514
+  New 'line' coverage: 516
+  New 'line' coverage: 517
+  New 'line' coverage: 519
+  New 'line' coverage: 520
+  New 'line' coverage: 521
+  New 'line' coverage: 522
+  New 'line' coverage: 524
+  New 'line' coverage: 526
+  New 'line' coverage: 529
+  New 'line' coverage: 530
+  New 'line' coverage: 531
+  New 'line' coverage: 533
+  New 'line' coverage: 534
+  New 'line' coverage: 537
+  New 'line' coverage: 539
+  New 'line' coverage: 542
+  New 'line' coverage: 552
+  New 'line' coverage: 553
+  New 'line' coverage: 556
+  New 'line' coverage: 559
+  New 'line' coverage: 560
+Src file: /Superion/code1/jcomapi.c
+  New 'function' coverage: jpeg_alloc_quant_table()
+  New 'line' coverage: 89
+  New 'line' coverage: 93
+  New 'line' coverage: 94
+  New 'line' coverage: 95
+  New 'line' coverage: 96
+
+[+] AFL test case: id:000004,orig:id:000045,src:000000,op:flip1,pos:164,+cov.jpg (4 / 56), cycle: 0
+    lines......: 8.2% (458 of 5566 lines)
+    functions..: 13.5% (41 of 303 functions)
+    branches...: 2.5% (143 of 5757 branches)
+
+    Coverage diff id:000003,orig:id:000034,src:000000,op:flip1,pos:159,+cov.jpg id:000004,orig:id:000045,src:000000,op:flip1,pos:164,+cov.jpg
+diff id:000003,orig:id:000034,src:000000,op:flip1,pos:159,+cov.jpg -> id:000004,orig:id:000045,src:000000,op:flip1,pos:164,+cov.jpg
+Src file: /Superion/code1/jdmarker.c
+  New 'function' coverage: get_sof()
+  New 'line' coverage: 240
+  New 'line' coverage: 246
+  New 'line' coverage: 248
+  New 'line' coverage: 249
+  New 'line' coverage: 251
+  New 'line' coverage: 253
+  New 'line' coverage: 254
+  New 'line' coverage: 255
+  New 'line' coverage: 256
+  New 'line' coverage: 258
+  New 'line' coverage: 260
+  New 'line' coverage: 264
+  New 'line' coverage: 270
+  New 'line' coverage: 272
+  New 'line' coverage: 996
+
+[+] AFL test case: id:000005,orig:id:000055,src:000000,op:flip1,pos:166,+cov.jpg (5 / 56), cycle: 0
+    lines......: 8.2% (458 of 5566 lines)
+    functions..: 13.5% (41 of 303 functions)
+    branches...: 2.5% (145 of 5757 branches)
+[+] AFL test case: id:000006,orig:id:000062,src:000000,op:flip1,pos:169,+cov.jpg (6 / 56), cycle: 0
+    lines......: 10.2% (565 of 5566 lines)
+    functions..: 14.9% (45 of 303 functions)
+    branches...: 3.6% (210 of 5757 branches)
+
+    Coverage diff id:000005,orig:id:000055,src:000000,op:flip1,pos:166,+cov.jpg id:000006,orig:id:000062,src:000000,op:flip1,pos:169,+cov.jpg
+diff id:000005,orig:id:000055,src:000000,op:flip1,pos:166,+cov.jpg -> id:000006,orig:id:000062,src:000000,op:flip1,pos:169,+cov.jpg
+Src file: /Superion/code1/jdmarker.c
+  New 'function' coverage: get_dht()
+  New 'function' coverage: get_sos()
+  New 'line' coverage: 1029
+  New 'line' coverage: 1031
+  New 'line' coverage: 1032
+  New 'line' coverage: 1045
+  New 'line' coverage: 271
+  New 'line' coverage: 274
+  New 'line' coverage: 277
+  New 'line' coverage: 278
+  New 'line' coverage: 280
+  New 'line' coverage: 282
+  New 'line' coverage: 283
+  New 'line' coverage: 284
+  New 'line' coverage: 285
+  New 'line' coverage: 286
+  New 'line' coverage: 287
+  New 'line' coverage: 288
+  New 'line' coverage: 289
+  New 'line' coverage: 291
+  New 'line' coverage: 296
+  New 'line' coverage: 298
+  New 'line' coverage: 299
+  New 'line' coverage: 304
+  New 'line' coverage: 310
+  New 'line' coverage: 312
+  New 'line' coverage: 315
+  New 'line' coverage: 317
+  New 'line' coverage: 319
+  New 'line' coverage: 321
+  New 'line' coverage: 324
+  New 'line' coverage: 328
+  New 'line' coverage: 329
+  New 'line' coverage: 331
+  New 'line' coverage: 332
+  New 'line' coverage: 333
+  New 'line' coverage: 335
+  New 'line' coverage: 336
+  New 'line' coverage: 337
+  New 'line' coverage: 338
+  New 'line' coverage: 346
+  New 'line' coverage: 347
+  New 'line' coverage: 348
+  New 'line' coverage: 350
+  New 'line' coverage: 354
+  New 'line' coverage: 355
+  New 'line' coverage: 362
+  New 'line' coverage: 363
+  New 'line' coverage: 364
+  New 'line' coverage: 365
+  New 'line' coverage: 366
+  New 'line' coverage: 367
+  New 'line' coverage: 368
+  New 'line' coverage: 370
+  New 'line' coverage: 374
+  New 'line' coverage: 377
+  New 'line' coverage: 379
+  New 'line' coverage: 380
+  New 'line' coverage: 433
+  New 'line' coverage: 441
+  New 'line' coverage: 443
+  New 'line' coverage: 444
+  New 'line' coverage: 446
+  New 'line' coverage: 447
+  New 'line' coverage: 449
+  New 'line' coverage: 451
+  New 'line' coverage: 453
+  New 'line' coverage: 454
+  New 'line' coverage: 455
+  New 'line' coverage: 458
+  New 'line' coverage: 460
+  New 'line' coverage: 463
+  New 'line' coverage: 470
+  New 'line' coverage: 471
+  New 'line' coverage: 473
+  New 'line' coverage: 474
+  New 'line' coverage: 476
+  New 'line' coverage: 478
+  New 'line' coverage: 480
+  New 'line' coverage: 481
+  New 'line' coverage: 482
+  New 'line' coverage: 484
+  New 'line' coverage: 486
+  New 'line' coverage: 488
+  New 'line' coverage: 491
+  New 'line' coverage: 492
+  New 'line' coverage: 494
+  New 'line' coverage: 495
+  New 'line' coverage: 498
+  New 'line' coverage: 501
+  New 'line' coverage: 502
+Src file: /Superion/code1/jcomapi.c
+  New 'function' coverage: jpeg_alloc_huff_table()
+  New 'line' coverage: 101
+  New 'line' coverage: 105
+  New 'line' coverage: 106
+  New 'line' coverage: 107
+  New 'line' coverage: 108
+Src file: /Superion/code1/jdinput.c
+  New 'function' coverage: initial_setup()
+  New 'line' coverage: 322
+  New 'line' coverage: 324
+  New 'line' coverage: 325
+  New 'line' coverage: 44
+  New 'line' coverage: 51
+  New 'line' coverage: 52
+  New 'line' coverage: 56
+  New 'line' coverage: 60
+  New 'line' coverage: 65
+  New 'line' coverage: 66
+  New 'line' coverage: 67
+  New 'line' coverage: 69
+  New 'line' coverage: 71
+
+[+] AFL test case: id:000007,orig:id:000068,src:000000,op:flip1,pos:172.jpg (7 / 56), cycle: 0
+    lines......: 10.2% (569 of 5566 lines)
+    functions..: 14.9% (45 of 303 functions)
+    branches...: 3.7% (213 of 5757 branches)
+
+    Coverage diff id:000006,orig:id:000062,src:000000,op:flip1,pos:169,+cov.jpg id:000007,orig:id:000068,src:000000,op:flip1,pos:172.jpg
+diff id:000006,orig:id:000062,src:000000,op:flip1,pos:169,+cov.jpg -> id:000007,orig:id:000068,src:000000,op:flip1,pos:172.jpg
+Src file: /Superion/code1/jdinput.c
+  New 'line' coverage: 68
+  New 'line' coverage: 70
+  New 'line' coverage: 72
+  New 'line' coverage: 74
+
+[+] AFL test case: id:000008,orig:id:000081,src:000000,op:flip1,pos:181,+cov.jpg (8 / 56), cycle: 0
+    lines......: 10.2% (570 of 5566 lines)
+    functions..: 14.9% (45 of 303 functions)
+    branches...: 3.7% (214 of 5757 branches)
+
+    Coverage diff id:000007,orig:id:000068,src:000000,op:flip1,pos:172.jpg id:000008,orig:id:000081,src:000000,op:flip1,pos:181,+cov.jpg
+diff id:000007,orig:id:000068,src:000000,op:flip1,pos:172.jpg -> id:000008,orig:id:000081,src:000000,op:flip1,pos:181,+cov.jpg
+Src file: /Superion/code1/jdmarker.c
+  New 'line' coverage: 487
+
+[+] AFL test case: id:000009,orig:id:000663,sync:jpeg9,src:001432,+cov.jpg (9 / 56), cycle: 0
