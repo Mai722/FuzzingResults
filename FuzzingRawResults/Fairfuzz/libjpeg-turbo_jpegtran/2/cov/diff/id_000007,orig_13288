@@ -1,0 +1,21 @@
+diff id:000006,orig:13259 -> id:000007,orig:13288
+Src file: /afl-rb/code1/jdmarker.c
+  New 'function' coverage: get_dht()
+  New 'line' coverage: 1044
+  New 'line' coverage: 1045
+  New 'line' coverage: 433
+  New 'line' coverage: 441
+  New 'line' coverage: 443
+  New 'line' coverage: 444
+  New 'line' coverage: 446
+  New 'line' coverage: 447
+  New 'line' coverage: 449
+  New 'line' coverage: 451
+  New 'line' coverage: 453
+  New 'line' coverage: 454
+  New 'line' coverage: 455
+  New 'line' coverage: 458
+  New 'line' coverage: 460
+  New 'line' coverage: 463
+  New 'line' coverage: 470
+  New 'line' coverage: 471

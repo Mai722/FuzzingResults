@@ -1,0 +1,10 @@
+diff id:000025,orig:id:000170,src:000000,op:flip1,pos:307,+cov.jpg -> id:000026,orig:id:000181,src:000000,op:flip1,pos:503,+cov.jpg
+Src file: /afl-rb/code1/jdmarker.c
+  New 'function' coverage: get_dri()
+  New 'line' coverage: 1054
+  New 'line' coverage: 1055
+  New 'line' coverage: 565
+  New 'line' coverage: 570
+  New 'line' coverage: 572
+  New 'line' coverage: 574
+  New 'line' coverage: 575
