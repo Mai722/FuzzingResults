@@ -1,0 +1,4 @@
+diff id:000007,orig:15785 -> id:000008,orig:16031
+Src file: /afl-rb/code1/jdatasrc.c
+  New 'line' coverage: 173
+  New 'line' coverage: 174

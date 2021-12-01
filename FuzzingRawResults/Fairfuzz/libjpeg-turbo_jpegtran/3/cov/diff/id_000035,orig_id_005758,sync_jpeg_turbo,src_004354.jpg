@@ -1,0 +1,72 @@
+diff id:000034,orig:id:005745,src:005744,op:flip1,pos:97.jpg -> id:000035,orig:id:005758,sync:jpeg_turbo,src:004354.jpg
+Src file: /afl-rb/code1/jcparam.c
+  New 'line' coverage: 309
+  New 'line' coverage: 310
+  New 'line' coverage: 311
+  New 'line' coverage: 389
+  New 'line' coverage: 390
+  New 'line' coverage: 391
+  New 'line' coverage: 392
+  New 'line' coverage: 394
+  New 'line' coverage: 395
+Src file: /afl-rb/code1/jdarith.c
+  New 'function' coverage: decode_mcu_AC_refine()
+  New 'line' coverage: 433
+  New 'line' coverage: 435
+  New 'line' coverage: 443
+  New 'line' coverage: 449
+  New 'line' coverage: 452
+  New 'line' coverage: 453
+  New 'line' coverage: 455
+  New 'line' coverage: 456
+  New 'line' coverage: 459
+  New 'line' coverage: 460
+  New 'line' coverage: 462
+  New 'line' coverage: 463
+  New 'line' coverage: 464
+  New 'line' coverage: 465
+  New 'line' coverage: 467
+  New 'line' coverage: 468
+  New 'line' coverage: 477
+  New 'line' coverage: 478
+  New 'line' coverage: 479
+  New 'line' coverage: 637
+  New 'line' coverage: 642
+  New 'line' coverage: 645
+  New 'line' coverage: 648
+  New 'line' coverage: 650
+  New 'line' coverage: 653
+  New 'line' coverage: 655
+  New 'line' coverage: 662
+  New 'line' coverage: 663
+  New 'line' coverage: 664
+  New 'line' coverage: 665
+  New 'line' coverage: 666
+  New 'line' coverage: 667
+  New 'line' coverage: 668
+  New 'line' coverage: 669
+  New 'line' coverage: 670
+  New 'line' coverage: 671
+  New 'line' coverage: 675
+  New 'line' coverage: 681
+  New 'line' coverage: 684
+  New 'line' coverage: 761
+  New 'line' coverage: 762
+  New 'line' coverage: 763
+  New 'line' coverage: 764
+  New 'line' coverage: 765
+  New 'line' coverage: 766
+  New 'line' coverage: 767
+Src file: /afl-rb/code1/jdmarker.c
+  New 'line' coverage: 1010
+  New 'line' coverage: 1011
+  New 'line' coverage: 1085
+  New 'line' coverage: 1094
+  New 'line' coverage: 1095
+Src file: /afl-rb/code1/jdapimin.c
+  New 'line' coverage: 193
+  New 'line' coverage: 194
+  New 'line' coverage: 195
+  New 'line' coverage: 196
+Src file: /afl-rb/code1/jctrans.c
+  New 'line' coverage: 129

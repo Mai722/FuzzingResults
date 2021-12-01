@@ -1,0 +1,9 @@
+diff id:000005,orig:15778 -> id:000006,orig:15784
+Src file: /afl-rb/code1/jdmarker.c
+  New 'function' coverage: get_sos()
+  New 'line' coverage: 1028
+  New 'line' coverage: 1029
+  New 'line' coverage: 304
+  New 'line' coverage: 310
+  New 'line' coverage: 312
+  New 'line' coverage: 313

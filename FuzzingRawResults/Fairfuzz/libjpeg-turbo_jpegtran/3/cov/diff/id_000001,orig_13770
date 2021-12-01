@@ -1,0 +1,24 @@
+diff id:000000,orig:13300 -> id:000001,orig:13770
+Src file: /afl-rb/code1/jdinput.c
+  New 'line' coverage: 322
+  New 'line' coverage: 337
+  New 'line' coverage: 338
+  New 'line' coverage: 339
+  New 'line' coverage: 340
+Src file: /afl-rb/code1/jdatasrc.c
+  New 'line' coverage: 110
+  New 'line' coverage: 112
+  New 'line' coverage: 114
+  New 'line' coverage: 115
+Src file: /afl-rb/code1/jdmarker.c
+  New 'line' coverage: 1034
+  New 'line' coverage: 1035
+  New 'line' coverage: 1036
+  New 'line' coverage: 1037
+Src file: /afl-rb/code1/jdapimin.c
+  New 'line' coverage: 263
+  New 'line' coverage: 267
+  New 'line' coverage: 268
+  New 'line' coverage: 269
+  New 'line' coverage: 314
+  New 'line' coverage: 337

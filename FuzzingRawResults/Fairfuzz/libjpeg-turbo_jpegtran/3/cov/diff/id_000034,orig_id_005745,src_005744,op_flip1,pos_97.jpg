@@ -1,0 +1,6 @@
+diff id:000033,orig:id:005734,src:005695+005512,op:splice,rep:4,+cov.jpg -> id:000034,orig:id:005745,src:005744,op:flip1,pos:97.jpg
+Src file: /afl-rb/code1/jmemmgr.c
+  New 'line' coverage: 961
+Src file: /afl-rb/code1/jdarith.c
+  New 'line' coverage: 560
+  New 'line' coverage: 691
