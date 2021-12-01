@@ -1,0 +1,91 @@
+diff (init) -> id:000000,orig:43.o
+New src file: /LearnAFL/code1/bfd/targets.c
+  New 'function' coverage: bfd_set_default_target()
+  New 'function' coverage: find_target()
+  New 'line' coverage: 1552
+  New 'line' coverage: 1557
+  New 'line' coverage: 1558
+  New 'line' coverage: 1564
+  New 'line' coverage: 1566
+  New 'line' coverage: 1568
+  New 'line' coverage: 1592
+  New 'line' coverage: 1596
+  New 'line' coverage: 1597
+  New 'line' coverage: 1600
+  New 'line' coverage: 1601
+  New 'line' coverage: 1604
+  New 'line' coverage: 1605
+New src file: /LearnAFL/code1/bfd/init.c
+  New 'function' coverage: bfd_init()
+  New 'line' coverage: 52
+  New 'line' coverage: 54
+New src file: /LearnAFL/code1/libiberty/xmalloc.c
+  New 'function' coverage: xmalloc_set_program_name()
+  New 'line' coverage: 108
+  New 'line' coverage: 110
+  New 'line' coverage: 113
+  New 'line' coverage: 114
+  New 'line' coverage: 116
+New src file: /LearnAFL/code1/bfd/bfd.c
+  New 'function' coverage: bfd_set_error_program_name()
+  New 'line' coverage: 845
+  New 'line' coverage: 847
+  New 'line' coverage: 848
+New src file: /LearnAFL/code1/binutils/bucomm.c
+  New 'function' coverage: get_file_size()
+  New 'function' coverage: non_fatal()
+  New 'function' coverage: report()
+  New 'function' coverage: set_default_bfd_target()
+  New 'line' coverage: 113
+  New 'line' coverage: 115
+  New 'line' coverage: 116
+  New 'line' coverage: 117
+  New 'line' coverage: 118
+  New 'line' coverage: 119
+  New 'line' coverage: 134
+  New 'line' coverage: 138
+  New 'line' coverage: 140
+  New 'line' coverage: 141
+  New 'line' coverage: 142
+  New 'line' coverage: 150
+  New 'line' coverage: 153
+  New 'line' coverage: 155
+  New 'line' coverage: 158
+  New 'line' coverage: 586
+  New 'line' coverage: 590
+  New 'line' coverage: 592
+  New 'line' coverage: 593
+New src file: /LearnAFL/code1/binutils/size.c
+  New 'function' coverage: display_file()
+  New 'function' coverage: main()
+  New 'line' coverage: 120
+  New 'line' coverage: 126
+  New 'line' coverage: 129
+  New 'line' coverage: 131
+  New 'line' coverage: 132
+  New 'line' coverage: 134
+  New 'line' coverage: 135
+  New 'line' coverage: 136
+  New 'line' coverage: 138
+  New 'line' coverage: 140
+  New 'line' coverage: 141
+  New 'line' coverage: 143
+  New 'line' coverage: 228
+  New 'line' coverage: 231
+  New 'line' coverage: 233
+  New 'line' coverage: 236
+  New 'line' coverage: 237
+  New 'line' coverage: 242
+  New 'line' coverage: 256
+  New 'line' coverage: 385
+  New 'line' coverage: 389
+  New 'line' coverage: 391
+  New 'line' coverage: 392
+New src file: /LearnAFL/code1/libiberty/argv.c
+  New 'function' coverage: expandargv()
+  New 'line' coverage: 366
+  New 'line' coverage: 369
+  New 'line' coverage: 371
+  New 'line' coverage: 374
+  New 'line' coverage: 377
+  New 'line' coverage: 481
