@@ -1,0 +1,13 @@
+Entering new queueing cycle
+while bitflipping, 0 of 0 tries hit branch -1
+while calibrating, 0 of 0 tries hit branch -1
+calib stage: 330 new coverage in 696648 total execs
+calib stage: 185 new branches in 696648 total execs
+In deterministic stage, 0 of 0 tries hit branch -1
+det stage: 639 new coverage in 2935428 total execs
+det stage: 282 new branches in 2935428 total execs
+In havoc stage, 0 of 0 tries hit branch -1
+havoc stage: 669 new coverage in 2952052 total execs
+havoc stage: 285 new branches in 2952052 total execs
+Trying to fuzz input output/queue/id:000001,orig:ExifTiffAppSeg.o: 
+which hit branch 61770 (hit by 1 inputs) 
