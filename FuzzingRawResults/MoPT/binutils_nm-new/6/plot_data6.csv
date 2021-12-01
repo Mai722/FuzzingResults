@@ -1,0 +1,7 @@
+alg,SUT,rep,# unix_time, cycles_done, cur_path, paths_total, pending_total, pending_favs, map_size, unique_crashes, unique_hangs, max_depth, execs_per_sec
+AFLfast,nm-new,6,1624187937, 0, 0, 6, 6, 6, 2.52%, 0, 0, 1, 153.35
+AFLfast,nm-new,6,1624187948, 0, 0, 21, 21, 6, 2.68%, 0, 0, 2, 148.18
+AFLfast,nm-new,6,1624187953, 0, 0, 48, 48, 6, 2.94%, 0, 0, 2, 130.14
+AFLfast,nm-new,6,1624187958, 0, 0, 62, 62, 6, 2.97%, 0, 0, 2, 115.93
+AFLfast,nm-new,6,1624187963, 0, 0, 69, 69, 6, 2.97%, 0, 0, 2, 109.17
+AFLfast,nm-new,6,1624187968, 0, 0, 74, 74, 6, 2.97%, 0, 0, 2, 96.47
