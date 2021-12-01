@@ -1,0 +1,3 @@
+afl_cov_pid     : 11076
+afl_cov_version : 0.6.1
+command_line    : /usr/bin/afl-cov -d /afl-rb/output --live --coverage-cmd cat AFL_FILE | ./pcre2grep --code-dir . --enable-branch-coverage
