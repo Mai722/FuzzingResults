@@ -1,0 +1,24 @@
+alg,SUT,rep,# unix_time, cycles_done, cur_path, paths_total, pending_total, pending_favs, map_size, unique_crashes, unique_hangs, max_depth, execs_per_sec
+AFLfast,pdftotext,12,1622804627, 0, 0, 10, 10, 0, 0.00%, 0, 0, 1, 2.88
+AFLfast,pdftotext,12,1622822617, 0, 0, 10, 10, 0, 0.00%, 2, 0, 1, 3.96
+AFLfast,pdftotext,12,1622822622, 0, 0, 10, 10, 0, 0.00%, 3, 0, 1, 3.99
+AFLfast,pdftotext,12,1622822648, 0, 0, 10, 10, 0, 0.00%, 4, 0, 1, 3.93
+AFLfast,pdftotext,12,1622822653, 0, 0, 10, 10, 0, 0.00%, 5, 0, 1, 3.99
+AFLfast,pdftotext,12,1622822834, 0, 0, 10, 10, 0, 0.00%, 7, 0, 1, 3.82
+AFLfast,pdftotext,12,1622822840, 0, 0, 10, 10, 0, 0.00%, 8, 0, 1, 3.92
+AFLfast,pdftotext,12,1622840094, 0, 0, 10, 10, 0, 0.00%, 9, 0, 1, 13.04
+AFLfast,pdftotext,12,1622840100, 0, 0, 10, 10, 0, 0.00%, 10, 0, 1, 12.38
+AFLfast,pdftotext,12,1622840105, 0, 0, 10, 10, 0, 0.00%, 11, 0, 1, 12.60
+AFLfast,pdftotext,12,1622847400, 0, 0, 10, 10, 0, 0.00%, 12, 0, 1, 12.18
+AFLfast,pdftotext,12,1622850381, 0, 0, 10, 10, 0, 0.00%, 13, 0, 1, 12.97
+AFLfast,pdftotext,12,1622886370, 0, 0, 10, 10, 0, 0.00%, 14, 0, 1, 14.23
+AFLfast,pdftotext,12,1622886385, 0, 0, 10, 10, 0, 0.00%, 20, 0, 1, 12.26
+AFLfast,pdftotext,12,1622886390, 0, 0, 10, 10, 0, 0.00%, 37, 0, 1, 13.57
+AFLfast,pdftotext,12,1622886415, 0, 0, 10, 10, 0, 0.00%, 39, 0, 1, 12.35
+AFLfast,pdftotext,12,1622886462, 0, 0, 10, 10, 0, 0.00%, 42, 0, 1, 13.32
+AFLfast,pdftotext,12,1622886467, 0, 0, 10, 10, 0, 0.00%, 48, 0, 1, 13.04
+AFLfast,pdftotext,12,1622886472, 0, 0, 10, 10, 0, 0.00%, 52, 0, 1, 12.96
+AFLfast,pdftotext,12,1622886478, 0, 0, 10, 10, 0, 0.00%, 53, 0, 1, 13.51
+AFLfast,pdftotext,12,1622886483, 0, 0, 10, 10, 0, 0.00%, 59, 0, 1, 13.57
+AFLfast,pdftotext,12,1622886857, 0, 0, 10, 10, 0, 0.00%, 60, 0, 1, 13.22
+AFLfast,pdftotext,12,1622886929, 0, 0, 10, 10, 0, 0.00%, 61, 0, 1, 12.84
