@@ -1,0 +1,75 @@
+diff (init) -> id:000000,orig:25.o
+New src file: /LearnAFL/code1/bfd/targets.c
+  New 'function' coverage: bfd_set_default_target()
+  New 'function' coverage: find_target()
+  New 'line' coverage: 1552
+  New 'line' coverage: 1557
+  New 'line' coverage: 1558
+  New 'line' coverage: 1564
+  New 'line' coverage: 1566
+  New 'line' coverage: 1568
+  New 'line' coverage: 1592
+  New 'line' coverage: 1596
+  New 'line' coverage: 1597
+  New 'line' coverage: 1600
+  New 'line' coverage: 1601
+  New 'line' coverage: 1604
+  New 'line' coverage: 1605
+New src file: /LearnAFL/code1/bfd/init.c
+  New 'function' coverage: bfd_init()
+  New 'line' coverage: 52
+  New 'line' coverage: 54
+New src file: /LearnAFL/code1/libiberty/xmalloc.c
+  New 'function' coverage: xmalloc_set_program_name()
+  New 'line' coverage: 108
+  New 'line' coverage: 110
+  New 'line' coverage: 113
+  New 'line' coverage: 114
+  New 'line' coverage: 116
+New src file: /LearnAFL/code1/bfd/bfd.c
+  New 'function' coverage: bfd_set_error_program_name()
+  New 'line' coverage: 845
+  New 'line' coverage: 847
+  New 'line' coverage: 848
+New src file: /LearnAFL/code1/binutils/bucomm.c
+  New 'function' coverage: set_default_bfd_target()
+  New 'line' coverage: 150
+  New 'line' coverage: 153
+  New 'line' coverage: 155
+  New 'line' coverage: 158
+New src file: /LearnAFL/code1/libiberty/argv.c
+  New 'function' coverage: expandargv()
+  New 'line' coverage: 366
+  New 'line' coverage: 369
+  New 'line' coverage: 371
+  New 'line' coverage: 374
+  New 'line' coverage: 377
+  New 'line' coverage: 481
+New src file: /LearnAFL/code1/binutils/objdump.c
+  New 'function' coverage: main()
+  New 'function' coverage: usage()
+  New 'line' coverage: 197
+  New 'line' coverage: 199
+  New 'line' coverage: 200
+  New 'line' coverage: 201
+  New 'line' coverage: 202
+  New 'line' coverage: 231
+  New 'line' coverage: 281
+  New 'line' coverage: 283
+  New 'line' coverage: 3642
+  New 'line' coverage: 3645
+  New 'line' coverage: 3646
+  New 'line' coverage: 3650
+  New 'line' coverage: 3652
+  New 'line' coverage: 3655
+  New 'line' coverage: 3656
+  New 'line' coverage: 3658
+  New 'line' coverage: 3659
+  New 'line' coverage: 3660
+  New 'line' coverage: 3664
+  New 'line' coverage: 3666
+  New 'line' coverage: 3667
+  New 'line' coverage: 3669
+  New 'line' coverage: 3905
+  New 'line' coverage: 3908
+  New 'line' coverage: 3909
