@@ -1,0 +1,28 @@
+diff id:000006,orig:27347.sql -> id:000007,orig:27639.sql
+Src file: /LearnAFL/code1/sqlite3.c
+  New 'function' coverage: sqlite3ExprIdToTrueFalse()
+  New 'line' coverage: 152937
+  New 'line' coverage: 152938
+  New 'line' coverage: 153350
+  New 'line' coverage: 153351
+  New 'line' coverage: 153606
+  New 'line' coverage: 153608
+  New 'line' coverage: 153609
+  New 'line' coverage: 153610
+  New 'line' coverage: 153614
+  New 'line' coverage: 153616
+  New 'line' coverage: 96178
+  New 'line' coverage: 96179
+  New 'line' coverage: 96180
+  New 'line' coverage: 96195
+  New 'line' coverage: 96221
+  New 'line' coverage: 96232
+  New 'line' coverage: 96233
+  New 'line' coverage: 96235
+  New 'line' coverage: 96238
+  New 'line' coverage: 96240
+  New 'line' coverage: 96241
+  New 'line' coverage: 99342
+  New 'line' coverage: 99344
+  New 'line' coverage: 99345
+  New 'line' coverage: 99346
