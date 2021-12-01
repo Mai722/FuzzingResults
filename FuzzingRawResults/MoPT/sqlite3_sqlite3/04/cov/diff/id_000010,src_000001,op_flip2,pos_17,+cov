@@ -1,0 +1,3 @@
+diff id:000009,orig:9631.sql -> id:000010,src:000001,op:flip2,pos:17,+cov
+Src file: /MOpt-AFL/MOpt/code1/sqlite3.c
+  New 'line' coverage: 154405

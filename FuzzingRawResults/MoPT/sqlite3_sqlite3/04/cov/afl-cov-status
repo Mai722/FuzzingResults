@@ -1,0 +1,3 @@
+afl_cov_pid     : 5288
+afl_cov_version : 0.6.1
+command_line    : /usr/bin/afl-cov -d /MOpt-AFL/MOpt/output --live --coverage-cmd cat AFL_FILE | ./sqlite3 --code-dir . --enable-branch-coverage

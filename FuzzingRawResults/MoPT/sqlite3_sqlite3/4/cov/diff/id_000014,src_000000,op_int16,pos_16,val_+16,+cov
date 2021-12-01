@@ -1,0 +1,10 @@
+diff id:000013,src:000000,op:int8,pos:17,val:+0,+cov -> id:000014,src:000000,op:int16,pos:16,val:+16,+cov
+Src file: /MOpt-AFL/MOpt/code1/sqlite3.c
+  New 'line' coverage: 155521
+  New 'line' coverage: 155522
+  New 'line' coverage: 155523
+  New 'line' coverage: 155619
+  New 'line' coverage: 155622
+  New 'line' coverage: 155625
+  New 'line' coverage: 155630
+  New 'line' coverage: 155631
