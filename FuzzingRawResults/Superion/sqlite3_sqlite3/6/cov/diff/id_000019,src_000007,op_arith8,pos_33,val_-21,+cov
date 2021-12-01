@@ -1,0 +1,6 @@
+diff id:000018,orig:4236.sql -> id:000019,src:000007,op:arith8,pos:33,val:-21,+cov
+Src file: /Superion/code1/sqlite3.c
+  New 'line' coverage: 96459
+  New 'line' coverage: 96460
+  New 'line' coverage: 96575
+  New 'line' coverage: 96576
