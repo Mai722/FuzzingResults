@@ -1,0 +1,13 @@
+diff (init) -> id:000000,orig:565219_1.xml
+New src file: /MOpt-AFL/MOpt/code1/xmlcatalog.c
+  New 'function' coverage: main()
+  New 'function' coverage: usage()
+  New 'line' coverage: 309
+  New 'line' coverage: 311
+  New 'line' coverage: 319
+  New 'line' coverage: 326
+  New 'line' coverage: 327
+  New 'line' coverage: 330
+  New 'line' coverage: 333
+  New 'line' coverage: 334
+  New 'line' coverage: 335
