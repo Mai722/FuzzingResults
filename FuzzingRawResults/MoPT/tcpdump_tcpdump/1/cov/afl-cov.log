@@ -1,0 +1,4 @@
+
+*** Imported 21 new test cases from: /MOpt-AFL/MOpt/output/queue
+
+[+] AFL test case: id:000000,orig:id:000002,src:000000,op:havoc,rep:16,+cov (0 / 21), cycle: 0
