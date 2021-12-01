@@ -1,0 +1,24 @@
+diff id:000024,orig:27639.sql -> id:000025,orig:28197.sql
+Src file: /LearnAFL/code1/sqlite3.c
+  New 'line' coverage: 151739
+  New 'line' coverage: 151745
+  New 'line' coverage: 151747
+  New 'line' coverage: 151759
+  New 'line' coverage: 151763
+  New 'line' coverage: 151765
+  New 'line' coverage: 30151
+  New 'line' coverage: 30152
+  New 'line' coverage: 64584
+  New 'line' coverage: 64585
+  New 'line' coverage: 64587
+  New 'line' coverage: 64588
+  New 'line' coverage: 85094
+  New 'line' coverage: 85096
+  New 'line' coverage: 85097
+  New 'line' coverage: 85100
+  New 'line' coverage: 85101
+  New 'line' coverage: 85102
+  New 'line' coverage: 85103
+  New 'line' coverage: 85105
+  New 'line' coverage: 85106
+  New 'line' coverage: 85107

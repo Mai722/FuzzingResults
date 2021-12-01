@@ -1,0 +1,33 @@
+diff id:000016,orig:2447.sql -> id:000017,orig:26286.sql
+Src file: /LearnAFL/code1/shell.c
+  New 'line' coverage: 10554
+Src file: /LearnAFL/code1/sqlite3.c
+  New 'function' coverage: sqlite3VListNameToNum()
+  New 'line' coverage: 101138
+  New 'line' coverage: 101142
+  New 'line' coverage: 101143
+  New 'line' coverage: 101144
+  New 'line' coverage: 101146
+  New 'line' coverage: 101147
+  New 'line' coverage: 32003
+  New 'line' coverage: 32004
+  New 'line' coverage: 32012
+  New 'line' coverage: 32014
+  New 'line' coverage: 32015
+  New 'line' coverage: 32016
+  New 'line' coverage: 32018
+  New 'line' coverage: 32019
+  New 'line' coverage: 32020
+  New 'line' coverage: 32021
+  New 'line' coverage: 85221
+  New 'line' coverage: 85226
+  New 'line' coverage: 85230
+  New 'line' coverage: 85231
+  New 'line' coverage: 85232
+  New 'line' coverage: 85233
+  New 'line' coverage: 85234
+  New 'line' coverage: 85236
+  New 'line' coverage: 98528
+  New 'line' coverage: 98529
+  New 'line' coverage: 98530
+  New 'line' coverage: 98531

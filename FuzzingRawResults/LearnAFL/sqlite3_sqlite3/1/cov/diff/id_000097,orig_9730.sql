@@ -1,0 +1,24 @@
+diff id:000096,orig:9631.sql -> id:000097,orig:9730.sql
+Src file: /LearnAFL/code1/sqlite3.c
+  New 'function' coverage: sqlite3BtreeSetMmapLimit()
+  New 'line' coverage: 123009
+  New 'line' coverage: 123013
+  New 'line' coverage: 123015
+  New 'line' coverage: 123016
+  New 'line' coverage: 123017
+  New 'line' coverage: 123018
+  New 'line' coverage: 123019
+  New 'line' coverage: 123020
+  New 'line' coverage: 123024
+  New 'line' coverage: 123025
+  New 'line' coverage: 123030
+  New 'line' coverage: 123032
+  New 'line' coverage: 123034
+  New 'line' coverage: 153185
+  New 'line' coverage: 153187
+  New 'line' coverage: 66195
+  New 'line' coverage: 66196
+  New 'line' coverage: 66198
+  New 'line' coverage: 66199
+  New 'line' coverage: 66200
+  New 'line' coverage: 66201

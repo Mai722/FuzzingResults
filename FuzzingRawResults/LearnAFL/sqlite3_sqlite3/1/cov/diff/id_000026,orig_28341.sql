@@ -1,0 +1,22 @@
+diff id:000025,orig:28197.sql -> id:000026,orig:28341.sql
+Src file: /LearnAFL/code1/sqlite3.c
+  New 'function' coverage: sqlite3DropTable()
+  New 'line' coverage: 110408
+  New 'line' coverage: 110411
+  New 'line' coverage: 110414
+  New 'line' coverage: 110419
+  New 'line' coverage: 110420
+  New 'line' coverage: 110422
+  New 'line' coverage: 110423
+  New 'line' coverage: 110425
+  New 'line' coverage: 110426
+  New 'line' coverage: 110508
+  New 'line' coverage: 110509
+  New 'line' coverage: 153189
+  New 'line' coverage: 153191
+  New 'line' coverage: 153418
+  New 'line' coverage: 153420
+  New 'line' coverage: 153421
+  New 'line' coverage: 153423
+  New 'line' coverage: 153931
+  New 'line' coverage: 153932

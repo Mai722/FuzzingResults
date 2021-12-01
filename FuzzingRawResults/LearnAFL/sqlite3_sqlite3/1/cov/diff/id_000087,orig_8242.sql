@@ -1,0 +1,28 @@
+diff id:000086,orig:8213.sql -> id:000087,orig:8242.sql
+Src file: /LearnAFL/code1/sqlite3.c
+  New 'function' coverage: groupConcatFinalize()
+  New 'function' coverage: groupConcatStep()
+  New 'line' coverage: 115646
+  New 'line' coverage: 115656
+  New 'line' coverage: 115657
+  New 'line' coverage: 115659
+  New 'line' coverage: 115660
+  New 'line' coverage: 115661
+  New 'line' coverage: 115662
+  New 'line' coverage: 115663
+  New 'line' coverage: 115673
+  New 'line' coverage: 115674
+  New 'line' coverage: 115675
+  New 'line' coverage: 115710
+  New 'line' coverage: 115712
+  New 'line' coverage: 115713
+  New 'line' coverage: 115714
+  New 'line' coverage: 115716
+  New 'line' coverage: 115719
+  New 'line' coverage: 115723
+  New 'line' coverage: 28327
+  New 'line' coverage: 90701
+  New 'line' coverage: 96459
+  New 'line' coverage: 96460
+  New 'line' coverage: 96575
+  New 'line' coverage: 96576
