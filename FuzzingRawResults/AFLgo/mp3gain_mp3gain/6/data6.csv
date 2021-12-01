@@ -1,0 +1,2 @@
+alg,SUT,rep,# unix_time, unique_crashes, unique_hangs, execs_per_sec
+AFLfast,mp3gain,6,1622441510, 0, 0, 11.34
