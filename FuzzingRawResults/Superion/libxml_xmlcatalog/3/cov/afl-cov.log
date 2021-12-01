@@ -1,0 +1,2817 @@
+
+*** Imported 60 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000000,orig:558452_0.xml (0 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000001,orig:558452_4.xml (1 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000002,orig:579746_2.xml (2 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000003,orig:579746_4.xml (3 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000004,orig:579746_5.xml (4 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000005,orig:582906-1-prog1.xsd (5 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000006,orig:582906-2-prog1.xsd (6 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000007,orig:710744_1.xml (7 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000008,orig:754946.xml (8 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000009,orig:781361.xml (9 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000010,orig:ElemTypeMatch (10 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000011,orig:EntityDeclared (11 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000012,orig:a-valid.xml (12 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000013,orig:a-wf.xml (13 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000014,orig:a.example.org.xml (14 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000015,orig:any4_0.xml (15 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000016,orig:any7_1.xsd (16 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000017,orig:anyAttr-processContents1_0.xml (17 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000018,orig:att11 (18 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000019,orig:attr0_0.xsd (19 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000020,orig:b.example.org.xml (20 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000021,orig:bug141312_0.xml (21 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000022,orig:bug141312_0.xsd (22 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000023,orig:bug323510_1.xsd (23 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000024,orig:cdata.xml (24 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000025,orig:charref1.xml (25 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000026,orig:choice_0.xsd (26 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000027,orig:choice_1.xsd (27 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000028,orig:choice_2.xsd (28 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000029,orig:comment1.xml (29 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000030,orig:decimal-3_0.xml (30 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000031,orig:demo3.rng (31 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000032,orig:dtd4 (32 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000033,orig:ebcdic_566012.xml (33 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000034,orig:empty-value_1.xml (34 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000035,orig:emptycdata.xml (35 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000036,orig:ent8 (36 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000037,orig:err_10.xml (37 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000038,orig:err_11.xml (38 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000039,orig:example-6.xml (39 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000040,orig:hexbinary_1.xml (40 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000041,orig:image-valid.xml (41 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000042,orig:image-wf.xml (42 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000043,src:000033,op:flip1,pos:0,+cov (43 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000044,src:000033,op:flip1,pos:0,+cov (44 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000045,src:000033,op:flip1,pos:1,+cov (45 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000046,src:000033,op:flip1,pos:1,+cov (46 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000047,src:000033,op:flip1,pos:1,+cov (47 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000048,src:000033,op:flip1,pos:2,+cov (48 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000049,src:000033,op:flip2,pos:1,+cov (49 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000050,src:000033,op:flip2,pos:1,+cov (50 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000051,src:000033,op:flip2,pos:2,+cov (51 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000052,src:000033,op:flip2,pos:2,+cov (52 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000053,src:000033,op:flip16,pos:0,+cov (53 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000054,src:000033,op:flip16,pos:2,+cov (54 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000055,src:000033,op:flip32,pos:0 (55 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000056,src:000033,op:flip32,pos:2,+cov (56 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000057,src:000033,op:arith8,pos:0,val:-18,+cov (57 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000058,src:000033,op:arith8,pos:0,val:+19,+cov (58 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000059,src:000033,op:arith8,pos:0,val:-31,+cov (59 / 60), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+
+*** Imported 12 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000060,src:000038,op:flip2,pos:0,+cov (60 / 72), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000061,src:000038,op:flip4,pos:0,+cov (61 / 72), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000062,src:000038,op:flip4,pos:0,+cov (62 / 72), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000063,src:000038,op:flip32,pos:0 (63 / 72), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000064,src:000038,op:arith8,pos:0,val:+6 (64 / 72), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000065,src:000038,op:arith8,pos:0,val:+23 (65 / 72), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000066,src:000038,op:arith8,pos:0,val:-28,+cov (66 / 72), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000067,src:000043,op:flip1,pos:0,+cov (67 / 72), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000068,src:000043,op:arith8,pos:0,val:+11,+cov (68 / 72), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000069,src:000045,op:flip1,pos:1,+cov (69 / 72), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000070,src:000045,op:flip1,pos:1,+cov (70 / 72), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000071,src:000046,op:flip32,pos:1,+cov (71 / 72), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+
+*** Imported 3 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000072,src:000048,op:flip1,pos:3,+cov (72 / 75), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000073,src:000048,op:flip2,pos:2,+cov (73 / 75), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000074,src:000048,op:flip2,pos:3,+cov (74 / 75), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000075,src:000048,op:flip32,pos:0 (75 / 76), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000076,src:000052,op:flip4,pos:2,+cov (76 / 77), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000077,src:000055,op:flip32,pos:2 (77 / 79), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000078,src:000055,op:arith8,pos:2,val:-28,+cov (78 / 79), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 6 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000079,src:000056,op:flip1,pos:2,+cov (79 / 85), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000080,src:000056,op:flip1,pos:4,+cov (80 / 85), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000081,src:000056,op:flip1,pos:5,+cov (81 / 85), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000082,src:000056,op:flip2,pos:3,+cov (82 / 85), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000083,src:000056,op:flip2,pos:4,+cov (83 / 85), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000084,src:000056,op:flip2,pos:5,+cov (84 / 85), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+
+*** Imported 6 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000085,src:000056,op:flip4,pos:2 (85 / 91), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000086,src:000056,op:flip4,pos:4,+cov (86 / 91), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000087,src:000056,op:flip4,pos:5,+cov (87 / 91), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000088,src:000056,op:flip4,pos:5,+cov (88 / 91), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000089,src:000056,op:arith8,pos:3,val:-12,+cov (89 / 91), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000090,src:000056,op:arith8,pos:4,val:-13,+cov (90 / 91), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 21 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000091,src:000060,op:flip1,pos:4,+cov (91 / 112), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000092,src:000060,op:flip1,pos:5 (92 / 112), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000093,src:000060,op:flip1,pos:9 (93 / 112), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000094,src:000060,op:flip1,pos:10,+cov (94 / 112), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000095,src:000060,op:flip1,pos:10 (95 / 112), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000096,src:000060,op:flip1,pos:11,+cov (96 / 112), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000097,src:000060,op:flip1,pos:12,+cov (97 / 112), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000098,src:000060,op:flip1,pos:12,+cov (98 / 112), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000099,src:000060,op:flip2,pos:4,+cov (99 / 112), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000100,src:000060,op:flip2,pos:6 (100 / 112), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000101,src:000060,op:flip2,pos:10,+cov (101 / 112), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000102,src:000060,op:flip2,pos:12,+cov (102 / 112), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000103,src:000060,op:flip4,pos:3,+cov (103 / 112), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000104,src:000060,op:flip4,pos:4,+cov (104 / 112), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000105,src:000060,op:flip4,pos:9,+cov (105 / 112), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000106,src:000060,op:flip4,pos:10,+cov (106 / 112), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000107,src:000060,op:flip4,pos:11,+cov (107 / 112), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000108,src:000060,op:flip4,pos:12,+cov (108 / 112), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000109,src:000060,op:flip4,pos:12,+cov (109 / 112), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000110,src:000060,op:flip16,pos:12 (110 / 112), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000111,src:000060,op:arith8,pos:4,val:-33,+cov (111 / 112), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000112,src:000060,op:arith8,pos:11,val:-2,+cov (112 / 113), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000113,src:000065,op:flip2,pos:6 (113 / 114), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 5 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000114,src:000066,op:flip1,pos:8 (114 / 119), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000115,src:000066,op:flip1,pos:8 (115 / 119), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000116,src:000066,op:flip1,pos:8 (116 / 119), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000117,src:000066,op:flip2,pos:5 (117 / 119), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000118,src:000066,op:arith8,pos:4,val:-33,+cov (118 / 119), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000119,src:000070,op:flip16,pos:0,+cov (119 / 120), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000120,src:000072,op:flip1,pos:4,+cov (120 / 121), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000121,src:000078,op:arith8,pos:2,val:-15,+cov (121 / 122), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000122,src:000080,op:flip1,pos:4,+cov (122 / 123), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000123,src:000080,op:flip4,pos:5,+cov (123 / 124), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000124,src:000081,op:flip2,pos:6,+cov (124 / 126), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000125,src:000081,op:flip16,pos:6,+cov (125 / 126), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000126,src:000084,op:flip16,pos:6,+cov (126 / 127), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000127,src:000088,op:flip16,pos:6,+cov (127 / 128), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000128,src:000090,op:flip4,pos:5,+cov (128 / 129), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 6 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000129,src:000091,op:flip1,pos:6,+cov (129 / 135), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000130,src:000091,op:flip1,pos:6 (130 / 135), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000131,src:000091,op:flip1,pos:7,+cov (131 / 135), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000132,src:000091,op:flip1,pos:8 (132 / 135), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000133,src:000091,op:flip1,pos:8 (133 / 135), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000134,src:000091,op:flip2,pos:10,+cov (134 / 135), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000135,src:000091,op:flip4,pos:10,+cov (135 / 137), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000136,src:000091,op:flip16,pos:12 (136 / 137), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000137,src:000094,op:flip1,pos:9,+cov (137 / 139), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000138,src:000094,op:flip4,pos:4 (138 / 139), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000139,src:000096,op:flip2,pos:11,+cov (139 / 141), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000140,src:000096,op:flip16,pos:12 (140 / 141), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000141,src:000098,op:flip1,pos:13 (141 / 142), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000142,src:000103,op:flip1,pos:6,+cov (142 / 144), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000143,src:000103,op:flip1,pos:7,+cov (143 / 144), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000144,src:000111,op:flip1,pos:6,+cov (144 / 146), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000145,src:000111,op:flip1,pos:7,+cov (145 / 146), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 7 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000146,src:000113,op:flip1,pos:1 (146 / 153), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000147,src:000113,op:flip1,pos:1 (147 / 153), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000148,src:000113,op:flip1,pos:3 (148 / 153), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000149,src:000113,op:flip1,pos:8 (149 / 153), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000150,src:000113,op:flip1,pos:10 (150 / 153), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000151,src:000113,op:flip2,pos:10 (151 / 153), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000152,src:000113,op:flip4,pos:5 (152 / 153), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000153,src:000114,op:flip1,pos:4 (153 / 154), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000154,src:000114,op:arith8,pos:8,val:+27 (154 / 155), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000155,src:000118,op:flip1,pos:8 (155 / 156), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000156,src:000129,op:flip1,pos:8 (156 / 159), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000157,src:000129,op:flip4,pos:9 (157 / 159), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000158,src:000129,op:flip16,pos:12 (158 / 159), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000159,src:000131,op:flip1,pos:11 (159 / 160), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000160,src:000140,op:flip1,pos:4 (160 / 163), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000161,src:000140,op:flip1,pos:14 (161 / 163), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000162,src:000140,op:flip2,pos:19 (162 / 163), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000163,src:000140,op:flip4,pos:19 (163 / 164), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 6 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000164,src:000140,op:arith8,pos:14,val:-9 (164 / 170), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000165,src:000141,op:flip1,pos:4 (165 / 170), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000166,src:000141,op:flip1,pos:9 (166 / 170), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000167,src:000141,op:flip1,pos:9 (167 / 170), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000168,src:000141,op:flip1,pos:18 (168 / 170), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000169,src:000141,op:flip2,pos:10 (169 / 170), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000170,src:000146,op:flip1,pos:8 (170 / 171), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000171,src:000153,op:flip1,pos:6 (171 / 172), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000172,src:000154,op:flip1,pos:2 (172 / 175), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000173,src:000154,op:flip1,pos:12 (173 / 175), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000174,src:000154,op:flip2,pos:6 (174 / 175), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 4 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000175,src:000158,op:flip1,pos:4 (175 / 179), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000176,src:000158,op:flip1,pos:6 (176 / 179), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000177,src:000158,op:flip1,pos:14 (177 / 179), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000178,src:000158,op:flip2,pos:6 (178 / 179), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000179,src:000158,op:flip32,pos:18 (179 / 181), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000180,src:000158,op:arith8,pos:0,val:+13 (180 / 181), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000181,src:000159,op:flip16,pos:12 (181 / 182), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000182,src:000162,op:flip1,pos:20 (182 / 185), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000183,src:000162,op:flip2,pos:6 (183 / 185), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000184,src:000162,op:flip2,pos:20 (184 / 185), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000185,src:000164,op:flip1,pos:15 (185 / 186), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000186,src:000167,op:arith8,pos:9,val:-19 (186 / 187), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000187,src:000177,op:flip1,pos:9 (187 / 190), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000188,src:000177,op:flip4,pos:9 (188 / 190), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000189,src:000177,op:arith8,pos:0,val:+13 (189 / 190), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000190,src:000181,op:flip1,pos:6 (190 / 192), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000191,src:000181,op:flip1,pos:15 (191 / 192), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 8 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000192,src:000182,op:flip1,pos:4 (192 / 200), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000193,src:000182,op:flip1,pos:16 (193 / 200), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000194,src:000182,op:flip1,pos:24 (194 / 200), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000195,src:000182,op:flip1,pos:27 (195 / 200), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000196,src:000182,op:flip2,pos:4 (196 / 200), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000197,src:000182,op:flip2,pos:6 (197 / 200), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000198,src:000182,op:flip2,pos:10 (198 / 200), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000199,src:000182,op:flip2,pos:18 (199 / 200), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000200,src:000183,op:flip16,pos:20 (200 / 201), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 7 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000201,src:000186,op:flip1,pos:2 (201 / 208), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000202,src:000186,op:flip1,pos:5 (202 / 208), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000203,src:000186,op:flip1,pos:12 (203 / 208), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000204,src:000186,op:flip1,pos:14 (204 / 208), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000205,src:000186,op:flip1,pos:18 (205 / 208), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000206,src:000186,op:flip2,pos:6 (206 / 208), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000207,src:000186,op:arith8,pos:5,val:-25 (207 / 208), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000208,src:000191,op:flip2,pos:19 (208 / 209), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000209,src:000192,op:flip1,pos:8 (209 / 211), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000210,src:000192,op:flip1,pos:24 (210 / 211), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 8 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000211,src:000198,op:flip1,pos:0 (211 / 219), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000212,src:000198,op:flip1,pos:2 (212 / 219), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000213,src:000198,op:flip1,pos:5 (213 / 219), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000214,src:000198,op:flip1,pos:16 (214 / 219), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000215,src:000198,op:flip1,pos:16 (215 / 219), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000216,src:000198,op:flip1,pos:20 (216 / 219), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000217,src:000198,op:flip1,pos:24 (217 / 219), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000218,src:000198,op:flip4,pos:32 (218 / 219), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000219,src:000218,op:flip1,pos:20 (219 / 221), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000220,src:000218,op:flip1,pos:42 (220 / 221), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000221,src:000220,op:flip2,pos:18 (221 / 222), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000222,src:000176,op:flip2,pos:10 (222 / 224), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000223,src:000176,op:arith8,pos:14,val:-9 (223 / 224), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000224,src:000187,op:flip1,pos:17 (224 / 225), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000225,src:000197,op:flip1,pos:27 (225 / 226), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000226,src:000206,op:flip1,pos:2 (226 / 228), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000227,src:000206,op:flip1,pos:2 (227 / 228), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000228,src:000207,op:flip1,pos:14 (228 / 229), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000229,src:000207,op:arith8,pos:14,val:-9 (229 / 230), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000230,src:000211,op:flip2,pos:18 (230 / 231), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000231,src:000227,op:flip1,pos:16 (231 / 233), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000232,src:000227,op:flip1,pos:16 (232 / 233), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000233,src:000170,op:flip2,pos:10 (233 / 234), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000234,src:000233,op:arith8,pos:8,val:+27 (234 / 235), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000235,src:000234,op:flip1,pos:12 (235 / 236), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000236,src:000025,op:flip32,pos:0 (236 / 237), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000237,src:000204,op:arith8,pos:14,val:+18 (237 / 238), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000238,src:000212,op:flip1,pos:7 (238 / 239), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000239,src:000230,op:flip1,pos:5 (239 / 241), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000240,src:000230,op:flip4,pos:19 (240 / 241), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000241,src:000237,op:flip2,pos:18 (241 / 242), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000242,src:000241,op:arith8,pos:19,val:+11 (242 / 243), cycle: 3
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000243,src:000242,op:arith8,pos:5,val:-25 (243 / 244), cycle: 3
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000244,src:000053,op:flip1,pos:13 (244 / 245), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000245,src:000163,op:flip4,pos:3 (245 / 247), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000246,src:000163,op:flip4,pos:27 (246 / 247), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000247,src:000245,op:flip4,pos:27 (247 / 248), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000248,src:000247,op:flip2,pos:6 (248 / 249), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000249,src:000248,op:flip1,pos:13 (249 / 250), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000250,src:000172,op:flip1,pos:6 (250 / 251), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000251,src:000193,op:flip1,pos:24 (251 / 253), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000252,src:000193,op:flip1,pos:25 (252 / 253), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000253,src:000195,op:flip1,pos:31 (253 / 254), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000254,src:000219,op:flip1,pos:34 (254 / 256), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000255,src:000219,op:flip1,pos:40 (255 / 256), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000256,src:000223,op:flip1,pos:19 (256 / 257), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000257,src:000249,op:flip4,pos:13 (257 / 258), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000258,src:000257,op:flip1,pos:6 (258 / 260), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000259,src:000257,op:flip2,pos:13 (259 / 260), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000260,src:000259,op:flip1,pos:20 (260 / 263), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000261,src:000259,op:flip1,pos:24 (261 / 263), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000262,src:000259,op:flip2,pos:6 (262 / 263), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000263,src:000261,op:flip1,pos:6 (263 / 265), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000264,src:000261,op:flip1,pos:6 (264 / 265), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000265,src:000264,op:flip1,pos:32 (265 / 266), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000266,src:000202,op:flip2,pos:10 (266 / 267), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000267,src:000236,op:flip1,pos:17 (267 / 268), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000268,src:000246,op:flip4,pos:31 (268 / 269), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000269,src:000268,op:flip16,pos:33 (269 / 270), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000270,src:000165,op:flip1,pos:5 (270 / 271), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000271,src:000270,op:arith8,pos:13,val:-33 (271 / 273), cycle: 8
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000272,src:000271,op:arith8,pos:0,val:+13 (272 / 273), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000273,src:000253,op:flip2,pos:6 (273 / 274), cycle: 9
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 3 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000274,src:000258,op:arith8,pos:0,val:+13 (274 / 277), cycle: 12
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000275,src:000274,op:flip1,pos:28 (275 / 277), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000276,src:000274,op:flip2,pos:24 (276 / 277), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000277,src:000239,op:flip1,pos:5 (277 / 278), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000278,src:000252,op:flip1,pos:29 (278 / 280), cycle: 15
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[+] AFL test case: id:000279,src:000278,op:flip1,pos:4 (279 / 280), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000280,src:000279,op:flip1,pos:21 (280 / 281), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 1 new test cases from: /Superion/output/queue
+
+[+] AFL test case: id:000281,src:000280,op:flip2,pos:6 (281 / 282), cycle: 0
+    lines......: 0.1% (9 of 57707 lines)
+    functions..: 0.1% (2 of 2610 functions)
+    branches...: 0.1% (1 of 57643 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
+[-] No new AFL test cases, sleeping for 60 seconds
