@@ -1,0 +1,4 @@
+# id:NNNNNN*_file, cycle, src_file, coverage_type, fcn/line
+id:000000,orig:id:000320,src:000000,op:arith8,pos:174,val:+20,+cov.tif, 0, /Superion/code1/tools/tiffcp.c, function, main()
+id:000000,orig:id:000320,src:000000,op:arith8,pos:174,val:+20,+cov.tif, 0, /Superion/code1/tools/tiffcp.c, function, usage()
+id:000000,orig:id:000320,src:000000,op:arith8,pos:174,val:+20,+cov.tif, 0, /Superion/code1/libtiff/tif_version.c, function, TIFFGetVersion()
