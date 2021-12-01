@@ -1,0 +1,45 @@
+Entering new queueing cycle
+while bitflipping, 0 of 0 tries hit branch -1
+while calibrating, 0 of 0 tries hit branch -1
+calib stage: 1 new coverage in 140696 total execs
+calib stage: 0 new branches in 140696 total execs
+In deterministic stage, 0 of 0 tries hit branch -1
+det stage: 1 new coverage in 419845 total execs
+det stage: 0 new branches in 419845 total execs
+In havoc stage, 0 of 0 tries hit branch -1
+havoc stage: 53 new coverage in 422717 total execs
+havoc stage: 0 new branches in 422717 total execs
+Was returning list of size 0
+Upped max exp to 9
+Trying to fuzz input output/queue/id:000005,orig:win9x.exe: 
+which hit branch 64494 (hit by 259 inputs) 
+while bitflipping, 165612 of 165632 tries hit branch 64494
+while calibrating, 62101 of 62113 tries hit branch 64494
+calib stage: 1 new coverage in 227753 total execs
+calib stage: 0 new branches in 227753 total execs
+In deterministic stage, 1089360 of 1089361 tries hit branch 64494
+det stage: 1 new coverage in 1317114 total execs
+det stage: 0 new branches in 1317114 total execs
+In havoc stage, 204 of 204 tries hit branch 64494
+havoc stage: 2 new coverage in 1317326 total execs
+havoc stage: 0 new branches in 1317326 total execs
+Was returning list of size 0
+Upped max exp to 21
+Trying to fuzz input output/queue/id:000006,src:000001,op:flip1,pos:8190: 
+which hit branch 57939 (hit by 1318475 inputs) 
+while bitflipping, 125049 of 125056 tries hit branch 57939
+while calibrating, 46891 of 46897 tries hit branch 57939
+calib stage: 0 new coverage in 171953 total execs
+calib stage: 0 new branches in 171953 total execs
+In deterministic stage, 857696 of 857696 tries hit branch 57939
+det stage: 0 new coverage in 1029649 total execs
+det stage: 0 new branches in 1029649 total execs
+In havoc stage, 85 of 102 tries hit branch 57939
+havoc stage: 0 new coverage in 1029751 total execs
+havoc stage: 0 new branches in 1029751 total execs
+Trying to fuzz input output/queue/id:000025,src:000001,op:havoc,rep:128: 
+which hit branch 64494 (hit by 1318041 inputs) 
+while bitflipping, 122460 of 122472 tries hit branch 64494
+while calibrating, 45919 of 45928 tries hit branch 64494
+calib stage: 0 new coverage in 168400 total execs
+calib stage: 0 new branches in 168400 total execs
