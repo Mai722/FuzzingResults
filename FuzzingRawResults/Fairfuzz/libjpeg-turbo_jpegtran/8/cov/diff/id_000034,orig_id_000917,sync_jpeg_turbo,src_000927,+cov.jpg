@@ -1,0 +1,16 @@
+diff id:000033,orig:id:000912,src:000181,op:havoc,rep:64.jpg -> id:000034,orig:id:000917,sync:jpeg_turbo,src:000927,+cov.jpg
+Src file: /afl-rb/code1/jdmarker.c
+  New 'function' coverage: get_dac()
+  New 'line' coverage: 1039
+  New 'line' coverage: 1040
+  New 'line' coverage: 387
+  New 'line' coverage: 392
+  New 'line' coverage: 394
+  New 'line' coverage: 395
+  New 'line' coverage: 397
+  New 'line' coverage: 398
+  New 'line' coverage: 399
+  New 'line' coverage: 401
+  New 'line' coverage: 403
+  New 'line' coverage: 405
+  New 'line' coverage: 406

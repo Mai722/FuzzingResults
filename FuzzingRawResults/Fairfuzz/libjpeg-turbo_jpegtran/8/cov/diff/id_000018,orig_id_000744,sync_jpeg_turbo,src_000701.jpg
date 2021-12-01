@@ -1,0 +1,58 @@
+diff id:000017,orig:id:000698,src:000037,op:havoc,rep:32.jpg -> id:000018,orig:id:000744,sync:jpeg_turbo,src:000701.jpg
+Src file: /afl-rb/code1/jdhuff.c
+  New 'line' coverage: 270
+Src file: /afl-rb/code1/jdinput.c
+  New 'line' coverage: 138
+Src file: /afl-rb/code1/jdtrans.c
+  New 'line' coverage: 120
+Src file: /afl-rb/code1/jdcoefct.c
+  New 'line' coverage: 657
+Src file: /afl-rb/code1/jdmarker.c
+  New 'line' coverage: 1000
+  New 'line' coverage: 1001
+Src file: /afl-rb/code1/jdphuff.c
+  New 'function' coverage: jinit_phuff_decoder()
+  New 'function' coverage: start_pass_phuff_decoder()
+  New 'line' coverage: 104
+  New 'line' coverage: 108
+  New 'line' coverage: 109
+  New 'line' coverage: 119
+  New 'line' coverage: 124
+  New 'line' coverage: 132
+  New 'line' coverage: 133
+  New 'line' coverage: 139
+  New 'line' coverage: 140
+  New 'line' coverage: 141
+  New 'line' coverage: 142
+  New 'line' coverage: 144
+  New 'line' coverage: 145
+  New 'line' coverage: 146
+  New 'line' coverage: 148
+  New 'line' coverage: 153
+  New 'line' coverage: 154
+  New 'line' coverage: 155
+  New 'line' coverage: 162
+  New 'line' coverage: 165
+  New 'line' coverage: 166
+  New 'line' coverage: 170
+  New 'line' coverage: 171
+  New 'line' coverage: 172
+  New 'line' coverage: 173
+  New 'line' coverage: 174
+  New 'line' coverage: 647
+  New 'line' coverage: 653
+  New 'line' coverage: 654
+  New 'line' coverage: 656
+  New 'line' coverage: 657
+  New 'line' coverage: 660
+  New 'line' coverage: 661
+  New 'line' coverage: 665
+  New 'line' coverage: 666
+  New 'line' coverage: 667
+  New 'line' coverage: 668
+  New 'line' coverage: 669
+  New 'line' coverage: 670
+  New 'line' coverage: 671
+  New 'line' coverage: 672
+  New 'line' coverage: 95
+  New 'line' coverage: 97

@@ -1,0 +1,3 @@
+diff id:000038,orig:id:000944,src:000226,op:havoc,rep:16.jpg -> id:000039,orig:id:000951,src:000239,op:flip2,pos:169,+cov.jpg
+Src file: /afl-rb/code1/jdhuff.c
+  New 'line' coverage: 617

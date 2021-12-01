@@ -1,0 +1,3 @@
+diff id:000348,src:000031,op:havoc,rep:16 -> id:000349,src:000031,op:havoc,rep:64,+cov
+Src file: /afl-rb/code1/jdinput.c
+  New 'line' coverage: 341

@@ -1,0 +1,14 @@
+diff id:000043,orig:id:000962,src:000265,op:havoc,rep:4.jpg -> id:000044,orig:id:000967,src:000266,op:flip1,pos:163.jpg
+Src file: /afl-rb/code1/jdarith.c
+  New 'line' coverage: 167
+  New 'line' coverage: 169
+  New 'line' coverage: 170
+  New 'line' coverage: 171
+  New 'line' coverage: 173
+  New 'line' coverage: 174
+  New 'line' coverage: 175
+  New 'line' coverage: 560
+  New 'line' coverage: 582
+  New 'line' coverage: 583
+  New 'line' coverage: 600
+  New 'line' coverage: 605

@@ -1,0 +1,16 @@
+diff id:000035,orig:id:000925,sync:jpeg_turbo,src:000931,+cov.jpg -> id:000036,orig:id:000942,sync:jpeg_turbo,src:000971.jpg
+Src file: /afl-rb/code1/jdhuff.c
+  New 'line' coverage: 335
+  New 'line' coverage: 341
+  New 'line' coverage: 342
+  New 'line' coverage: 343
+  New 'line' coverage: 345
+  New 'line' coverage: 357
+  New 'line' coverage: 359
+  New 'line' coverage: 368
+  New 'line' coverage: 373
+  New 'line' coverage: 379
+  New 'line' coverage: 380
+  New 'line' coverage: 381
+  New 'line' coverage: 384
+  New 'line' coverage: 483
