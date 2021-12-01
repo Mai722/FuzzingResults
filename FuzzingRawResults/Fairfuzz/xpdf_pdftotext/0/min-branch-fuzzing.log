@@ -1,0 +1,25 @@
+Entering new queueing cycle
+while bitflipping, 0 of 0 tries hit branch -1
+while calibrating, 0 of 0 tries hit branch -1
+calib stage: 175 new coverage in 4163 total execs
+calib stage: 74 new branches in 4163 total execs
+In deterministic stage, 0 of 0 tries hit branch -1
+det stage: 344 new coverage in 54937 total execs
+det stage: 125 new branches in 54937 total execs
+In havoc stage, 0 of 0 tries hit branch -1
+havoc stage: 520 new coverage in 58777 total execs
+havoc stage: 166 new branches in 58777 total execs
+Trying to fuzz input output/queue/id:000001,orig:pdf15.pdf: 
+which hit branch 57161 (hit by 1 inputs) 
+while bitflipping, 19580 of 24704 tries hit branch 57161
+while calibrating, 4677 of 9265 tries hit branch 57161
+calib stage: 951 new coverage in 41577 total execs
+calib stage: 362 new branches in 41577 total execs
+In deterministic stage, 421037 of 425577 tries hit branch 57161
+det stage: 1381 new coverage in 470594 total execs
+det stage: 509 new branches in 470594 total execs
+In havoc stage, 380 of 2448 tries hit branch 57161
+havoc stage: 1446 new coverage in 473562 total execs
+havoc stage: 518 new branches in 473562 total execs
+Trying to fuzz input output/queue/id:000002,orig:test-LTR.pdf: 
+which hit branch 65404 (hit by 1 inputs) 

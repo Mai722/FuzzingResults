@@ -1,0 +1,5 @@
+Entering new queueing cycle
+while bitflipping, 0 of 0 tries hit branch -1
+while calibrating, 0 of 0 tries hit branch -1
+calib stage: 2353 new coverage in 128768 total execs
+calib stage: 464 new branches in 128768 total execs

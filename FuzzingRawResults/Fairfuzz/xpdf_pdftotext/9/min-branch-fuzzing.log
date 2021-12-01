@@ -1,0 +1,17 @@
+Entering new queueing cycle
+while bitflipping, 0 of 0 tries hit branch -1
+while calibrating, 0 of 0 tries hit branch -1
+calib stage: 351 new coverage in 126288 total execs
+calib stage: 138 new branches in 126288 total execs
+In deterministic stage, 0 of 0 tries hit branch -1
+det stage: 616 new coverage in 553813 total execs
+det stage: 243 new branches in 553813 total execs
+In havoc stage, 0 of 0 tries hit branch -1
+havoc stage: 753 new coverage in 557341 total execs
+havoc stage: 254 new branches in 557341 total execs
+Trying to fuzz input output/queue/id:000001,orig:GS_set_EAN_control_digit.pdf: 
+which hit branch 57844 (hit by 1 inputs) 
+while bitflipping, 104487 of 109352 tries hit branch 57844
+while calibrating, 26018 of 41008 tries hit branch 57844
+calib stage: 866 new coverage in 157288 total execs
+calib stage: 250 new branches in 157288 total execs
