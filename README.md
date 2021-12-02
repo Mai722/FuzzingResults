@@ -13,8 +13,12 @@ In each folder, the results are collecte as it is show in the next figure:
 
 ![](https://github.com/Mai722/FuzzingResults/blob/main/Figures/fuzzingresults.jpg)
 
-## Figures
 
 ## CSV
+To analyze the results, they have been post-processed to obtain different CSV files. This files have the information to obtain all the metrics that have been analyzed.
 
 ## RStudioCode
+
+
+## Figures
+The Figures with the results are in this folder.
