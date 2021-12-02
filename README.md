@@ -21,4 +21,24 @@ To analyze the results, they have been post-processed to obtain different CSV fi
 
 
 ## Figures
-The Figures with the results are in this folder.
+The Figures obtained with R-Studio with the results are in this folder.
+
+
+## Additional information
+The fuzzers are not own fuzzers, they had been obtained from Github in the following links:
+
+-AFLfast: [AFLfast GitHub Page](https://github.com/mboehme/aflfast)
+
+-AFLgo: [AFLgo GitHub Page](https://github.com/aflgo/aflgo)
+
+-AFLplusplus: [AFLplusplus GitHub Page](https://github.com/AFLplusplus/AFLplusplus)
+
+-Fairfuzz: [Fairfuzz GitHub Page](https://github.com/carolemieux/afl-rb)
+
+-LearnAFL: [LearnAFL GitHub Page](https://github.com/MoonLight-SteinsGate/LearnAFL)
+
+-MoPT: [MoPT GitHub Page](https://github.com/puppet-meteor/MOpt-AFL)
+
+-Superion: [Superion GitHub Page](https://github.com/zhunki/Superion)
+
+
