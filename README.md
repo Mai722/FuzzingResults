@@ -11,7 +11,7 @@ Here are the raw results of fuzzing, i.e. the unprocessed results of all the fuz
 
 In each folder, the results are collecte as it is show in the next figure:
 
-![](https://github.com/Mai722/FuzzingResults/blob/main/Figures/fuzzingresults.jpg)
+![](https://github.com/Mai722/FuzzingResults/blob/main/Figures/structure.jpg)
 
 
 ## CSV
