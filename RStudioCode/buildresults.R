@@ -13,4 +13,5 @@ data_superion <- read.csv("C:/Users/data_superion.csv")
 
 results <- rbind(data_AFLfast, data_AFLgo, data_AFLplusplus, data_fairfuzz, data_learnafl, data_mopt, data_superion)
 
+#write the path where you want to save the file
 write.csv(results, file="C:/Users/results.csv")
