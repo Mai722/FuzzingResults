@@ -1,5 +1,6 @@
 library(ggplot2)
 
+#write the path where the csv file is
 results <- read.csv("C:/Users/CVS/Final/results.csv")
 
 results[,4]=results[,4]/3600
