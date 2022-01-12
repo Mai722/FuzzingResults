@@ -9,10 +9,10 @@ For the analysis of the results, we have not used the raw data. Instead, we have
 
 -The CSV here are on the one hand the ones of each fuzzer (with all the repetitions and SUTs), and the results of coverage.
 
-  -CSV of results: they are seven values in those files =>alg  , SUT , rep  , X..unix_time , unique_crashes  , unique_bugs , execs_per_sec  
+      -CSV of results: they are seven values in those files =>alg  , SUT , rep  , X..unix_time , unique_crashes  , unique_bugs , execs_per_sec  
       
   
-  -resultscov: in this file are the results of each fuzzer with each SUT. They are ten values=> Algorithm , Code , rep , line_per , line , func_per , function. , branch_per , branch , bugs
+      -resultscov: in this file are the results of each fuzzer with each SUT. They are ten values=> Algorithm , Code , rep , line_per , line , func_per , function. , branch_per , branch , bugs
   
 
 
