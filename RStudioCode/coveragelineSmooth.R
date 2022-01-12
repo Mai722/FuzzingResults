@@ -17,7 +17,7 @@ dfdata_alg=data.frame(data_alg)
 data_code=data_alg[which(data_alg$SUT =='jpegtran'),c(1,2,3,4,5,6,7,8,9,10)]
 dfdata_code=data.frame(data_code)
 dfdata_code$bugs <- as.numeric(dfdata_code$bugs)
-dfdata_code$branch_per <- as.numeric(dfdata_code$branch_per)
+dfdata_code$line_per <- as.numeric(dfdata_code$line_per)
 
 
 p <- ggplot(dfdata_code,aes(x=line_per, y=bugs))+
@@ -34,4 +34,4 @@ p <- ggplot(dfdata_code,aes(x=line_per, y=bugs))+
         panel.background = element_blank())+ facet_grid(cols = vars(SUT))
 
 #Change the name of the fuzzer in the title
-p + ggtitle("LearnAFL fuzzing results") + labs(y="Number of bugs", x = "Branch coverage (%)")
+p + ggtitle("LearnAFL fuzzing results") + labs(y="Number of bugs", x = "Line coverage (%)")
