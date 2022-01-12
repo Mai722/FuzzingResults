@@ -1,0 +1,36 @@
+library(ggplot2)
+library(svglite)
+
+
+resultscov <- read.csv("C:/CVS/Final/resultscov.csv", sep=";")
+
+resultscov$bugs[resultscov$bugs=='-'] <- NA
+resultscov$rep[resultscov$rep=='total'] <- NA
+resultscov <- resultscov[complete.cases(resultscov), ]
+
+
+data_alg=resultscov[which(resultscov$Algorithm =='fairfuzz'),c(1,2,3,4,5,6,7,8,9,10)]
+dfdata_alg=data.frame(data_alg)
+
+
+data_code=data_alg[which(data_alg$SUT =='jpegtran'),c(1,2,3,4,5,6,7,8,9,10)]
+dfdata_code=data.frame(data_code)
+dfdata_code$bugs <- as.numeric(dfdata_code$bugs)
+dfdata_code$func_per <- as.numeric(dfdata_code$func_per)
+
+
+p <- ggplot(dfdata_code,aes(x=func_per, y=bugs))+
+  geom_point( shape = 19, color = "#1E65B0", size = 2)+
+  geom_smooth(method = 'lm', color = "#1E65B0")+
+  theme(plot.title = element_text(color="black", size=20,hjust=0.5),
+        axis.title.x = element_text(color="black", size=18, face="bold"),
+        axis.title.y = element_text(color="black", size=18, face="bold"),
+        legend.position="right",
+        legend.text = element_text(colour="black", size=10, face="bold"),
+        legend.background = element_rect(size=0.5, linetype="solid", colour ="darkblue"),
+        panel.border = element_rect(linetype = "solid", fill = NA,size=1),
+        panel.grid.major = element_line(colour = "lightgray"),
+        panel.background = element_blank())+ facet_grid(cols = vars(SUT))
+
+
+p + ggtitle("Fairfuzz fuzzing results") + labs(y="Number of bugs", x = "Function coverage (%)")
