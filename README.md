@@ -9,8 +9,8 @@ It is divided into five main parts:
 ## Dockerfiles
 In this folder are the dockerfiles to use the fuzzers. The user may make some changes, because some paths depend on where the user save the inputs, the codes and the output folders.
 
-## FuzzingRawResults
-Here are the raw results of fuzzing, i.e. the unprocessed results of all the fuzzers. This directory is divided first by fuzzer and within each fuzzer there is a folder for each of the SUTs that have been tested. Moreover, in the folder of each SUT are other folders with the results of each repetition.
+## FuzzingResultsData
+Here are the raw results of fuzzing, i.e. the unprocessed results of all the fuzzers. This directory is divided first by fuzzer and within each fuzzer there is a folder for each of the SUTs that have been tested. Moreover, in the folder of each SUT are other folders with the results of each repetition. Some files are empty because 
 
 In each folder, the results are collecte as it is show in the next figure:
 
@@ -23,8 +23,8 @@ To analyze the results, they have been post-processed to obtain different CSV fi
 ## RStudioCode
 RStudio is used to visually analyze the results. Therefore, in this section you will find the codes that have been used to represent the results graphically. 
 
-## Figures
-The Figures obtained with R-Studio with the results are in this folder.
+## PapersFiguresReproducibility
+Here you can find the R files to reproduce the figures of the paper.
 
 
 ## Additional information
