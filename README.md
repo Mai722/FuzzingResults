@@ -24,7 +24,7 @@ To analyze the results, they have been post-processed to obtain different CSV fi
 RStudio is used to visually analyze the results. Therefore, in this section you will find the codes that have been used to represent the results graphically. 
 
 ## PapersFiguresReproducibility
-Here you can find the R files to reproduce the figures of the paper.
+Here you can find the R files to reproduce the figures of the paper. The only necessary change will be to specify properly the path where the CSV files are saved.
 
 
 ## Additional information
