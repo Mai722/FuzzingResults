@@ -10,7 +10,7 @@ It is divided into five main parts:
 In this folder are the dockerfiles to use the fuzzers. The user may make some changes, because some paths depend on where the user save the inputs, the codes and the output folders.
 
 ## FuzzingResultsData
-Here are the raw results of fuzzing, i.e. the unprocessed results of all the fuzzers. This directory is divided first by fuzzer and within each fuzzer there is a folder for each of the SUTs that have been tested. Moreover, in the folder of each SUT are other folders with the results of each repetition. Some files are empty because 
+Here are the raw results of fuzzing, i.e. the unprocessed results of all the fuzzers. This directory is divided first by fuzzer and within each fuzzer there is a folder for each of the SUTs that have been tested. Moreover, in the folder of each SUT are other folders with the results of each repetition. Empty files are the ones hat have not been able to test.
 
 In each folder, the results are collecte as it is show in the next figure:
 
