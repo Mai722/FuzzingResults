@@ -1,7 +1,7 @@
 # FuzzingResults
 
 
-This repository contains the results obtained by running seven fuzzers: AFLfast, AFLgo, AFLplusplus, Fairfuzz, LearnAFL, MoPT, and Superion. 
+This repository contains the results obtained by running seven fuzzers during 24 hours and performing 15 repetitions: AFLfast, AFLgo, AFLplusplus, Fairfuzz, LearnAFL, MoPT, and Superion. 
 
 
 It is divided into five main parts:
