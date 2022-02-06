@@ -7,6 +7,8 @@ For the analysis of the results, we have not used the raw data. Instead, we have
 
 -TiempoMin: The CSVs in this folder collect the values of the instant at which the first bug was found in each of the repetitions of each fuzzer-SUT combination. The names of each CSV indicate the fuzzer and SUT of which they are the results.
 
+-Variance: these CSVs collect the results of variance and "rho".
+
 -The CSV here are on the one hand the ones of each fuzzer (with all the repetitions and SUTs), and the results of coverage.
 
       -CSV of results: they are seven values in those files =>alg  , SUT , rep  , X..unix_time , unique_crashes  , unique_bugs , execs_per_sec  
